@@ -1,0 +1,19 @@
+@use 'variables';
+@use 'fonts';
+@use 'animation';
+
+body {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url('../public/dot-grid.png');
+        background-repeat: repeat;
+        background-size: 400px 400px;
+        opacity: 0.6;
+        z-index: -1;
+        // pointer-events: none;
+        // animation: 20s linear infinite slide;
+    }
+}

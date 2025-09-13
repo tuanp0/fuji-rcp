@@ -1,0 +1,28 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+
+.header {
+    // background: var(--white-20);
+    // border-radius: 0 0 1rem 1rem;
+    // box-shadow: 0 4px 30px var(--black-20);
+    // backdrop-filter: blur(2px);
+    // -webkit-backdrop-filter: blur(2px);
+    // border: 1px solid var(--white-20);
+
+    .container {
+        padding: 0;
+    }
+}
+
+.title {
+    @include mynerve();
+    font-size: 2rem;
+}
+
+.walter {
+    // @include mynerve();
+    font-size: 1.375rem;
+    text-transform: initial;
+    margin-left: 0.25rem;
+}

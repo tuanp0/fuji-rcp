@@ -1,0 +1,12 @@
+@use '../../styles/global.scss' as *;
+
+.Container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    @media screen and (min-width:768px) {
+        padding: 2rem;
+    }
+}
