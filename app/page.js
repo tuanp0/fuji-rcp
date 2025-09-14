@@ -1,4 +1,7 @@
-// export const revalidate = false;
+export const revalidate = false;
+import recipes from '@lib/recipes'
+
+import {Intro} from '@components/Intro'
 import {ListCard} from '@components/ListCard'
 import {Container} from '@components/Container'
 import {Card} from '@components/Card'
@@ -6,11 +9,13 @@ import {Card} from '@components/Card'
 export default async function Home() {
   return (
     <>
+      <Intro />
       <ListCard>
-          <Card link={`recipe/kodak-gold-200`} title={`Kodal Gold 200`} />
-          <Card link={`recipe/fuji-200`} title={`Fujifilm 200`} />
-          <Card link={`recipe/fuji-superia-xtra-400`} title={`Fujifilm Superia x-tra 400`} />
-          <Card link={`recipe/kodak-ultramax-400`} title={`Kodak Ultramax 400`} />
+          {recipes.map((recipe, index) => {
+            return (
+              <Card link={recipe.slug} title={recipe.title} recipe={recipe} key={index}/>
+            )
+          })}
       </ListCard>
     </>
   );

@@ -1,14 +1,32 @@
-import styles from './Header.module.scss'
+'use client'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import {Container} from '@components/Container'
 
+import styles from './Header.module.scss'
+
 const Header = () => {
+  const pathname = usePathname()
+  const isHome = pathname === '/'
+
   return (
     <header className={styles.header}>
       <Container className={styles.container}>
-        <h1 className={styles.title}>
-          fuji 
-          <span className={styles.walter}>Recipes</span>
-        </h1>
+        {isHome ? 
+          <h1 className={styles.title}>
+            <Link href="/">
+              fuji 
+              <span className={styles.walter}>Recipes</span>
+            </Link>
+          </h1>
+        :
+          <p className={styles.title}>
+            <Link href="/">
+              fuji 
+              <span className={styles.walter}>Recipes</span>
+            </Link>
+          </p>
+        }
       </Container>
     </header>
   )

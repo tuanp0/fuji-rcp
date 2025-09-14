@@ -5,7 +5,43 @@
 .card {
     width: 100%;
 
-    @media screen and (min-width:768px) {
-        width: 33%;
+
+    &Link {
+        width: 100%;
+        display: inline-block;
+        background: var(--white-20);
+        border-radius: 1rem;
+        box-shadow: 0 4px 30px var(--black-20);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border: 1px solid var(--white-20);
+        overflow: hidden;
+
+        &:hover {
+            .cardImg {
+                transform: scale(1.2);
+            }
+        }
     }
+
+    &Imgcontainer {
+        overflow: hidden;
+    }
+
+    &Img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: all ease-in-out 0.2s;
+
+        img {
+
+        }
+    }
+
+    &Content {
+        padding: 1rem;
+    }
+
 }
+

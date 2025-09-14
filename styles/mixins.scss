@@ -1,0 +1,26 @@
+@use 'fonts' as *;
+
+@mixin wysiwyg() {
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+    h4 {
+
+    }
+
+    p {
+        @include ptSerif();
+        font-size: 1rem;
+        margin-bottom: 0.625rem;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}

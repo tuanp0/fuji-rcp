@@ -1,0 +1,50 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.settings {
+    width: 100%;
+    padding: 1rem;
+    background: var(--white-70);
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 30px var(--black-20);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border: 1px solid var(--black-50);
+
+    @media screen and (min-width:768px) {
+        width: calc(50% - 1rem);
+        padding: 1.5rem;
+    }
+
+    &Title {
+        @include mynerve();
+        font-size: 1.625rem;
+        margin-bottom: 0.75rem;
+    }
+
+    &Item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--black);
+
+        &:last-child {
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+    }
+
+    &Name {
+        font-weight: bold;
+        font-size: 1rem;
+        width: calc(50% - 1rem);
+    }
+
+    &Value {
+        @include ptSerif();
+        width: calc(50% - 1rem);
+    }
+}
