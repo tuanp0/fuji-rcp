@@ -34,7 +34,7 @@ const Card = ({link, title, images}) => {
         {images.map((item, index) => {
           return (
             <SwiperSlide className={styles.cardSlide} key={index}>
-                <Image src={item.src} width={640} height={427} alt="" className={styles.cardImg}/>
+                <Image src={item.src} width={640} height={427} alt="" className={styles.cardImg} />
             </SwiperSlide>
           )
         })}

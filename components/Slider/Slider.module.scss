@@ -7,7 +7,7 @@
     position: sticky;
     top: 0;
     
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:992px) {
         width: calc(50% - 1.5rem);
     }
 
@@ -27,4 +27,8 @@
 .imgSwiper {
     height: 100vh;
     height: 100dvh;
+
+    @media screen and (min-width:992px) {
+        height: 650px;
+    }
 }

@@ -1,13 +1,22 @@
 import recipes from '@lib/recipes'
 
-import { Container } from '@components/Container'
 import { Title } from '@components/Title'
 import { RecipeContent } from '@components/RecipeContent'
 import { Text } from '@components/Text'
 
-const RecipePage = async ({ params }) => {
-  const { slug } = await params;
-  const recipe = recipes.find((element) => element.slug === slug);
+export async function generateStaticParams() {
+  return recipes.map((recipe) => ({
+    slug: recipe.slug,
+  }))
+}
+
+const RecipePage = ({ params }) => {
+  const { slug } = params
+  const recipe = recipes.find((element) => element.slug === slug)
+
+  if (!recipe) {
+    return <main><h1>Recipe not found</h1></main>
+  }
 
   return (
     <main>
@@ -18,4 +27,4 @@ const RecipePage = async ({ params }) => {
   )
 }
 
-export default RecipePage;
+export default RecipePage

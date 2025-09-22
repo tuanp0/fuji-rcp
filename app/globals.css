@@ -31,7 +31,7 @@ body {
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-image: url('../public/dot-grid.png');
