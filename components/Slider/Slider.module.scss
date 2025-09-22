@@ -4,26 +4,27 @@
 
 .slider {
     width: 100%;
-
+    position: sticky;
+    top: 0;
+    
     @media screen and (min-width:768px) {
-        width: calc(50% - 1rem);
+        width: calc(50% - 1.5rem);
     }
 
     &Img {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         display: block;
+
+        @media screen and (min-width:768px) {
+            border-radius: 1.25rem;
+            overflow: hidden;
+        }
     }
 }
 
-.swiper {
-    &-pagination {
-        &-pagination-bullet {
-            background: var(--white);
-            
-            &--active {
-                background: var(--white);
-            }
-        }
-    }
+.imgSwiper {
+    height: 100vh;
+    height: 100dvh;
 }

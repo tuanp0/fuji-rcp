@@ -11,7 +11,7 @@ import styles from './Slider.module.scss'
 const Slider = ({images}) => {
 
   return (
-    <div className={styles.slider}>
+    <div className={`${styles.slider} ${styles.half}`}>
         <Swiper
           navigation={{
             prevEl: '.swiper-button-prev',
@@ -19,8 +19,8 @@ const Slider = ({images}) => {
           }}
           pagination={{ clickable: true, el: '.swiper-pagination' }}
           loop={true}
-          autoHeight={true}
-          modules={[Autoplay, Navigation, Pagination]}       
+          modules={[Autoplay, Navigation, Pagination]}     
+          className={`imgSwiper ${styles.imgSwiper}`}
         >
           {images.map((item, index) => {
             return (

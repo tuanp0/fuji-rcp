@@ -5,43 +5,61 @@
 .card {
     width: 100%;
 
+    @media screen and (min-width:768px) {
+        width: 50%;
+    }
+
+    @media screen and (min-width:992px) {
+        width: calc(33.33% - 2rem);
+    }
+
+    &Swiper {
+        width: 100%;
+        height: 475px;
+        padding: 4rem 3rem 1rem 3rem;
+    }
+    
+    &Slide {
+        border-radius: 1rem;
+        overflow: hidden;    
+    }
+
+    &Img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
 
     &Link {
-        width: 100%;
+        text-align: center;
+        display: block;
+        
+        &:hover {
+            .cardName {
+                background: var(--black-20);
+            }
+        }
+    }
+
+    &Name {
+        @include mynerve();
+        font-weight: 700;
+        font-size: 1.5rem;
+        width: auto;
+        padding: 0.5rem 1rem;
+        margin: 0 1rem;
         display: inline-block;
         background: var(--white-20);
         border-radius: 1rem;
         box-shadow: 0 4px 30px var(--black-20);
         backdrop-filter: blur(2px);
         -webkit-backdrop-filter: blur(2px);
-        border: 1px solid var(--white-20);
-        overflow: hidden;
+        border: 1px solid var(--white);
+        transition: all 0.2s ease-in-out;
 
-        &:hover {
-            .cardImg {
-                transform: scale(1.2);
-            }
+        @media screen and (min-width:768px) {
+            font-size: 1.25rem;
         }
     }
-
-    &Imgcontainer {
-        overflow: hidden;
-    }
-
-    &Img {
-        width: 100%;
-        height: auto;
-        display: block;
-        transition: all ease-in-out 0.2s;
-
-        img {
-
-        }
-    }
-
-    &Content {
-        padding: 1rem;
-    }
-
 }
-
