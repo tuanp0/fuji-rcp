@@ -3,18 +3,20 @@ import Image from 'next/image'
 
 import styles from './Card.module.scss'
 
-const Card = ({link, title}) => {
+const Card = ({link, title, images}) => {
   return (
     <div className={styles.card}>
         <Link href={link} className={styles.cardLink}>
             <div className={styles.cardImgcontainer}>
-              <Image
-                src="/cinematic-gold/cinematicgold-1.webp"
-                width={500}
-                height={500}
-                alt={title}
-                className={styles.cardImg}
-              />
+              {images && images.length > 0 && (
+                <Image
+                  src={images[0].src}
+                  width={500}
+                  height={500}
+                  alt={title}
+                  className={styles.cardImg}
+                />
+              )}
             </div>
             <div className={styles.cardContent}>
               {title}

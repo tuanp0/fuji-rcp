@@ -7,9 +7,8 @@ import { Text } from '@components/Text'
 
 const RecipePage = async ({ params }) => {
   const { slug } = await params;
-
   const recipe = recipes.find((element) => element.slug === slug);
-    console.log(recipe)
+
   return (
     <main>
       <Title title={recipe.title} />

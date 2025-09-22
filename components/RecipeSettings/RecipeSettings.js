@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './RecipeSettings.module.scss'
 
 const RecipeSettings = ({settings}) => {
-    console.log(settings)
 
   return (
     <div className={styles.settings}>

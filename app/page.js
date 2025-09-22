@@ -13,7 +13,7 @@ export default async function Home() {
       <ListCard>
           {recipes.map((recipe, index) => {
             return (
-              <Card link={recipe.slug} title={recipe.title} recipe={recipe} key={index}/>
+              <Card link={recipe.slug} title={recipe.title} images={recipe.images} recipe={recipe} key={index}/>
             )
           })}
       </ListCard>

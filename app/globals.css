@@ -59,3 +59,58 @@ a {
     color-scheme: dark;
   }
 } */
+
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 0;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  background: var(--white-40);
+  box-shadow: 0 4px 30px var(--black-20);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  transition: all 0.2s ease-in-out;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: var(--white-70);
+}
+
+.swiper-button-prev {
+  left: 12px !important;
+}
+
+.swiper-button-next {
+  right: 12px !important;
+}
+
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  width: auto !important;
+  height: 20px !important;
+}
+
+.swiper-button-prev svg,
+.swiper-button-next svg,
+.swiper-button-prev svg path,
+.swiper-button-next svg path {
+  fill: var(--white) !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: var(--white-40);
+  box-shadow: 0 4px 30px var(--black-20);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid var(--white);
+  opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  width: 12px;
+  height: 12px;
+  background: var(--white);
+}
