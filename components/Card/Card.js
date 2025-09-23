@@ -25,8 +25,13 @@ const Card = ({link, title, images}) => {
     <div className={styles.card}>
       <Link href={link} className={styles.cardLink}>
       <Swiper
+        longSwipes={false}
         effect={'cards'}
         grabCursor={true}
+        observeParents={true}
+        observer={true}
+        speed={600}
+        threshold={10}
         modules={[Autoplay, EffectCards]}
         onSwiper={(swiper) => setSwiperInstance(swiper)}
         className={`cardSwiper ${styles.cardSwiper}`}
@@ -34,7 +39,15 @@ const Card = ({link, title, images}) => {
         {images.map((item, index) => {
           return (
             <SwiperSlide className={styles.cardSlide} key={index}>
-                <Image src={item.src} width={640} height={427} alt="" className={styles.cardImg} />
+                <Image
+                  src={item.src}
+                  width={640}
+                  height={400}
+                  alt=""
+                  className={styles.cardImg}
+                  style={{ width: "100%", height: "100%" }}
+                  priority={true}
+                />
             </SwiperSlide>
           )
         })}

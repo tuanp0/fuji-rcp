@@ -1,9 +1,35 @@
-@keyframes slide {
-  from {
-    background-position: 0;
+@keyframes shake {
+  0% {
+    transform: scale(1.05);
   }
-
-  to {
-    background-position: -100% -100%;
+  10% {
+    transform: scale(1.05);
+  }
+  20% {
+    transform: scale(1.05);
+  }
+  30% {
+    transform: scale(1.05);
+  }
+  40% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  60% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  90% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.05);
   }
 }
