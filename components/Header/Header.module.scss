@@ -3,6 +3,10 @@
 @use "../../styles/fonts" as *;
 
 .header {
+
+    &.sand {
+        background: var(--sand);
+    }
     .container {
         padding-top: 1rem;
         padding-bottom: 1.5rem;

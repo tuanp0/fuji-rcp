@@ -1,0 +1,72 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+
+.homeslider {
+    padding-bottom: 3rem;
+    background: var(--sand);
+
+    @media screen and (min-width:768px) {
+        padding-bottom: 5rem;
+    }
+}
+
+.homeswiper {
+    height: 500px;
+
+    @media screen and (min-width:768px) {
+        height: 700px;
+    }
+
+    &Slide {
+        position: relative;
+        width: 70%;
+    }
+
+    &Img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: cover;
+        display: block;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    &Link {
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+
+        &:hover {
+            .homesliderContent {
+                background: var(--white-40);
+            }
+        }
+    }
+
+    &Content {
+        @include mynerve();
+        color: var(--white);
+        text-align: right;
+        padding: 0.5rem 1rem;
+        background: var(--white-20);
+        border-radius: 1rem;
+        box-shadow: 0 4px 30px var(--black-20);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border: 1px solid var(--white);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    &Recipe {
+        font-size: 1rem;
+
+        @media screen and (min-width:768px) {
+            font-size: 1.5rem;
+        }
+    }
+}

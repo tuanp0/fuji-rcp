@@ -10,18 +10,18 @@ const Header = () => {
   const isHome = pathname === '/'
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isHome ? styles.sand : ''}`}>
       <Container className={styles.container}>
         {isHome ? 
           <h1 className={styles.title}>
-            <Link href="/">
+            <Link href={`/`}>
               fuji 
               <span className={styles.walter}>Recipes</span>
             </Link>
           </h1>
         :
           <p className={styles.title}>
-            <Link href="/">
+            <Link href={`/`}>
               fuji 
               <span className={styles.walter}>Recipes</span>
             </Link>

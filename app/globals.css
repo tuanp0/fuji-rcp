@@ -11,7 +11,7 @@
   --white-40: rgba(255, 255, 255, 0.4);
   --white-60: rgba(255, 255, 255, 0.6);
   --white-70: rgba(255, 255, 255, 0.7);
-  --blue: rgba(10, 100, 160, 1);
+  --sand: rgb(232, 222, 204);
 }
 
 @media (prefers-color-scheme: dark) {
