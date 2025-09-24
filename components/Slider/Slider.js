@@ -13,12 +13,13 @@ const Slider = ({images}) => {
   return (
     <div className={`${styles.slider} ${styles.half}`}>
         <Swiper
+          loop={true}
+          spaceBetween={30}
           navigation={{
             prevEl: '.swiper-button-prev',
             nextEl: '.swiper-button-next',
           }}
           pagination={{ clickable: true, el: '.swiper-pagination' }}
-          loop={true}
           modules={[Autoplay, Navigation, Pagination]}     
           className={`imgSwiper ${styles.imgSwiper}`}
         >

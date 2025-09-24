@@ -5,9 +5,11 @@ import styles from './Title.module.scss'
 
 const Title = ({title}) => {
   return (
-    <Container>
-      <h1 className={styles.title}>{title}</h1>
-    </Container>
+    <div className={styles.title}>
+      <Container className={styles.titleContainer}>
+        <h1 className={styles.titleText}>{title}</h1>
+      </Container>
+    </div>
   )
 }
 

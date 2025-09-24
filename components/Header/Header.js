@@ -11,23 +11,18 @@ const Header = () => {
 
   return (
     <header className={`${styles.header} ${isHome ? styles.sand : ''}`}>
-      <Container className={styles.container}>
-        {isHome ? 
-          <h1 className={styles.title}>
-            <Link href={`/`}>
-              fuji 
-              <span className={styles.walter}>Recipes</span>
-            </Link>
-          </h1>
-        :
-          <p className={styles.title}>
-            <Link href={`/`}>
-              fuji 
-              <span className={styles.walter}>Recipes</span>
-            </Link>
-          </p>
+      
+        {!isHome &&
+          <Container className={styles.container}>
+            <p className={styles.title}>
+              <Link href={`/`}>
+                fuji 
+                <span className={styles.second}>Recipes</span>
+              </Link>
+            </p>
+          </Container>
         }
-      </Container>
+      
     </header>
   )
 }

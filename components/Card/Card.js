@@ -48,6 +48,7 @@ const Card = ({link, title, images}) => {
                   style={{ width: "100%", height: "100%" }}
                   priority={true}
                 />
+                <span className={styles.cardCount}>{index+1} / {images.length}</span>
             </SwiperSlide>
           )
         })}

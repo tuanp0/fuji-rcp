@@ -3,7 +3,12 @@
 @mixin wysiwyg() {
 
     h2 {
+        @include mynerve();
+        font-size: 1.5rem;
 
+        @media screen and (min-width:768px) {
+            font-size: 1.75rem;
+        }
     }
 
     h3 {
@@ -17,10 +22,21 @@
     p {
         @include ptSerif();
         font-size: 1.25rem;
-        margin-bottom: 0.625rem;
+        line-height: 1.25;
+        margin-bottom: 1rem;
     }
 
     a {
         text-decoration: underline;
+    }
+
+    ul {
+        @include ptSerif();
+        font-size: 1.125rem;
+        margin-left: 1.25rem;
+        
+        li {
+            margin: 0.5rem 0;
+        }
     }
 }

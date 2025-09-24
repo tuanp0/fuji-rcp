@@ -1,4 +1,8 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
 .footer {
+    @include ptSerif();
     text-align: center;
     color: var(--white);
     background: var(--almost-black);

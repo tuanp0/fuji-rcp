@@ -3,12 +3,26 @@
 @use "../../styles/fonts" as *;
 @use "../../styles/mixins" as *;
 
+.textTitle {
+    @include mynerve();
+    color: var(--white);
+    font-size: 1.75rem;
+    width: 75%;
+    text-align: left;
+    margin: 0 auto 1.75rem auto;
+    display: block;
+    
+    @media screen and (min-width:768px) {
+        color: var(--black);
+    }
+}
+
 .text {
     @include wysiwyg();
     
     @media screen and (min-width:768px) {
-        width: 80%;
-        text-align: center;
+        width: 75%;
+        text-align: left;
         margin: 0 auto;
     }
 }
