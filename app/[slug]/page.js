@@ -1,4 +1,4 @@
-import recipes from '@lib/recipes'
+import recipes from '@/data/recipes'
 
 import { Title } from '@components/Title'
 import { RecipeContent } from '@components/RecipeContent'
@@ -10,8 +10,8 @@ export async function generateStaticParams() {
   }))
 }
 
-const RecipePage = ({ params }) => {
-  const { slug } = params
+const RecipePage = async ({ params }) => {
+  const { slug } = await params
   const recipe = recipes.find((element) => element.slug === slug)
 
   if (!recipe) {

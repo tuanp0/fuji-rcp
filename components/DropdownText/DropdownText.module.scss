@@ -1,0 +1,85 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.dropdowntext {
+    @include wysiwyg();
+    
+    & {
+        font-size: 1.75rem;
+        text-align: left;
+        margin: 0 auto 1.75rem auto;
+        display: block;
+    }
+
+    @media screen and (min-width:768px) {
+        width: 75%;
+    }
+
+    .title,
+    .subtitle,
+    .description {
+        @include wysiwyg();
+    }
+
+    .subtitle {
+        margin-bottom: 3rem;
+    }
+
+    .description {
+        position: relative;
+        overflow: hidden;
+        transition: height 0.4s ease-in-out;
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        &.opened {
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+    .arrow {
+        position: relative;
+        width: 100%;
+        height: 1px;
+        cursor: pointer;
+        margin-top: 2rem;
+
+
+        &::before {
+            content: "\25be";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform-origin: center;
+            background: var(--white-20);
+            border-radius: 1rem;
+            box-shadow: 0 4px 30px var(--black-20);
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            border: 1px solid var(--white);
+            transition: all 0.4s ease-in-out;
+            text-align: center;
+        }
+
+        &.opened {
+            &::before {
+                transform: translate(-50%, -50%) rotate(180deg);
+            }
+        }
+    }
+}

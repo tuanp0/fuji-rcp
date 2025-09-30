@@ -2,7 +2,7 @@
 @use "../../styles/mixins" as *;
 
 .footer {
-    @include ptSerif();
+    @include montserrat();
     text-align: center;
     color: var(--white);
     background: var(--almost-black);

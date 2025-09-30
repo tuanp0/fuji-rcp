@@ -5,15 +5,13 @@
 
 .textTitle {
     @include mynerve();
-    color: var(--white);
     font-size: 1.75rem;
-    width: 75%;
     text-align: left;
     margin: 0 auto 1.75rem auto;
     display: block;
-    
+
     @media screen and (min-width:768px) {
-        color: var(--black);
+        width: 75%;
     }
 }
 

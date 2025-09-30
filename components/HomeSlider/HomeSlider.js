@@ -1,4 +1,6 @@
 'use client'
+import imagesSlider from '@/data/imagesSlider'
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,39 +15,12 @@ import {Container} from '@components/Container'
 
 import styles from './HomeSlider.module.scss'
 
-const HomeSlider = () => {
-    const images = [
-        {
-            src: "/homeslider/homeslider-1.png",
-            recipe: "Kodak Portra 400",
-            link:"/kodak-portra-400"
-        },
-        {
-            src: "/homeslider/homeslider-2.png",
-            recipe: "Kodak Gold 200",
-            link:"/kodak-gold-200"
-        },
-        {
-            src: "/homeslider/homeslider-3.png",
-            recipe: "Kodak Portra 400",
-            link:"/kodak-portra-400"
-        },
-        {
-            src: "/homeslider/homeslider-4.png",
-            recipe: "Fujicolor C200",
-            link:"/fujicolor-c200"
-        },
-        {
-            src: "/homeslider/homeslider-5.png",
-            recipe: "Kodak T-Max P3200",
-            link:"/kodak-tmax-p3200"
-        },
-        {
-            src: "/homeslider/homeslider-6.png",
-            recipe: "Kodak Gold 200",
-            link:"/kodak-gold-200"
-        },
-    ]
+const HomeSlider = () => { 
+
+  if (!imagesSlider) {
+    return
+  }
+
   return (
     <section className={styles.homeslider}>
         <Swiper
@@ -64,7 +39,7 @@ const HomeSlider = () => {
             modules={[EffectCoverflow, Pagination]}
             className={`homeslider ${styles.homeswiper}`}
         >
-            {images.map((item, index) => {
+            {imagesSlider.map((item, index) => {
                 return (
                     <SwiperSlide
                         className={styles.homeswiperSlide}
@@ -77,7 +52,6 @@ const HomeSlider = () => {
                             alt=""
                             className={styles.homeswiperImg}
                             style={{ width: "100%", height: "100%" }}
-                            quality={100}
                         />
                         <Link href={item.link} className={styles.homeswiperLink}>
                             <div className={styles.homeswiperContent}>

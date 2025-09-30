@@ -1,21 +1,4 @@
 @font-face {
-    font-family: 'Iceland';
-    src: url('fonts/Iceland-Regular.eot');
-    src: url('fonts/Iceland-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Iceland-Regular.woff2') format('woff2'),
-        url('fonts/Iceland-Regular.woff') format('woff'),
-        url('fonts/Iceland-Regular.ttf') format('truetype'),
-        url('fonts/Iceland-Regular.svg#Iceland-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@mixin iceland($weight:400) {
-    font-family: 'Iceland', Arial, sans-serif;
-}
-
-@font-face {
     font-family: 'Mynerve';
     src: url('fonts/Mynerve-Regular.eot');
     src: url('fonts/Mynerve-Regular.eot?#iefix') format('embedded-opentype'),
@@ -33,44 +16,21 @@
 }
 
 @font-face {
-    font-family: 'PT Serif';
-    src: url('fonts/PTSerif-Italic.eot');
-    src: url('fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/PTSerif-Italic.woff2') format('woff2'),
-        url('fonts/PTSerif-Italic.woff') format('woff'),
-        url('fonts/PTSerif-Italic.ttf') format('truetype'),
-        url('fonts/PTSerif-Italic.svg#PTSerif-Italic') format('svg');
-    font-weight: normal;
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'PT Serif';
-    src: url('fonts/PTSerif-Regular.eot');
-    src: url('fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/PTSerif-Regular.woff2') format('woff2'),
-        url('fonts/PTSerif-Regular.woff') format('woff'),
-        url('fonts/PTSerif-Regular.ttf') format('truetype'),
-        url('fonts/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
-    font-weight: normal;
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'PT Serif';
-    src: url('fonts/PTSerif-Bold.eot');
-    src: url('fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/PTSerif-Bold.woff2') format('woff2'),
-        url('fonts/PTSerif-Bold.woff') format('woff'),
-        url('fonts/PTSerif-Bold.ttf') format('truetype'),
-        url('fonts/PTSerif-Bold.svg#PTSerif-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@mixin ptSerif($weight:400) {
-    font-family: 'PT Serif', Arial, sans-serif;
+@mixin montserrat($weight:400) {
+    font-family: 'Montserrat', Arial, sans-serif;
 }

@@ -44,6 +44,10 @@
     }
 
     &Item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         padding: 0.75rem 1.25rem;
         background: var(--white-70);
@@ -68,15 +72,29 @@
         }
     }
 
-    &Name {
-        font-weight: bold;
-        font-size: 1.125rem;
-        margin-bottom: 0.125rem;
+    &Value {
+        @include montserrat();
         display: block;
+        font-weight: bold;
+        font-size: 0.875rem;
+        line-height: 1.25;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        
+        @media screen and (min-width:768px) {
+            font-size: 1.125rem;
+        }
     }
 
-    &Value {
-        @include ptSerif();
+    &Name {
+        font-size: 0.75rem;
+        line-height: 1.25;
         display: block;
+
+        @media screen and (min-width:768px) {
+            font-size: 1rem;
+        }
     }
 }

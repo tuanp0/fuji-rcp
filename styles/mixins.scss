@@ -5,23 +5,36 @@
     h2 {
         @include mynerve();
         font-size: 1.5rem;
+        margin-bottom: 1.5rem;
 
         @media screen and (min-width:768px) {
-            font-size: 1.75rem;
+            font-size: 2rem;
         }
     }
 
     h3 {
+        @include mynerve();
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
 
+        @media screen and (min-width:768px) {
+            font-size: 1.5rem;
+        }
     }
 
     h4 {
+        @include mynerve();
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
 
+        @media screen and (min-width:768px) {
+            font-size: 1.25rem;
+        }
     }
 
     p {
-        @include ptSerif();
-        font-size: 1.25rem;
+        @include montserrat();
+        font-size: 1.125rem;
         line-height: 1.25;
         margin-bottom: 1rem;
     }
@@ -30,13 +43,31 @@
         text-decoration: underline;
     }
 
+    ol,
     ul {
-        @include ptSerif();
+        @include montserrat();
         font-size: 1.125rem;
         margin-left: 1.25rem;
+        margin-bottom: 1rem;
         
         li {
-            margin: 0.5rem 0;
+            @include montserrat();
+            margin: 0.25rem 0;
+        }
+    }
+
+    ol {
+        counter-reset: step-counter;
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 1.5rem;
+
+        li {
+            counter-increment: step-counter;
+
+            &::before {
+                content: counter(step-counter) ". ";
+            }
         }
     }
 }

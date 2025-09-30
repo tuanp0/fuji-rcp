@@ -30,8 +30,10 @@ const RecipeSettings = ({settings}) => {
                                 className={`${styles.settingsItem} ${isDone ? styles.done: ''}`}
                                 key={indexKey}
                             >
-                                <span className={styles.settingsName}>{key}</span>
-                                <span className={styles.settingsValue} dangerouslySetInnerHTML={{__html: value}} />
+                                <div>
+                                    <p className={styles.settingsValue} dangerouslySetInnerHTML={{__html: value}} />
+                                    <p className={styles.settingsName} dangerouslySetInnerHTML={{__html: key}} />
+                                </div>
                             </div>
                         )
                     })
