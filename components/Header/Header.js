@@ -10,19 +10,25 @@ const Header = () => {
   const isHome = pathname === '/'
 
   return (
-    <header className={`${styles.header} ${isHome ? styles.sand : ''}`}>
-      
-        {!isHome &&
-          <Container className={styles.container}>
-            <p className={styles.title}>
+    <header className={`${styles.header} ${isHome ? styles.homepage : ''}`}>
+      <Container className={styles.container}>
+        {isHome ? (
+          
+            <h1 className={styles.headerTitle}>
               <Link href={`/`}>
                 fuji 
-                <span className={styles.second}>Recipes</span>
+                <span className={styles.headerSecond}>Recipes</span>
+              </Link>
+            </h1>
+        ) : (
+            <p className={styles.headerTitle}>
+              <Link href={`/`}>
+                fuji 
+                <span className={styles.headerSecond}>Recipes</span>
               </Link>
             </p>
-          </Container>
-        }
-      
+        )}
+      </Container>
     </header>
   )
 }

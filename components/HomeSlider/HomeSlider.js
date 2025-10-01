@@ -24,17 +24,17 @@ const HomeSlider = () => {
   return (
     <section className={styles.homeslider}>
         <Swiper
-            effect={'coverflow'}
+            // effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
-            coverflowEffect={{
-                rotate: 50,
-                stretch: 0,
-                depth: 300,
-                modifier: 1,
-                slideShadows: true,
-            }}
+            // coverflowEffect={{
+            //     rotate: 50,
+            //     stretch: 0,
+            //     depth: 300,
+            //     modifier: 1,
+            //     slideShadows: true,
+            // }}
             pagination={{ clickable: true }}
             modules={[EffectCoverflow, Pagination]}
             className={`homeslider ${styles.homeswiper}`}
@@ -52,6 +52,7 @@ const HomeSlider = () => {
                             alt=""
                             className={styles.homeswiperImg}
                             style={{ width: "100%", height: "100%" }}
+                            priority={true}
                         />
                         <Link href={item.link} className={styles.homeswiperLink}>
                             <div className={styles.homeswiperContent}>

@@ -27,7 +27,17 @@ const RecipeSettings = ({settings}) => {
                         return (
                             <div
                                 onClick={() => handleActive(indexKey)}
-                                className={`${styles.settingsItem} ${isDone ? styles.done: ''}`}
+                                className={`
+                                    ${styles.settingsItem}
+                                    ${isDone ? styles.done: ''}
+                                    ${key === 'Film simulation' ||
+                                        key === 'Balance des blancs' ||
+                                        key === 'Couleur Chrome' ||
+                                        key === 'Couleur Chrome FX Bleue' ||
+                                        key === 'ISO' ||
+                                         key === 'Compensation Exp.'
+                                        ? styles.half : styles.forth}
+                                `}
                                 key={indexKey}
                             >
                                 <div>

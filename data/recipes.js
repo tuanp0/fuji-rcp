@@ -21,31 +21,31 @@ const recipes = [
             à mi-chemin entre mémoire visuelle et esthétique ciné-classique.</p>`,
         images: [
             {
-                src: "/1960-chrome/1960-chrome-1.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-1.webp"
             },
             {
-                src: "/1960-chrome/1960-chrome-2.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-2.webp"
             },
             {
-                src: "/1960-chrome/1960-chrome-3.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-3.webp"
             },
             {
-                src: "/1960-chrome/1960-chrome-4.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-4.webp"
             },
             {
-                src: "/1960-chrome/1960-chrome-5.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-5.webp"
             },
             {
-                src: "/1960-chrome/1960-chrome-6.webp"
+                src: "/fuji/recipes/1960-chrome/1960-chrome-6.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Eterna Bleach Bypass",
-                "Balance des blancs": "Fluorescent 1<br/>Rouge -2 / Bleu -4",
-                "Effet de Grain": "Fort - Gros",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Off (X-Trans V) / Faible (X-Trans IV)",
+                "Balance des blancs": "Fluorescent 1<br/>R: -2 / B: -4",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Off (X-Trans V)<br/>Faible (X-Trans IV)",
+                "Effet de Grain": "Fort<br/>Gros",
                 "Plage dynamique": "DR400",
                 "Hautes lumières": "-2",
                 "Ombres": "-1",
@@ -53,8 +53,8 @@ const recipes = [
                 "Detail": "-2",
                 "RB ISO Elevée": "-4",
                 "Netteté": "-1",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "+1/3 jusqu'à +1",
+                "ISO": "Auto<br/>jusqu'à ISO 6400",
+                "Compensation Exp.": "+1/3<br/>jusqu'à +1",
             },
         ]
     },
@@ -78,55 +78,55 @@ const recipes = [
             comme figé dans un souvenir cinématographique.</p>`,
         images: [
             {
-                src: "/cinematic-gold/cinematic-gold-1.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-1.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-2.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-2.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-3.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-3.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-4.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-4.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-5.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-5.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-6.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-6.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-7.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-7.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-8.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-8.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-9.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-9.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-10.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-10.webp"
             },
             {
-                src: "/cinematic-gold/cinematic-gold-11.webp"
+                src: "/fuji/recipes/cinematic-gold/cinematic-gold-11.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Classic Negative",
-                "Effet de Grain": "Fort - Petit",
-                "Couleur Effet Chrome": "Off",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Balance des blancs": "Jour<br/>Rouge +4 / Bleu -5",
+                "Balance des blancs": "Jour<br/>R: +4 / B: -5",
+                "Couleur Chrome": "Off",
+                "Couleur Chrome FX Bleue": "Off",
+                "Effet de Grain": "Fort<br/>Petit",
                 "Plage dynamique": "DR400",
                 "Hautes lumières": "0",
                 "Ombres": "0",
                 "Couleur": "+3",
-                "Netteté": "-2",
-                "RB ISO Elevée": "-4",
                 "Detail": "-2",
-                "ISO": "640 jusqu'à 1600",
-                "Compensation Exp.": "0 à 1",
+                "RB ISO Elevée": "-4",
+                "Netteté": "-2",
+                "ISO": "640<br/>jusqu'à 1600",
+                "Compensation Exp.": "0 à +1",
             },
         ]
     },
@@ -152,31 +152,31 @@ const recipes = [
             donnant à chaque photo un caractère dramatique et intemporel.</p>`,
         images: [
             {
-                src: "/cinestill-800t/cinestill800t-1.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-1.webp"
             },
             {
-                src: "/cinestill-800t/cinestill800t-2.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-2.webp"
             },
             {
-                src: "/cinestill-800t/cinestill800t-3.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-3.webp"
             },
             {
-                src: "/cinestill-800t/cinestill800t-4.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-4.webp"
             },
             {
-                src: "/cinestill-800t/cinestill800t-5.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-5.webp"
             },
             {
-                src: "/cinestill-800t/cinestill800t-6.webp"
+                src: "/fuji/recipes/cinestill-800t/cinestill800t-6.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Eterna",
-                "Balance des blancs": "Fluorescent 3<br/>Rouge -6 / Bleu -4",
-                "Effet de Grain": "Fort - Gros",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Faible",
+                "Balance des blancs": "Fluorescent 3<br/>R: -6 / B: -4",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Faible",
+                "Effet de Grain": "Fort<br/>Gros",
                 "Plage dynamique": "DR400",
                 "Hautes lumières": "0",
                 "Ombres": "+2",
@@ -184,8 +184,8 @@ const recipes = [
                 "Detail": "-5",
                 "RB ISO Elevée": "-4",
                 "Netteté": "-3",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "-1/3 jusqu'à +2/3",
+                "ISO": "Auto<br/>jusqu'à ISO 6400",
+                "Compensation Exp.": "-1/3 à +2/3",
             },
         ]
     },
@@ -208,36 +208,36 @@ const recipes = [
             comme si chaque photo était une représentation fidèle mais chaleureuse du moment.</p>`,
         images: [
             {
-                src: "/fujicolor-c200/fujicolor-c200-1.webp"
+                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-1.webp"
             },
             {
-                src: "/fujicolor-c200/fujicolor-c200-2.webp"
+                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-2.webp"
             },
             {
-                src: "/fujicolor-c200/fujicolor-c200-3.webp"
+                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-3.webp"
             },
             {
-                src: "/fujicolor-c200/fujicolor-c200-4.webp"
+                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-4.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Classic Negative",
-                "Balance des blancs": "Auto<br/>+1 Rouge / -2 Bleu",
-                "Effet de Grain": "Faible - Petit",
-                "Couleur Effet Chrome": "Faible",
-                "Couleur Chrome Effet FX Bleue": "Off",
+                "Balance des blancs": "Auto<br/>R: +1 / B: -2",
+                "Couleur Chrome": "Faible",
+                "Couleur Chrome FX Bleue": "Off",
+                "Effet de Grain": "Faible<br/>Petit",
                 "Plage dynamique": "DR200",
-                "Hautes lumières": "-1.0",
-                "Ombres": "-2.0",
+                "Hautes lumières": "-1",
+                "Ombres": "-2",
                 "Couleur": "+1",
                 "Detail": "-2",
                 "RB ISO Elevée": "-4",
                 "Netteté": "0",
-                "ISO": "Auto / jusqu'à ISO 6400",
+                "ISO": "Auto<br/>jusqu'à ISO 6400",
                 "Compensation Exp.": "0 à +2/3",
             },
-        ],
+        ]
     },
     { /* Fujicolor Natura 1600 */
         slug: "fuji-natura-1600",
@@ -253,25 +253,25 @@ const recipes = [
             Elle permet de capturer la scène telle qu’on la perçoit, avec un rendu chaud et vivant, fidèle à l’esprit des pellicules haute sensibilité.</p>`,
         images: [
             {
-                src: "/fujicolor-natura-1600/fujicolor-natura-1600-1.webp"
+                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-1.webp"
             },
             {
-                src: "/fujicolor-natura-1600/fujicolor-natura-1600-2.webp"
+                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-2.webp"
             },
             {
-                src: "/fujicolor-natura-1600/fujicolor-natura-1600-3.webp"
+                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-3.webp"
             },
             {
-                src: "/fujicolor-natura-1600/fujicolor-natura-1600-4.webp"
+                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-4.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Classic Negative",
-                "Balance des blancs": "5500K<br/>Rouge -1 / Bleu -2",
-                "Effet de Grain": "Fort - Grand",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Faible",
+                "Balance des blancs": "5500K<br/>R: -1 / B: -2",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Faible",
+                "Effet de Grain": "Fort<br/>Gros",
                 "Plage dynamique": "DR400",
                 "Hautes lumières": "-1.5",
                 "Ombres": "+1.5",
@@ -279,9 +279,9 @@ const recipes = [
                 "Detail": "-4",
                 "RB ISO Elevée": "-4",
                 "Netteté": "-2",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "+1/3 jusqu'à +1"
-            }
+                "ISO": "Auto<br/>jusqu'à ISO 6400",
+                "Compensation Exp.": "+1/3 à +1",
+            },
         ]
     },
     { /* Fujifilm Supéria X-Tra 400 */
@@ -304,33 +304,87 @@ const recipes = [
             comme un carnet visuel rempli de fragments colorés et vibrants de la vie.</p>`,
         images: [
             {
-                src: "/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-1.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-1.webp"
             },
             {
-                src: "/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-2.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-2.webp"
             },
             {
-                src: "/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-3.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-3.webp"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative", 
+                "Balance des blancs": "Auto<br/>R: +3 / B: -5", 
+                "Couleur Chrome": "Off", 
+                "Couleur Chrome FX Bleue": "Fort", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "0", 
+                "Ombres": "-1", 
+                "Couleur": "+4", 
+                "Detail": "-1", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-2", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "0 à +1",
+            },
+        ],
+    },
+    { /* Gentle Specimen */
+        slug: "gentle-specimen",
+        title: "Gentle Specimen",
+        description: `<p>La recette <strong>Gentle Specimen</strong> se distingue par un rendu doux et apaisant, 
+            pensé pour restituer une atmosphère délicate et équilibrée. Inspirée de l’esthétique argentique, 
+            elle met en avant des <strong>tons naturels et feutrés</strong>, où les couleurs restent sobres mais nuancées.</p>
+            <p>Les bleus sont subtilement renforcés grâce à l’effet <em>Color FX Blue</em>, 
+            créant une palette fraîche et sereine. Les hautes lumières sont volontairement atténuées 
+            (<em>-1.0 Highlight</em>) et les ombres allégées (<em>-1.0 Shadow</em>), 
+            ce qui donne aux images une clarté douce et une ambiance légèrement vaporeuse. 
+            Le grain, faible et discret, contribue à préserver une texture filmique sans dominer l’image.</p>
+            <p>Cette recette excelle dans les <strong>portraits en lumière naturelle</strong>, 
+            les scènes quotidiennes capturées en extérieur, ou encore les instants intimistes où l’on cherche 
+            à retranscrire une sensation de calme et de proximité. Le rendu est particulièrement efficace 
+            pour sublimer les arrière-plans flous et les ambiances lumineuses légères.</p>
+            <p>Sur le plan émotionnel, <em>Gentle Specimen</em> évoque la sérénité, la tendresse et une certaine nostalgie poétique. 
+            Elle permet de transformer chaque cliché en une image douce, presque onirique, 
+            idéale pour des récits visuels empreints de délicatesse.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/gentle-specimen/gentle-specimen-1.webp"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/gentle-specimen-2.webp"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/gentle-specimen-3.webp"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/gentle-specimen-4.webp"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/gentle-specimen-5.webp"
             },
         ],
         settings: [
             {
                 "Film simulation": "Classic Negative",
-                "Balance des blancs": "Auto<br/>Rouge +3 / Bleu -5",
-                "Effet de Grain": "Fort - Petit",
-                "Couleur Effet Chrome": "Off",
-                "Couleur Chrome Effet FX Bleue": "Fort",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "0",
+                "Balance des blancs": "Auto<br/>R: 0 / B: 0",
+                "Couleur Chrome": "Faible",
+                "Couleur Chrome FX Bleue": "Faible (X-Trans V)<br/>Fort (X-Trans IV)",
+                "Effet de Grain": "Fort<br/>Petit",
+                "Plage dynamique": "DR100",
+                "Hautes lumières": "-1",
                 "Ombres": "-1",
-                "Couleur": "+4",
-                "Detail": "-1",
-                "RB ISO Elevée": "-4",
-                "Netteté": "-2",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "0 à +1",
+                "Couleur": "+1",
+                "Detail": "+1",
+                "RB ISO Elevée": "0",
+                "Netteté": "0",
+                "ISO": "Auto<br/>jusqu'à ISO 3200",
+                "Compensation Exp.": "+1/3",
             },
-        ],
+        ]
     },
     { /* Ilford FP4 Plus 125 */
         slug: "ilford-fp4-plus-125",
@@ -348,40 +402,40 @@ const recipes = [
             et durable, fidèle à l’esprit du film noir et blanc traditionnel.</p>`,
         images: [
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-1.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-1.webp"
             },
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-2.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-2.webp"
             },
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-3.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-3.webp"
             },
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-4.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-4.webp"
             },
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-5.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-5.webp"
             },
             {
-                src: "/ilfordfp4plus-125/ilfordfp4plus125-6.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Monochrome",
-                "Balance des blancs": "Jour<br/>Rouge +6 / Bleu -8",
-                "Effet de Grain": "Faible - Grand",
-                "Couleur Effet Chrome": "Off",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR200",
-                "Hautes lumières": "-0.5",
-                "Ombres": "-1.5",
-                "Couleur": "0",
-                "Detail": "+2",
-                "RB ISO Elevée": "-4",
-                "Netteté": "0",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "-1 jusqu'à -1/3"
+                "Film simulation": "Monochrome", 
+                "Balance des blancs": "Jour<br/>R: +6 / B: -8", 
+                "Couleur Chrome": "Off", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Faible<br/>Grand", 
+                "Plage dynamique": "DR200", 
+                "Hautes lumières": "-0.5", 
+                "Ombres": "-1.5", 
+                "Couleur": "0", 
+                "Detail": "+2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "0", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "-1 à -1/3",
             }
         ]
     },
@@ -404,40 +458,40 @@ const recipes = [
             et journalistique.</p>`,
         images: [
             {
-                src: "/kodachrome-64/kodachrome-1.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-1.webp"
             },
             {
-                src: "/kodachrome-64/kodachrome-2.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-2.webp"
             },
             {
-                src: "/kodachrome-64/kodachrome-3.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-3.webp"
             },
             {
-                src: "/kodachrome-64/kodachrome-4.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-4.webp"
             },
             {
-                src: "/kodachrome-64/kodachrome-5.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-5.webp"
             },
             {
-                src: "/kodachrome-64/kodachrome-6.webp"
+                src: "/fuji/recipes/kodachrome-64/kodachrome-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome",
-                "Balance des blancs": "Jour<br/>Rouge +2 / Bleu -5",
-                "Effet de Grain": "Faible - Petit",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR200",
-                "Hautes lumières": "0",
-                "Ombres": "+0.5",
-                "Couleur": "+2",
-                "Detail": "+3",
-                "RB ISO Elevée": "-4",
-                "Netteté": "+1",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "0 jusqu'à +2/3",
+                "Film simulation": "Classic Chrome", 
+                "Balance des blancs": "Jour<br/>R: +2 / B: -5", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Faible<br/>Petit", 
+                "Plage dynamique": "DR200", 
+                "Hautes lumières": "0", 
+                "Ombres": "+0.5", 
+                "Couleur": "+2", 
+                "Detail": "+3", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+1", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "0 à +2/3",
             },
         ]
     },
@@ -461,34 +515,34 @@ const recipes = [
             photos une allure conviviale et réconfortante.</p>`,
         images: [
             {
-                src: "/kodak-gold-200/kodak-gold-200-1.jpg"
+                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-1.jpg"
             },
             {
-                src: "/kodak-gold-200/kodak-gold-200-2.webp"
+                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-2.webp"
             },
             {
-                src: "/kodak-gold-200/kodak-gold-200-3.webp"
+                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-3.webp"
             },
             {
-                src: "/kodak-gold-200/kodak-gold-200-4.webp"
+                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-4.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome",
-                "Balance des blancs": "Jour<br/>Rouge +4 / Bleu -5",
-                "Effet de Grain": "Fort - Petit",
-                "Couleur Effet Chrome": "Faible",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "-1.5",
-                "Ombres": "+0.5",
-                "Couleur": "+3",
-                "Detail": "-2",
-                "RB ISO Elevée": "-4",
-                "Netteté": "-2",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "+2/3 jusqu'à +1",
+                "Film simulation": "Classic Chrome", 
+                "Balance des blancs": "Jour<br/>R: +4 / B: -5", 
+                "Couleur Chrome": "Faible", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "-1.5", 
+                "Ombres": "+0.5", 
+                "Couleur": "+3", 
+                "Detail": "-2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-2", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "+2/3 à +1",
             },
         ],
     },
@@ -514,40 +568,40 @@ const recipes = [
             avec une dimension intemporelle et poétique.</p>`,
         images: [
             {
-                src: "/kodak-portra-400/kodak-portra-400-1.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-1.webp"
             },
             {
-                src: "/kodak-portra-400/kodak-portra-400-2.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-2.webp"
             },
             {
-                src: "/kodak-portra-400/kodak-portra-400-3.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-3.webp"
             },
             {
-                src: "/kodak-portra-400/kodak-portra-400-4.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-4.webp"
             },
             {
-                src: "/kodak-portra-400/kodak-portra-400-5.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-5.webp"
             },
             {
-                src: "/kodak-portra-400/kodak-portra-400-6.webp"
+                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome",
-                "Balance des blancs": "5200K<br/>Rouge +1 / Bleu -6",
-                "Effet de Grain": "Fort - Petit",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "0",
-                "Ombres": "-2",
-                "Couleur": "+2",
-                "Detail": "-2",
-                "RB ISO Elevée": "-4",
-                "Netteté": "-2",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "+1/3 jusqu'à +1",
+                "Film simulation": "Classic Chrome", 
+                "Balance des blancs": "5200K<br/>R: +1 / B: -6", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "0", 
+                "Ombres": "-2", 
+                "Couleur": "+2", 
+                "Detail": "-2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-2", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "+1/3 à +1",
             },
         ]
     },
@@ -565,40 +619,40 @@ const recipes = [
             Elle permet de capturer l’énergie et l’authenticité des scènes, avec un rendu granuleux et expressif fidèle à l’esprit de l’argentique.</p>`,
         images: [
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-1.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-1.webp"
             },
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-2.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-2.webp"
             },
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-3.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-3.webp"
             },
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-4.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-4.webp"
             },
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-5.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-5.webp"
             },
             {
-                src: "/kodak-tmax-p3200/kodak-tmax-p3200-6.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Acros (ou Acros+Y / Acros+R / Acros+G)",
-                "Balance des blancs": "5500K<br/>Rouge +4 / Bleu +7",
-                "Effet de Grain": "Fort - Grand",
-                "Couleur Effet Chrome": "Off",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "+1",
-                "Ombres": "+3",
-                "Monochrome Toning": "WC -1 / MG -1",
-                "Detail": "+1",
-                "RB ISO Elevée": "-4",
-                "Netteté": "+2",
-                "ISO": "Jusqu'à 12800",
-                "Compensation Exp.": "0 jusqu'à +2/3"
+                "Film simulation": "Acros (ou Acros+Y / Acros+R / Acros+G)", 
+                "Balance des blancs": "5500K<br/>R: +4 / B: +7", 
+                "Couleur Chrome": "Off", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Grand", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "+1", 
+                "Ombres": "+3", 
+                "Monochrome Toning": "WC: -1<br/>MG: -1", 
+                "Detail": "+1", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+2", 
+                "ISO": "Jusqu'à 12800", 
+                "Compensation Exp.": "0 à +2/3",
             }
         ]
     },
@@ -623,39 +677,39 @@ const recipes = [
             comme un éclat de lumière dans la mémoire.</p>`,
         images: [
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-1.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-1.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-2.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-3.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-4.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-5.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-6.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome",
-                "Balance des blancs": "Auto<br/>+1 Rouge / -5 Bleu",
-                "Effet de Grain": "Fort - Grand",
-                "Couleur Effet Chrome": "Faible",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR-Auto",
-                "Hautes lumières": "+1",
-                "Ombres": "+1",
-                "Couleur": "+4",
-                "Detail": "0",
-                "RB ISO Elevée": "-4",
-                "Netteté": "+3",
-                "ISO": "Auto jusqu'à ISO 6400",
+                "Film simulation": "Classic Chrome", 
+                "Balance des blancs": "Auto<br/>R: +1 / B: -5", 
+                "Couleur Chrome": "Faible", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Grand", 
+                "Plage dynamique": "DR-Auto", 
+                "Hautes lumières": "+1", 
+                "Ombres": "+1", 
+                "Couleur": "+4", 
+                "Detail": "0", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+3", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
                 "Compensation Exp.": "+1/3 à +1",
             },
         ],
@@ -675,36 +729,36 @@ const recipes = [
             Elle invite à capturer la réalité avec intensité et précision, tout en donnant aux images une touche professionnelle et intemporelle.</p>`,
         images: [
             {
-                src: "/kodak-vision3-250d/kodak-vision3-250d-1.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-1.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-2.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-3.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-4.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
             },
             {
-                src: "/kodak-ultramax-400/kodak-ultramax-400-5.webp"
+                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome",
-                "Balance des blancs": "Auto<br/>+1 Rouge / -5 Bleu",
-                "Effet de Grain": "Fort - Grand",
-                "Couleur Effet Chrome": "Faible",
-                "Couleur Chrome Effet FX Bleue": "Off",
-                "Plage dynamique": "DR-Auto",
-                "Hautes lumières": "+1",
-                "Ombres": "+1",
-                "Couleur": "+4",
-                "Detail": "0",
-                "RB ISO Elevée": "-4",
-                "Netteté": "+3",
-                "ISO": "Auto jusqu'à ISO 6400",
+                "Film simulation": "Classic Chrome", 
+                "Balance des blancs": "Auto<br/>R: +1 / B: -5", 
+                "Couleur Chrome": "Faible", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Grand", 
+                "Plage dynamique": "DR-Auto", 
+                "Hautes lumières": "+1", 
+                "Ombres": "+1", 
+                "Couleur": "+4", 
+                "Detail": "0", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+3", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
                 "Compensation Exp.": "+1/3 à +1",
             },
         ],
@@ -722,39 +776,40 @@ const recipes = [
             Elle invite à capturer les contrastes et les émotions avec intensité, en conservant un style élégant et intemporel.</p>`,
         images: [
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-1.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-1.webp"
             },
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-2.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-2.webp"
             },
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-3.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-3.webp"
             },
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-4.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-4.webp"
             },
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-5.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-5.webp"
             },
             {
-                src: "/monochrome-kodachrome/monochrome-kodachrome-6.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-6.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Acros+R",
-                "Balance des blancs": "AWB<br/>Rouge 0 / Bleu +9",
-                "Effet de Grain": "Fort",
-                "Couleur Effet Chrome": "Off",
-                "Toning": "0",
-                "Plage dynamique": "DR200",
-                "Hautes lumières": "+4",
-                "Ombres": "-2",
-                "Detail": "+1",
-                "RB ISO Elevée": "-4",
-                "Netteté": "+1",
-                "ISO": "Auto / 3200 à 12800",
-                "Compensation Exp.": "-1/3 jusqu'à +2/3"
+                "Film simulation": "Acros+R", 
+                "Balance des blancs": "AWB<br/>R: 0 / B: +9", 
+                "Couleur Chrome": "Off", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort", 
+                "Plage dynamique": "DR200", 
+                "Hautes lumières": "+4", 
+                "Ombres": "-2", 
+                "Detail": "+1", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+1", 
+                "Toning": "0", 
+                "ISO": "Auto<br/>3200 à 12800", 
+                "Compensation Exp.": "-1/3 à +2/3",
             }
         ]
     },
@@ -774,43 +829,43 @@ const recipes = [
             Elle invite à capturer la réalité avec finesse et élégance, tout en conférant aux images un aspect chaleureux et sophistiqué.</p>`,
         images: [
             {
-                src: "/timeless-negative/timeless-negative-1.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-1.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-2.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-2.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-3.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-3.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-4.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-4.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-5.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-5.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-6.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-6.webp"
             },
             {
-                src: "/timeless-negative/timeless-negative-7.webp"
+                src: "/fuji/recipes/timeless-negative/timeless-negative-7.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Eterna",
-                "Balance des blancs": "Auto<br/>Rouge +4 / Bleu -5",
-                "Effet de Grain": "Faible - Petit",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Faible",
-                "Plage dynamique": "DR200",
-                "Hautes lumières": "+1",
-                "Ombres": "-1",
-                "Couleur": "+3",
-                "Detail": "-2",
-                "RB ISO Elevée": "-4",
-                "Netteté": "0",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "-1/3 jusqu'à +1/3"
+                "Film simulation": "Eterna", 
+                "Balance des blancs": "Auto<br/>R: +4 / B: -5", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Faible", 
+                "Effet de Grain": "Faible<br/>Petit", 
+                "Plage dynamique": "DR200", 
+                "Hautes lumières": "+1", 
+                "Ombres": "-1", 
+                "Couleur": "+3", 
+                "Detail": "-2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "0", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "-1/3 à +1/3",
             }
         ]
     },
@@ -828,43 +883,43 @@ const recipes = [
             Elle invite à explorer la couleur et le contraste pour capturer des images mémorables et chargées de personnalité.</p>`,
         images: [
             {
-                src: "/xpro-64/xpro-64-1.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-1.webp"
             },
             {
-                src: "/xpro-64/xpro-64-2.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-2.webp"
             },
             {
-                src: "/xpro-64/xpro-64-3.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-3.webp"
             },
             {
-                src: "/xpro-64/xpro-64-4.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-4.webp"
             },
             {
-                src: "/xpro-64/xpro-64-5.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-5.webp"
             },
             {
-                src: "/xpro-64/xpro-64-6.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-6.webp"
             },
             {
-                src: "/xpro-64/xpro-64-7.webp"
+                src: "/fuji/recipes/xpro-64/xpro-64-7.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Negative",
-                "Balance des blancs": "Auto<br/>Rouge -3 / Bleu -9",
-                "Effet de Grain": "Fort - Grand",
-                "Couleur Effet Chrome": "Fort",
-                "Couleur Chrome Effet FX Bleue": "Faible",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "+3",
-                "Ombres": "0",
-                "Couleur": "+4",
-                "Detail": "-4",
-                "RB ISO Elevée": "-4",
-                "Netteté": "-4",
-                "ISO": "Auto / jusqu'à ISO 6400",
-                "Compensation Exp.": "0 jusqu'à +1/3"
+                "Film simulation": "Classic Negative", 
+                "Balance des blancs": "Auto<br/>R: -3 / B: -9", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Faible", 
+                "Effet de Grain": "Fort<br/>Grand", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "+3", 
+                "Ombres": "0", 
+                "Couleur": "+4", 
+                "Detail": "-4", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-4", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "0 à +1/3",
             }
         ]
     },
