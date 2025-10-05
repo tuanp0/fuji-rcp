@@ -5,7 +5,7 @@
 .slider {
     width: 100%;
     position: sticky;
-    top: 0;
+    top: 2rem;
     
     @media screen and (min-width:992px) {
         width: calc(50% - 1.5rem);

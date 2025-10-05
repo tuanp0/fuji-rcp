@@ -5,7 +5,7 @@
     h2 {
         @include mynerve();
         font-size: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.25rem;
 
         @media screen and (min-width:768px) {
             font-size: 2rem;
@@ -15,7 +15,7 @@
     h3 {
         @include mynerve();
         font-size: 1.25rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 1rem;
 
         @media screen and (min-width:768px) {
             font-size: 1.5rem;
@@ -25,16 +25,16 @@
     h4 {
         @include mynerve();
         font-size: 1rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 1rem;
 
         @media screen and (min-width:768px) {
-            font-size: 1.25rem;
+            font-size: 1.125rem;
         }
     }
 
     p {
         @include montserrat();
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.25;
         margin-bottom: 1rem;
     }
@@ -46,7 +46,7 @@
     ol,
     ul {
         @include montserrat();
-        font-size: 1.125rem;
+        font-size: 1rem;
         margin-left: 1.25rem;
         margin-bottom: 1rem;
         

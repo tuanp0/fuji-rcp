@@ -7,8 +7,8 @@
     position: relative;
     width: 100%;
     padding: 0 0 4rem 0;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
     z-index: 1;
 
     @media screen and (min-width:992px) {
@@ -20,12 +20,13 @@
     &Title {
         @include mynerve();
         color: var(--white);
-        font-size: 1.75rem;
+        font-size: 0;
         margin-bottom: 1.75rem;
         display: block;
         text-shadow: 0 4px 30px var(--black-50);
 
-        @media screen and (min-width:768px) {
+        @media screen and (min-width:992px) {
+            font-size: 1.75rem;
             color: var(--black);
             text-shadow: none;
         }
@@ -50,11 +51,11 @@
         justify-content: center;
         text-align: center;
         padding: 0.5rem 1rem;
-        background: var(--white-70);
+        background: var(--white-40);
         border-radius: 0.75rem;
         box-shadow: 0 4px 30px var(--black-20);
-        -webkit-backdrop-filter: blur(2px);
-        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
         border: 1px solid var(--white);
         transition: all 0.2s ease-in-out;
         cursor: pointer;

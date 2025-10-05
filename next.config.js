@@ -1,12 +1,29 @@
-/** @type {import('next').NextConfig} */
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_PRODUCTION_BUILD,
+} = require("next/constants");
+
+/** @type {(phase: string, defaultConfig: import("next").NextConfig) => Promise<import("next").NextConfig>} */
+
+module.exports = async (phase) => {
+  /** @type {import("next").NextConfig} */
+  const nextConfig = {
+    output: 'export',
+    basePath: "/fuji",
+    assetPrefix: "/fuji/",
+    images: {
+      unoptimized: true,
+    },
+  }
+
+  if (phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) {
+    const withSerwist = (await import("@serwist/next")).default({
+      swSrc: "app/app-worker.js",
+      swDest: "public/sw.js",
+      reloadOnOnline: true,
+    });
+    return withSerwist(nextConfig);
+  }
  
-const nextConfig = {
-  // output: 'export',
-  // basePath: "/fuji",
-  // assetPrefix: "/fuji/",
-  // images: {
-  //   unoptimized: true,
-  // },
-}
- 
-module.exports = nextConfig
+  return nextConfig;
+};

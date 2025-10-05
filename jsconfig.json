@@ -2,8 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
-      "@lib/*": ["data/*"],
+      "@data/*": ["./data/*"],
+      "@service-worker/*": ["./service-worker/*"],
       "@components/*": ["./components/*"]
     }
-  }
+  },
+  "lib": ["dom", "dom.iterable", "esnext", "webworker"],
 }

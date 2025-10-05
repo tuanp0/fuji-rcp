@@ -24,7 +24,7 @@
     }
 
     .subtitle {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .description {
@@ -57,28 +57,42 @@
         margin-top: 2rem;
 
 
-        &::before {
-            content: "\25be";
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            transform-origin: center;
-            background: var(--white-20);
-            border-radius: 1rem;
+        .more {
+            @include montserrat();
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0.5rem 2.5rem 0.5rem 1rem;
+            background: var(--white-40);
+            position: relative;
+            border-radius: 0.5rem;
             box-shadow: 0 4px 30px var(--black-20);
             backdrop-filter: blur(2px);
             -webkit-backdrop-filter: blur(2px);
             border: 1px solid var(--white);
             transition: all 0.4s ease-in-out;
             text-align: center;
+
+            &:hover {
+                background: var(--black-20);
+            }
+
+            &::before {
+                position: absolute;
+                content: '';
+                top: 50%;
+                right: 1rem;
+                border-right: 6px solid transparent;
+                border-top: 8px solid var(--black);
+                border-left: 6px solid transparent;
+                transform: translateY(-50%) rotate(0deg);
+                transform-origin: center;
+                transition: all 0.4s ease-in-out;
+            }
         }
 
         &.opened {
-            &::before {
-                transform: translate(-50%, -50%) rotate(180deg);
+            .more::before {
+                transform: translateY(-50%) rotate(-180deg);
             }
         }
     }

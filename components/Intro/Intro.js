@@ -6,7 +6,7 @@ import styles from './Intro.module.scss'
 const intro = () => {
   return (
     <div className={styles.intro}>
-        <div className={styles.introContent}>
+        {/* <div className={styles.introContent}>
           <div className={styles.introText}>
             <ul>
               <li>Contenu repris de fujiXweekly et filmsimulations</li>
@@ -14,7 +14,7 @@ const intro = () => {
               <li>Offline version - WIP ?</li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <HomeSlider />
     </div>
   )

@@ -28,7 +28,9 @@ const DropdownText = ({ title, subtitle, description }) => {
             <div
                 onClick={() => toggleOpen()}
                 className={`${styles.arrow}  ${open ? styles.opened : ''}`}
-            ></div>
+            >
+              <span className={styles.more}>{`${open ? 'Replier' : 'En savoir plus'}`}</span>
+            </div>
         </Container>
     </section>
   )

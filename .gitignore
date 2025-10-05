@@ -3,3 +3,5 @@
 .next/
 .*.env
 /out
+public/sw*
+public/swe-worker*
