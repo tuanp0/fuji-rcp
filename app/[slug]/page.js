@@ -1,6 +1,5 @@
 import recipes from '@/data/recipes'
 
-import { Title } from '@components/Title'
 import { RecipeContent } from '@components/RecipeContent'
 import { Text } from '@components/Text'
 
@@ -20,8 +19,7 @@ const RecipePage = async ({ params }) => {
 
   return (
     <main>
-      <Title title={recipe.title} />
-      <RecipeContent images={recipe.images} settings={recipe.settings}/>
+      <RecipeContent title={recipe.title} images={recipe.images} settings={recipe.settings}/>
       <Text text={recipe.description} />
     </main>
   )

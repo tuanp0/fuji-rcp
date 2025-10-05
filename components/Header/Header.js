@@ -13,7 +13,6 @@ const Header = () => {
     <header className={`${styles.header} ${isHome ? styles.homepage : ''}`}>
       <Container className={styles.container}>
         {isHome ? (
-          
             <h1 className={styles.headerTitle}>
               <Link href={`/`}>
                 fuji 
