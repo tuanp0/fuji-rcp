@@ -8,12 +8,12 @@ const {
 module.exports = async (phase) => {
   /** @type {import("next").NextConfig} */
   const nextConfig = {
-    output: 'export',
-    basePath: "/fuji",
-    assetPrefix: "/fuji/",
-    images: {
-      unoptimized: true,
-    },
+    // output: 'export',
+    // basePath: "/fuji",
+    // assetPrefix: "/fuji/",
+    // images: {
+    //   unoptimized: true,
+    // },
   }
 
   if (phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) {

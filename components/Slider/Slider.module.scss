@@ -3,10 +3,11 @@
 @use "../../styles/fonts" as *;
 
 .slider {
-    width: 100%;
+    width: calc(100% - 3rem);
     position: sticky;
     top: 2rem;
-    
+    margin: 0 auto; 
+
     @media screen and (min-width:992px) {
         width: calc(50% - 1.5rem);
     }
@@ -17,19 +18,48 @@
         object-fit: cover;
         object-position: center;
         display: block;
+        border-radius: 1rem;
+        overflow: hidden;
 
         @media screen and (min-width:768px) {
             border-radius: 1.25rem;
             overflow: hidden;
         }
     }
+
+    .swiperPrev,
+    .swiperNext {
+        display: none;
+
+        @media screen and (min-width:992px) {
+            display: flex;
+        }
+    }
 }
 
 .imgSwiper {
-    height: 80vh;
-    height: 80dvh;
+    height: 70vh;
+    height: 70dvh;
+    border-radius: 1rem;
+    overflow: hidden;
 
     @media screen and (min-width:992px) {
         height: 650px;
     }
+}
+
+.progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 6px;
+    background: var(--black-20);
+}
+
+.progressBar {
+    position: absolute;
+    height: 100%;
+    background: var(--white);
 }

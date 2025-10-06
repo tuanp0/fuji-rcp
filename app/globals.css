@@ -112,6 +112,10 @@ SWIPER
   fill: var(--white) !important;
 }
 
+.swiper .swiper-pagination.swiper-pagination-bullets {
+  bottom: 1.5rem;
+}
+
 .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
