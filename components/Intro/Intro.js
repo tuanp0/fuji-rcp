@@ -5,7 +5,7 @@ import styles from './Intro.module.scss'
 
 const intro = () => {
   return (
-    <div className={styles.intro}>
+    <section className={styles.intro}>
         {/* <div className={styles.introContent}>
           <div className={styles.introText}>
             <ul>
@@ -16,7 +16,7 @@ const intro = () => {
           </div>
         </div> */}
         <HomeSlider />
-    </div>
+    </section>
   )
 }
 

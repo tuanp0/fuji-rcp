@@ -22,7 +22,7 @@ const HomeSlider = () => {
   }
 
   return (
-    <section className={styles.homeslider}>
+    <div className={styles.homeslider}>
         <Swiper
             // effect={'coverflow'}
             grabCursor={true}
@@ -63,7 +63,7 @@ const HomeSlider = () => {
                 )
             })}
         </Swiper>
-    </section>
+    </div>
   )
 }
 

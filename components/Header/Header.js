@@ -1,6 +1,7 @@
 'use client'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import {Container} from '@components/Container'
 
 import styles from './Header.module.scss'
@@ -27,6 +28,16 @@ const Header = () => {
               </Link>
             </p>
         )}
+
+        <a href={'https://tuanphung.com/'} target={'_blank'} className={styles.headerSite} rel="noopener noreferrer">
+          <Image
+            src={'/tp-logo.png'}
+            width={192}
+            height={192}
+            alt={'Tuan Phung Logo'}
+            className={styles.headerSiteImg}
+          />
+        </a>
       </Container>
     </header>
   )

@@ -24,38 +24,38 @@ const Card = ({link, title, images}) => {
   return (
     <div className={styles.card}>
       <Link href={link} className={styles.cardLink}>
-      <Swiper
-        longSwipes={false}
-        effect={'cards'}
-        grabCursor={true}
-        observeParents={true}
-        observer={true}
-        speed={600}
-        threshold={10}
-        modules={[Autoplay, EffectCards]}
-        onSwiper={(swiper) => setSwiperInstance(swiper)}
-        className={`cardSwiper ${styles.cardSwiper}`}
-      >
-        {images.map((item, index) => {
-          return (
-            <SwiperSlide className={styles.cardSlide} key={index}>
-                <Image
-                  src={item.src}
-                  width={640}
-                  height={400}
-                  alt=""
-                  className={styles.cardImg}
-                  style={{ width: "100%", height: "100%" }}
-                />
-                <span className={styles.cardCount}>{index+1} / {images.length}</span>
-            </SwiperSlide>
-          )
-        })}
-      </Swiper>
+        <Swiper
+          longSwipes={false}
+          effect={'cards'}
+          grabCursor={true}
+          observeParents={true}
+          observer={true}
+          speed={600}
+          threshold={10}
+          modules={[Autoplay, EffectCards]}
+          onSwiper={(swiper) => setSwiperInstance(swiper)}
+          className={`cardSwiper ${styles.cardSwiper}`}
+        >
+          {images.map((item, index) => {
+            return (
+              <SwiperSlide className={styles.cardSlide} key={index}>
+                  <Image
+                    src={item.src}
+                    width={640}
+                    height={400}
+                    alt={title+'-'+index}
+                    className={styles.cardImg}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <span className={styles.cardCount}>{index+1} / {images.length}</span>
+              </SwiperSlide>
+            )
+          })}
+        </Swiper>
 
-          <p className={styles.cardName}>
-            {title}
-          </p>
+        <p className={styles.cardName}>
+          {title}
+        </p>
       </Link>
     </div>
   )

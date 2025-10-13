@@ -8,6 +8,7 @@
         position: absolute;
         width: 100%;
         z-index: 10;
+        margin-top: 1.5rem;
 
         .container {
             padding: 1rem 2.75rem;
@@ -17,6 +18,9 @@
     .container {
         padding: 2.5rem 2.75rem 1.5rem;
         // padding-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     &Title {
@@ -41,6 +45,30 @@
 
         @media screen and (min-width:768px) {
             font-size: 2rem;
+        }
+    }
+
+    &Site {
+        width: 50px;
+        height: 50px;
+        padding: 0.5rem;
+        display: inline-block;
+        border-radius: 100%;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background: var(--white-20);
+            border-radius: 100%;
+            box-shadow: 0 3px 10px var(--black-20);
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            border: 1px solid var(--white);
+        }
+
+        &Img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     }
 }
