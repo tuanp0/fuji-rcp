@@ -7,33 +7,45 @@
     padding: 0rem 1.5rem;
 
     @media screen and (min-width:768px) {
-        padding: 0.5rem 2rem;
+        padding: 0 2rem;
     }
 
     &Btn {
-        width: 32px;
+        width: auto;
         height: 32px;
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
         padding: 0.5rem 0.5rem 0.5rem 0;
+        margin: 0 0 0 auto;
         border: none;
         background: transparent;
         cursor: pointer;
 
         @media screen and (min-width:992px) {
             display: none;
+
+            &.reset {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &Text {
+            @include montserrat();
+            font-weight: 500;
+            font-size: 1rem;
+            display: inline-block;
         }
 
         &Icon {
-            width: 100%;
+            width: 28px;
             height: auto;
-            display: block;
+            display: inline-block;
         }
     }
 
     &Content {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
         height: 0;
         overflow: hidden;
         transition: height 0.2s ease-in-out;
@@ -43,8 +55,19 @@
         }
     }
 
+    &Global {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+
     &Item {
         width: calc(50% - 1rem);
+
+        @media screen and (min-width:768px) {
+            width: calc(33.33% - 1.34rem);
+        }
     }
 
     &Select {
@@ -54,9 +77,9 @@
         background: var(--white);
         border: 1px solid var(--black);
         border-radius: 10px;
-
-        option[value=''] {
-            color: red;
-        }
     }
+}
+
+.listcardReset {
+    width: 100%;
 }

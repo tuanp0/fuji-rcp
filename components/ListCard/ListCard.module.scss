@@ -29,3 +29,9 @@
         }
     }
 }
+
+.noResults {
+    @include montserrat();
+    text-align: center;
+    padding: 3rem 0;
+}

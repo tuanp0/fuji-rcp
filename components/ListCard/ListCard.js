@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect, useMemo } from 'react'
 import {Container} from '@components/Container'
 import {Filter} from '@components/Filter'
 import {Card} from '@components/Card'
@@ -9,10 +9,38 @@ import styles from './ListCard.module.scss'
 const ListCard = ({recipes}) => {
   const [orderFilter, setOrderFilter] = useState('')
   const [colorFilter, setColorFilter] = useState('')
+  const [styleFilter, setStyleFilter] = useState('')
+  const [showReset, setShowReset] = useState(false)
 
-  useEffect(() => {
-    console.log(orderFilter, colorFilter)
-  }, [orderFilter, colorFilter])
+  const filteredRecipes = useMemo(() => {
+    let result = [...recipes]
+
+    if(orderFilter === 'nalpha' || colorFilter !== '' || styleFilter !== '') {
+      setShowReset(true)
+    } else {
+      setShowReset(false)
+    }
+
+    if (colorFilter) {
+      result = result.filter(recipe => {
+        return recipe.tags && recipe.tags.includes(colorFilter)
+      })
+    }
+
+    if (styleFilter) {
+      result = result.filter(recipe => {
+        return recipe.tags && recipe.tags.includes(styleFilter)
+      })
+    }
+
+    if (orderFilter === 'alpha') {
+      result.sort((a, b) => a.title.localeCompare(b.title, 'fr'))
+    } else if (orderFilter === 'nalpha') {
+      result.sort((a, b) => b.title.localeCompare(a.title, 'fr'))
+    }
+
+    return result
+  }, [recipes, orderFilter, colorFilter, styleFilter])
 
   return (
     <section className={styles.listcard}>
@@ -23,13 +51,23 @@ const ListCard = ({recipes}) => {
           setOrderFilter={setOrderFilter}
           colorFilter={colorFilter}
           setColorFilter={setColorFilter}
+          styleFilter={styleFilter}
+          setStyleFilter={setStyleFilter}
+          filteredRecipes={filteredRecipes}
+          showReset={showReset}
         />
         
-        {recipes.map((recipe, index) => {
-          return (
-            <Card link={recipe.slug} title={recipe.title} images={recipe.images} recipe={recipe} key={index}/>
-          )
-        })}
+        {filteredRecipes.length > 0 ? (
+          filteredRecipes.map((recipe, index) => {
+            return (
+              <Card link={recipe.slug} title={recipe.title} images={recipe.images} recipe={recipe} key={index}/>
+            )
+          })
+        ) : (
+          <Container>
+            <p className={styles.noResults}>Aucune recipe trouvée avec ces filtres.</p>
+          </Container>
+        )}
       </Container>
     </section>
   )

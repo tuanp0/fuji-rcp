@@ -12,6 +12,12 @@
   --white-60: rgba(255, 255, 255, 0.6);
   --white-70: rgba(255, 255, 255, 0.7);
   --sand: rgb(235, 227, 214);
+
+  --padding: 1.5rem;
+
+  @media screen and (min-width:768px) {
+    --padding: 2rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

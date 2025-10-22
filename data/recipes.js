@@ -135,7 +135,7 @@ const recipes = [
     { /* CineStill 800T */
         slug: "cinestill-800t",
         title: "CineStill 800T",
-        tags: ['bleu', 'night'],
+        tags: ['blue', 'night'],
         description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
             utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
             par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 

@@ -8,7 +8,11 @@ const Filter = ({
     orderFilter,
     setOrderFilter,
     colorFilter,
-    setColorFilter
+    setColorFilter,
+    styleFilter,
+    setStyleFilter,
+    filteredRecipes,
+    showReset
 }) => {
     const [open, setOpen] = useState(false)
     const [height, setHeight] = useState(0);
@@ -19,12 +23,19 @@ const Filter = ({
         setOpen(!open);
     };
 
+    const resetFilters = () => {
+        setOrderFilter('alpha')
+        setColorFilter('')
+        setStyleFilter('')
+    }
+
     return (
         <div className={styles.filter}>
             <button
                 onClick={() => toggleOpen()}
                 className={styles.filterBtn}
             >
+                <span className={styles.filterBtnText}>Filtres</span>
                 <Image
                     src={'filter.svg'}
                     width={40}
@@ -38,34 +49,69 @@ const Filter = ({
                 style={{ height: height+'px' }}
                 ref={filterRef}
             >
-                <div className={styles.filterItem}>
-                    <select
-                        name="order"
-                        id="order-select"
-                        value={orderFilter}
-                        onChange={(e) => setOrderFilter(e.target.value)}
-                        className={styles.filterSelect}
-                    >
-                        <option value="" disabled>--Ordre--</option>
-                        <option value="alpha">A -&gt; Z</option>
-                        <option value="nalpha">Z -&gt; A</option>
-                    </select>
+                <div className={styles.filterGlobal}>
+                    <div className={styles.filterItem}>
+                        <select
+                            name="order"
+                            id="order-select"
+                            value={orderFilter}
+                            onChange={(e) => setOrderFilter(e.target.value)}
+                            className={styles.filterSelect}
+                        >
+                            <option value="alpha">De A à Z</option>
+                            <option value="nalpha">De Z à A</option>
+                        </select>
+                    </div>
+                    <div className={styles.filterItem}>
+                        <select
+                            name="color"
+                            id="color-select"
+                            value={colorFilter}
+                            onChange={(e) => setColorFilter(e.target.value)}
+                            className={styles.filterSelect}
+                        >
+                            <option value="">Tous</option>
+                            <option value="orange">Orange</option>
+                            <option value="blue">Bleu</option>
+                            <option value="green">Vert</option>
+                            <option value="night">Nuit</option>
+                            <option value="saturated">Saturé</option>
+                            <option value="soft">Doux</option>
+                            <option value="bw">Noir & Blanc</option>
+                        </select>
+                    </div>
+                    <div className={styles.filterItem}>
+                        <select
+                            name="style"
+                            id="style-select"
+                            value={styleFilter}
+                            onChange={(e) => setStyleFilter(e.target.value)}
+                            className={styles.filterSelect}
+                        >
+                            <option value="">Tous</option>
+                            <option value="saturated">Saturé</option>
+                            <option value="soft">Doux</option>
+                        </select>
+                    </div>
                 </div>
-                <div className={styles.filterItem}>
-                    <select
-                        name="color"
-                        id="color-select"
-                        value={colorFilter}
-                        onChange={(e) => setColorFilter(e.target.value)}
-                        className={styles.filterSelect}
-                    >
-                        <option value="" disabled>--Couleur--</option>
-                        <option value="orange">Orange</option>
-                        <option value="blue">Bleu</option>
-                        <option value="vert">Vert</option>
-                        <option value="bn">Noir & Blanc</option>
-                    </select>
-                </div>
+
+                {showReset &&
+                    <div className={styles.listcardReset}>
+                        <button
+                            onClick={() => resetFilters()}
+                            className={`${styles.filterBtn} ${styles.reset}`}
+                        >
+                            <span className={styles.filterBtnText}>Réinitialiser les filtres</span>
+                            <Image
+                                src={'cross.svg'}
+                                width={40}
+                                height={40}
+                                alt={'Filtre de recipe'}
+                                className={styles.filterBtnIcon}
+                            />
+                        </button>
+                    </div>
+                }
             </div>
         </div>
     )
