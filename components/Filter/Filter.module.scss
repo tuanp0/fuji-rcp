@@ -4,10 +4,9 @@
 
 .filter {
     width: 100%;
-    padding: 0rem 1.5rem;
 
     @media screen and (min-width:768px) {
-        padding: 0 2rem;
+        padding: 1rem 0 3rem 0;
     }
 
     &Btn {
@@ -58,8 +57,13 @@
     &Global {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
-        padding: 1rem 0;
+        column-gap: 2rem;
+        row-gap: 0.75rem;
+        padding: 0 0 1rem 0;
+
+        @media screen and (min-width:768px) {
+            padding: 1rem 0;
+        }
     }
 
     &Item {
@@ -68,6 +72,13 @@
         @media screen and (min-width:768px) {
             width: calc(33.33% - 1.34rem);
         }
+    }
+
+    &Label {
+        @include montserrat();
+        font-weight: 500;
+        padding: 0.5rem 0.25rem;
+        display: block;
     }
 
     &Select {

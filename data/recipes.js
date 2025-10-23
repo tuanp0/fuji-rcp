@@ -2,7 +2,7 @@ const recipes = [
     { /* 1960 Chrome */
         slug: "1960-chrome",
         title: "1960 Chrome",
-        tags: ['orange'],
+        tags: ['orange', 'eterna-bb'],
         description: `<p>La recette <strong>1960 Chrome</strong> s’inspire des esthétiques argentiques des années 60, 
             marquées par des contrastes doux, des couleurs légèrement désaturées et une texture granuleuse 
             qui évoque le charme du cinéma classique.</p>
@@ -62,7 +62,7 @@ const recipes = [
     { /* Cinematic Gold */
         slug: "cinamtic-gold",
         title: "Cinematic Gold",
-        tags: ['orange'],
+        tags: ['orange', 'classic-neg', 'daylight'],
         description: `<p>La recette <strong>Classic Negative Cinématique</strong> capture l’essence des rues et des paysages urbains 
             avec une esthétique inspirée du cinéma. Elle apporte une atmosphère feutrée et nostalgique, 
             idéale pour retranscrire l’énergie de la ville sans tomber dans des couleurs criardes.</p>
@@ -135,7 +135,7 @@ const recipes = [
     { /* CineStill 800T */
         slug: "cinestill-800t",
         title: "CineStill 800T",
-        tags: ['blue', 'night'],
+        tags: ['blue', 'night', 'tungsten', 'eterna'],
         description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
             utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
             par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 
@@ -195,7 +195,7 @@ const recipes = [
     { /* Fujicolor C200 */
         slug: "fujicolor-c200",
         title: "Fujicolor C200",
-        tags: ['blue'],
+        tags: ['blue', 'classic-neg'],
         description: `<p>La recette Fujicolor se distingue par un rendu équilibré et naturel, 
             avec des couleurs légèrement froides mais lumineuses, qui donnent une impression de clarté 
             et de précision. Les verts sont frais et détaillés, les bleus profonds et subtils, 
@@ -246,7 +246,7 @@ const recipes = [
     { /* Fujicolor Natura 1600 */
         slug: "fuji-natura-1600",
         title: "Fujicolor Natura 1600",
-        tags: ['blue'],
+        tags: ['blue', 'classic-neg', 'soft'],
         description: `<p>La recette <strong>Fujicolor Natura 1600</strong> s’inspire de la célèbre pellicule haute sensibilité, 
             conçue pour capturer les scènes en faible luminosité tout en conservant un rendu naturel et détaillé.</p>
             <p>Les tons sont <strong>profonds et nuancés</strong> : les hautes lumières sont légèrement tempérées, 
@@ -292,7 +292,7 @@ const recipes = [
     { /* Fujifilm Supéria X-Tra 400 */
         slug: "fuji-superia-xtra-400",
         title: "Fujifilm Superia X-Tra 400",
-        tags: ['blue'],
+        tags: ['blue', 'classic-neg'],
         description: `<p>La recette Fujifilm Superia X-TRA 400 restitue l’esprit des pellicules couleurs 
             des années 2000, avec des tons vifs, contrastés et un rendu globalement dynamique. 
             Les couleurs ressortent plus franches : les rouges et les verts gagnent en intensité, 
@@ -341,7 +341,7 @@ const recipes = [
     { /* Gentle Specimen */
         slug: "gentle-specimen",
         title: "Gentle Specimen",
-        tags: ['blue', 'soft'],
+        tags: ['blue', 'soft', 'classic-neg'],
         description: `<p>La recette <strong>Gentle Specimen</strong> se distingue par un rendu doux et apaisant, 
             pensé pour restituer une atmosphère délicate et équilibrée. Inspirée de l’esthétique argentique, 
             elle met en avant des <strong>tons naturels et feutrés</strong>, où les couleurs restent sobres mais nuancées.</p>
@@ -396,7 +396,7 @@ const recipes = [
     { /* Ilford FP4 Plus 125 */
         slug: "ilford-fp4-plus-125",
         title: "Ilford FP4 Plus 125",
-        tags: ['bw'],
+        tags: ['bw', 'monochrome'],
         description: `<p>La recette <strong>Ilford FP4 Plus 125</strong> simule le rendu classique du film noir et blanc argentique, 
             reconnu pour son grain subtil et sa large gamme de tons moyens, offrant un contraste doux et élégant.</p>
             <p>Les tons sont <strong>équilibrés et naturels</strong> : les hautes lumières sont légèrement tempérées, 
@@ -450,7 +450,7 @@ const recipes = [
     { /* Kodachrome 64 */
         slug: "kodachrome-64",
         title: "Kodachrome 64",
-        tags: ['orange'],
+        tags: ['orange', 'classic-chrome', 'daylight'],
         description: `<p>La recette <strong>Classic Chrome</strong> est reconnue pour son rendu discret et documentaire, 
             inspiré des pellicules utilisées en photo-reportage. Elle réduit la saturation des couleurs 
             pour offrir une palette plus sobre et naturelle, parfaite pour retranscrire l’authenticité des scènes.</p>
@@ -507,7 +507,7 @@ const recipes = [
     { /* Kodak Gold 200 */
         slug: "kodakgold-200",
         title: "Kodak Gold 200",
-        tags: ['orange'],
+        tags: ['orange', 'daylight', , 'classic-chrome'],
         description: `<p>La recette <strong>Kodak Gold 200</strong> offre des tons chaleureux et nostalgiques, 
             comme lorsqu’on feuillette de vieux albums photo des années 80 et 90.</p>
             <p>Les couleurs tirent vers une chaleur dorée, avec des jaunes riches, des rouges doux et 
@@ -559,7 +559,7 @@ const recipes = [
     { /* Kodak Portra 400 */
         slug: "kodakportra-400",
         title: "Kodak Portra 400",
-        tags: ['orange'],
+        tags: ['orange', 'classic-chrome'],
         description: `<p>Cette recette <strong>Classic Chrome</strong> met en avant une esthétique douce et cinématographique, 
             idéale pour retranscrire les ambiances urbaines et les scènes de voyage. 
             Avec sa palette subtile et légèrement désaturée, elle privilégie la fidélité et l’élégance 
@@ -619,7 +619,7 @@ const recipes = [
     { /* Kodak T-Max P3200 */
         slug: "kodak-tmax-p3200",
         title: "Kodak T-Max P3200",
-        tags: ['bw'],
+        tags: ['bw', 'acros'],
         description: `<p>La recette <strong>Kodak T-Max P3200</strong> reproduit l’esthétique de la mythique pellicule noir et blanc très haute sensibilité, 
             connue pour son grain marqué et son rendu puissant en faible luminosité.</p>
             <p>Les tons sont <strong>contrastés et intenses</strong> : les ombres sont profondes, les hautes lumières légèrement relevées, 
@@ -671,7 +671,7 @@ const recipes = [
     { /* Kodak Ultramax 400 */
         slug: "kodak-ultramax-400",
         title: "Kodak Ultramax 400",
-        tags: ['orange', 'saturated'],
+        tags: ['orange', 'saturated', 'classic-chrome'],
         description: `<p>La recette Kodak Ultramax 400 offre un rendu lumineux, chaud et 
             légèrement saturé, avec des couleurs vives mais douces à la fois. Les rouges 
             et les jaunes ressortent avec chaleur et convivialité, les verts restent naturels 
@@ -730,7 +730,7 @@ const recipes = [
     { /* Kodak Vision3 250D */
         slug: "kodak-vision3-250D",
         title: "Kodak Vision3 250D",
-        tags: ['orange'],
+        tags: ['orange', 'nostalgic-negative'],
         description: `<p>La recette <strong>Kodak Vision3 250D</strong> s’inspire du célèbre film cinéma couleur à lumière du jour, 
             reconnu pour sa vivacité, sa clarté et sa richesse en détails.</p>
             <p>Les tons sont <strong>vifs et équilibrés</strong> : les hautes lumières sont rehaussées pour donner de la brillance, 
@@ -746,41 +746,47 @@ const recipes = [
                 src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-1.webp"
             },
             {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-2.webp"
             },
             {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-3.webp"
             },
             {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-4.webp"
             },
             {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-5.webp"
+            },
+            {
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-6.webp"
+            },
+            {
+                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-7.webp"
             },
         ],
         settings: [
             {
-                "Film simulation": "Classic Chrome", 
-                "Balance des blancs": "Auto<br/>R: +1 / B: -5", 
-                "Couleur Chrome": "Faible", 
+                "Film simulation": "Nostalgic Negative", 
+                "Balance des blancs": "Fluorescent 1<br/>R: +5 / B: 0", 
+                "Couleur Chrome": "Fort", 
                 "Couleur Chrome FX Bleue": "Off", 
-                "Effet de Grain": "Fort<br/>Grand", 
-                "Plage dynamique": "DR-Auto", 
-                "Hautes lumières": "+1", 
-                "Ombres": "+1", 
-                "Couleur": "+4", 
-                "Detail": "0", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR200", 
+                "Hautes lumières": "+4", 
+                "Ombres": "+3", 
+                "Couleur": "-1", 
+                "Detail": "-2", 
                 "RB ISO Elevée": "-4", 
-                "Netteté": "+3", 
+                "Netteté": "-2", 
                 "ISO": "Auto<br/>jusqu'à ISO 6400", 
-                "Compensation Exp.": "+1/3 à +1",
+                "Compensation Exp.": "0 à +2/3",
             },
         ],
     },
     { /* Monochrome Kodachrome */
         slug: "monochrome-kodachrome",
         title: "Monochrome Kodachrome",
-        tags: ['bw'],
+        tags: ['bw', 'acros'],
         description: `<p>La recette <strong>Monochrome Kodakchrome (Acros+R)</strong> s’inspire des films noir et blanc classiques avec un rendu granuleux et contrasté, 
             offrant un style dramatique et intemporel aux images.</p>
             <p>Les tons sont <strong>profonds et contrastés</strong> : les hautes lumières sont accentuées pour plus de brillance, 
@@ -831,7 +837,7 @@ const recipes = [
     { /* Timeless Negative */
         slug: "timeless-negative",
         title: "Timeless Negative",
-        tags: ['orange'],
+        tags: ['orange', 'eterna'],
         description: `<p>La recette <strong>Timeless Negative</strong> s’inspire du rendu doux et cinématographique du film négatif classique, 
             capturant les nuances avec subtilité et élégance, tout en conservant une palette de couleurs réaliste.</p>
             <p>Les tons sont <strong>chauds et équilibrés</strong> : les hautes lumières sont légèrement accentuées, 
@@ -888,7 +894,7 @@ const recipes = [
     { /* Xpro '62 */
         slug: "xpro-62",
         title: "Xpro '62",
-        tags: ['green'],
+        tags: ['green', 'classic-neg'],
         description: `<p>La recette <strong>XPro "62"</strong> s’inspire des films négatifs expérimentaux pour un rendu riche, vibrant et cinématographique, 
             offrant des couleurs intenses et un contraste marqué tout en conservant une texture organique.</p>
             <p>Les tons sont <strong>dynamiques et saturés</strong> : les hautes lumières sont accentuées pour donner de la luminosité, 

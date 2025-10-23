@@ -58,15 +58,15 @@ const ListCard = ({recipes}) => {
         />
         
         {filteredRecipes.length > 0 ? (
-          filteredRecipes.map((recipe, index) => {
-            return (
-              <Card link={recipe.slug} title={recipe.title} images={recipe.images} recipe={recipe} key={index}/>
-            )
-          })
+          <div className={styles.listcardGlobal}>
+            {filteredRecipes.map((recipe, index) => {
+              return (
+                <Card link={recipe.slug} title={recipe.title} images={recipe.images} recipe={recipe} key={index}/>
+              )
+            })}
+          </div>
         ) : (
-          <Container>
-            <p className={styles.noResults}>Aucune recipe trouvée avec ces filtres.</p>
-          </Container>
+          <p className={styles.noResults}>Aucune recipe trouvée avec ces filtres.</p>
         )}
       </Container>
     </section>

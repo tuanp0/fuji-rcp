@@ -51,6 +51,7 @@ const Filter = ({
             >
                 <div className={styles.filterGlobal}>
                     <div className={styles.filterItem}>
+                        <label className={styles.filterLabel} htmlFor="order-select">Ordre</label>
                         <select
                             name="order"
                             id="order-select"
@@ -63,6 +64,7 @@ const Filter = ({
                         </select>
                     </div>
                     <div className={styles.filterItem}>
+                        <label className={styles.filterLabel} htmlFor="color-select">Couleur</label>
                         <select
                             name="color"
                             id="color-select"
@@ -75,12 +77,11 @@ const Filter = ({
                             <option value="blue">Bleu</option>
                             <option value="green">Vert</option>
                             <option value="night">Nuit</option>
-                            <option value="saturated">Saturé</option>
-                            <option value="soft">Doux</option>
                             <option value="bw">Noir & Blanc</option>
                         </select>
                     </div>
                     <div className={styles.filterItem}>
+                        <label className={styles.filterLabel} htmlFor="color-select">Style</label>
                         <select
                             name="style"
                             id="style-select"
@@ -89,8 +90,27 @@ const Filter = ({
                             className={styles.filterSelect}
                         >
                             <option value="">Tous</option>
-                            <option value="saturated">Saturé</option>
                             <option value="soft">Doux</option>
+                            <option value="saturated">Saturé</option>
+                        </select>
+                    </div>
+                    <div className={styles.filterItem}>
+                        <label className={styles.filterLabel} htmlFor="simulation-select">Simulation</label>
+                        <select
+                            name="style"
+                            id="simulation-select"
+                            value={styleFilter}
+                            onChange={(e) => setStyleFilter(e.target.value)}
+                            className={styles.filterSelect}
+                        >
+                            <option value="">Tous</option>
+                            <option value="acros">Acros</option>
+                            <option value="classic-chrome">Classic Chrome</option>
+                            <option value="classic-neg">Classic Negative</option>
+                            <option value="eterna">Eterna</option>
+                            <option value="eterna-bb">Eterna Bleach Bypass</option>
+                            <option value="monochrome">Monochrome</option>
+                            <option value="nostalgic-negative">Nostalgic Negative</option>
                         </select>
                     </div>
                 </div>
