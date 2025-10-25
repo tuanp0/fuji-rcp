@@ -1,66 +1,66 @@
 const recipes = [
-    { /* 1960 Chrome */
-        slug: "1960-chrome",
-        title: "1960 Chrome",
-        tags: ['orange', 'eterna-bb'],
-        description: `<p>La recette <strong>1960 Chrome</strong> s’inspire des esthétiques argentiques des années 60, 
-            marquées par des contrastes doux, des couleurs légèrement désaturées et une texture granuleuse 
-            qui évoque le charme du cinéma classique.</p>
-            <p>Les tons sont <strong>froids et nuancés</strong> : les bleus et cyans dominent la palette, 
-            tandis que les rouges et jaunes restent subtils mais expressifs. 
-            Les hautes lumières adoucies et les ombres légères offrent un équilibre feutré, 
-            renforcé par l’effet <em>Bleach Bypass</em> qui accentue la profondeur et ajoute 
-            un caractère dramatique aux images.<br/>
-            Le grain fort et de grande taille contribue à une sensation organique, 
-            proche de la pellicule argentique de l’époque.</p>
-            <p>Cette recette excelle dans les environnements urbains, les portraits artistiques 
-            ou les scènes de rue capturées sous éclairage artificiel ou fluorescent. 
-            Elle donne aux photographies une allure rétro, tout en conservant un rendu cinématographique moderne.</p>
-            <p>Sur le plan émotionnel, le <em>1960 Chrome</em> évoque la nostalgie, 
-            l’élégance discrète et la puissance des images argentiques. 
-            C’est une recette qui transforme chaque scène en une réminiscence intemporelle, 
-            à mi-chemin entre mémoire visuelle et esthétique ciné-classique.</p>`,
-        images: [
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-1.webp"
-            },
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-2.webp"
-            },
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-3.webp"
-            },
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-4.webp"
-            },
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-5.webp"
-            },
-            {
-                src: "/fuji/recipes/1960-chrome/1960-chrome-6.webp"
-            },
-        ],
-        settings: [
-            {
-                "Film simulation": "Eterna Bleach Bypass",
-                "Balance des blancs": "Fluorescent 1<br/>R: -2 / B: -4",
-                "Couleur Chrome": "Fort",
-                "Couleur Chrome FX Bleue": "Off (X-Trans V)<br/>Faible (X-Trans IV)",
-                "Effet de Grain": "Fort<br/>Gros",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "-2",
-                "Ombres": "-1",
-                "Couleur": "+2",
-                "Detail": "-2",
-                "RB ISO Elevée": "-4",
-                "Netteté": "-1",
-                "ISO": "Auto<br/>jusqu'à ISO 6400",
-                "Compensation Exp.": "+1/3<br/>jusqu'à +1",
-            },
-        ]
-    },
+    // { /* 1960 Chrome */
+    //     slug: "1960-chrome",
+    //     title: "1960 Chrome",
+    //     tags: ['orange', 'eterna-bb'],
+    //     description: `<p>La recette <strong>1960 Chrome</strong> s’inspire des esthétiques argentiques des années 60, 
+    //         marquées par des contrastes doux, des couleurs légèrement désaturées et une texture granuleuse 
+    //         qui évoque le charme du cinéma classique.</p>
+    //         <p>Les tons sont <strong>froids et nuancés</strong> : les bleus et cyans dominent la palette, 
+    //         tandis que les rouges et jaunes restent subtils mais expressifs. 
+    //         Les hautes lumières adoucies et les ombres légères offrent un équilibre feutré, 
+    //         renforcé par l’effet <em>Bleach Bypass</em> qui accentue la profondeur et ajoute 
+    //         un caractère dramatique aux images.<br/>
+    //         Le grain fort et de grande taille contribue à une sensation organique, 
+    //         proche de la pellicule argentique de l’époque.</p>
+    //         <p>Cette recette excelle dans les environnements urbains, les portraits artistiques 
+    //         ou les scènes de rue capturées sous éclairage artificiel ou fluorescent. 
+    //         Elle donne aux photographies une allure rétro, tout en conservant un rendu cinématographique moderne.</p>
+    //         <p>Sur le plan émotionnel, le <em>1960 Chrome</em> évoque la nostalgie, 
+    //         l’élégance discrète et la puissance des images argentiques. 
+    //         C’est une recette qui transforme chaque scène en une réminiscence intemporelle, 
+    //         à mi-chemin entre mémoire visuelle et esthétique ciné-classique.</p>`,
+    //     images: [
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-1.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-2.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-3.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-4.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-5.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/1960-chrome/1960-chrome-6.webp"
+    //         },
+    //     ],
+    //     settings: [
+    //         {
+    //             "Film simulation": "Eterna Bleach Bypass",
+    //             "Balance des blancs": "Fluorescent 1<br/>R: -2 / B: -4",
+    //             "Couleur Chrome": "Fort",
+    //             "Couleur Chrome FX Bleue": "Off (X-Trans V)<br/>Faible (X-Trans IV)",
+    //             "Effet de Grain": "Fort<br/>Gros",
+    //             "Plage dynamique": "DR400",
+    //             "Hautes lumières": "-2",
+    //             "Ombres": "-1",
+    //             "Couleur": "+2",
+    //             "Detail": "-2",
+    //             "RB ISO Elevée": "-4",
+    //             "Netteté": "-1",
+    //             "ISO": "Auto<br/>jusqu'à ISO 6400",
+    //             "Compensation Exp.": "+1/3<br/>jusqu'à +1",
+    //         },
+    //     ]
+    // },
     { /* Cinematic Gold */
-        slug: "cinamtic-gold",
+        slug: "cinematic-gold",
         title: "Cinematic Gold",
         tags: ['orange', 'classic-neg', 'daylight'],
         description: `<p>La recette <strong>Classic Negative Cinématique</strong> capture l’essence des rues et des paysages urbains 
@@ -80,37 +80,19 @@ const recipes = [
             comme figé dans un souvenir cinématographique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-1.webp"
+                src: "/fuji/recipes/cinematic-gold/4-cinematic-gold.jpg"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-2.webp"
+                src: "/fuji/recipes/cinematic-gold/5-cinematic-gold.jpg"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-3.webp"
+                src: "/fuji/recipes/cinematic-gold/6-cinematic-gold.jpg"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-4.webp"
+                src: "/fuji/recipes/cinematic-gold/7-cinematic-gold.jpg"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-5.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-6.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-7.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-8.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-9.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-10.webp"
-            },
-            {
-                src: "/fuji/recipes/cinematic-gold/cinematic-gold-11.webp"
+                src: "/fuji/recipes/cinematic-gold/3-cinematic-gold.jpg"
             },
         ],
         settings: [
@@ -132,63 +114,104 @@ const recipes = [
             },
         ]
     },
-    { /* CineStill 800T */
-        slug: "cinestill-800t",
-        title: "CineStill 800T",
-        tags: ['blue', 'night', 'tungsten', 'eterna'],
-        description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
-            utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
-            par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 
-            et cinématographique.</p>
-            <p>Les couleurs prennent une <strong>dominante froide et contrastée</strong> : 
-            les bleus et cyans sont renforcés, les rouges et oranges deviennent intenses, 
-            tandis que les verts adoptent des nuances électriques. Cette palette crée un effet 
-            typiquement nocturne, parfait pour sublimer les scènes de ville après le coucher du soleil.<br/>
-            Les ombres sont profondes et denses, accentuées par des hautes lumières 
-            contrôlées qui évitent les surexpositions.</p>
-            <p>Cette recette excelle dans la photographie de rue nocturne, les paysages urbains 
-            éclairés artificiellement et les atmosphères cinématographiques inspirées des films des années 80 et 90. 
-            Elle reproduit fidèlement l’esthétique <em>néon-noir</em>, avec un contraste fort entre la lumière artificielle 
-            et l’obscurité environnante.</p>
-            <p>Sur le plan émotionnel, le <em>CineStill 800T</em> évoque le mystère, la solitude et la poésie 
-            des nuits en ville. C’est un rendu qui transforme l’ordinaire en décor de film, 
-            donnant à chaque photo un caractère dramatique et intemporel.</p>`,
+    // { /* CineStill 800T */
+    //     slug: "cinestill-800t",
+    //     title: "CineStill 800T",
+    //     tags: ['blue', 'night', 'tungsten', 'eterna'],
+    //     description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
+    //         utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
+    //         par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 
+    //         et cinématographique.</p>
+    //         <p>Les couleurs prennent une <strong>dominante froide et contrastée</strong> : 
+    //         les bleus et cyans sont renforcés, les rouges et oranges deviennent intenses, 
+    //         tandis que les verts adoptent des nuances électriques. Cette palette crée un effet 
+    //         typiquement nocturne, parfait pour sublimer les scènes de ville après le coucher du soleil.<br/>
+    //         Les ombres sont profondes et denses, accentuées par des hautes lumières 
+    //         contrôlées qui évitent les surexpositions.</p>
+    //         <p>Cette recette excelle dans la photographie de rue nocturne, les paysages urbains 
+    //         éclairés artificiellement et les atmosphères cinématographiques inspirées des films des années 80 et 90. 
+    //         Elle reproduit fidèlement l’esthétique <em>néon-noir</em>, avec un contraste fort entre la lumière artificielle 
+    //         et l’obscurité environnante.</p>
+    //         <p>Sur le plan émotionnel, le <em>CineStill 800T</em> évoque le mystère, la solitude et la poésie 
+    //         des nuits en ville. C’est un rendu qui transforme l’ordinaire en décor de film, 
+    //         donnant à chaque photo un caractère dramatique et intemporel.</p>`,
+    //     images: [
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-1.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-2.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-3.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-4.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-5.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-6.webp"
+    //         },
+    //     ],
+    //     settings: [
+    //         {
+    //             "Film simulation": "Eterna",
+    //             "Balance des blancs": "Fluorescent 3<br/>R: -6 / B: -4",
+    //             "Couleur Chrome": "Fort",
+    //             "Couleur Chrome FX Bleue": "Faible",
+    //             "Effet de Grain": "Fort<br/>Gros",
+    //             "Plage dynamique": "DR400",
+    //             "Hautes lumières": "0",
+    //             "Ombres": "+2",
+    //             "Couleur": "+4",
+    //             "Detail": "-5",
+    //             "RB ISO Elevée": "-4",
+    //             "Netteté": "-3",
+    //             "ISO": "Auto<br/>jusqu'à ISO 6400",
+    //             "Compensation Exp.": "-1/3 à +2/3",
+    //         },
+    //     ]
+    // },
+    { /* Cinematic Gold */
+        slug: "coffee",
+        title: "Coffee",
+        tags: ['blue', 'classic-neg', 'soft'],
+        description: `<p>La recette <strong>Coffee</strong> évoque la chaleur douce et feutrée d’une lumière de fin d’après-midi, 
+            comme un moment suspendu autour d’une tasse de café. Inspirée du rendu <em>Classic Negative</em>, 
+            elle se caractérise par des tons bruns profonds, des ombres adoucies et une colorimétrie subtilement désaturée. 
+            Les bleus se teintent de gris, les verts deviennent feutrés, tandis que les rouges et les jaunes 
+            conservent une richesse enveloppante qui apporte une sensation de confort et d’intimité.</p>
+            <p>Grâce à sa faible saturation et à son contraste modéré, <em>Coffee</em> crée une ambiance douce, 
+            presque analogique, idéale pour la photographie de rue tranquille, les scènes d’intérieur ou les portraits 
+            baignés d’une lumière diffuse. Le grain léger et la texture atténuée participent à ce rendu organique 
+            et nostalgique, rappelant les images sur film couleur légèrement fanées par le temps.</p>
+            <p>Sur le plan émotionnel, la recette <em>Coffee</em> respire la quiétude, la lenteur et la contemplation. 
+            Elle transforme les instants ordinaires en souvenirs feutrés, empreints d’une tonalité chaude et apaisante. 
+            C’est une recette parfaite pour qui cherche à retranscrire l’émotion du quotidien avec une élégance simple 
+            et une touche de mélancolie lumineuse.</p>`,
         images: [
             {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-1.webp"
-            },
-            {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-2.webp"
-            },
-            {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-3.webp"
-            },
-            {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-4.webp"
-            },
-            {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-5.webp"
-            },
-            {
-                src: "/fuji/recipes/cinestill-800t/cinestill800t-6.webp"
+                src: "/fuji/recipes/coffee/7-coffee.jpg"
             },
         ],
         settings: [
             {
-                "Film simulation": "Eterna",
-                "Balance des blancs": "Fluorescent 3<br/>R: -6 / B: -4",
-                "Couleur Chrome": "Fort",
+                "Film simulation": "Classic Negative",
+                "Balance des blancs": "5500K<br/>R: -1 / B: 0",
+                "Couleur Chrome": "Faible",
                 "Couleur Chrome FX Bleue": "Faible",
-                "Effet de Grain": "Fort<br/>Gros",
-                "Plage dynamique": "DR400",
-                "Hautes lumières": "0",
-                "Ombres": "+2",
+                "Effet de Grain": "Faible<br/>Petit",
+                "Plage dynamique": "DR100",
+                "Hautes lumières": "-1.5",
+                "Ombres": "-2",
                 "Couleur": "+4",
-                "Detail": "-5",
+                "Detail": "-1",
                 "RB ISO Elevée": "-4",
-                "Netteté": "-3",
-                "ISO": "Auto<br/>jusqu'à ISO 6400",
-                "Compensation Exp.": "-1/3 à +2/3",
+                "Netteté": "-2",
+                "ISO": "640<br/>jusqu'à 1600",
+                "Compensation Exp.": "0",
             },
         ]
     },
@@ -212,16 +235,19 @@ const recipes = [
             comme si chaque photo était une représentation fidèle mais chaleureuse du moment.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-1.webp"
+                src: "/fuji/recipes/fujicolor-c200/5-fujicolor-c200.jpg"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-2.webp"
+                src: "/fuji/recipes/fujicolor-c200/4-fujicolor-c200.jpg"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-3.webp"
+                src: "/fuji/recipes/fujicolor-c200/7-fujicolor-c200.jpg"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/fujicolor-c200-4.webp"
+                src: "/fuji/recipes/fujicolor-c200/1-fujicolor-c200.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-c200/2-fujicolor-c200.jpg"
             },
         ],
         settings: [
@@ -258,16 +284,7 @@ const recipes = [
             Elle permet de capturer la scène telle qu’on la perçoit, avec un rendu chaud et vivant, fidèle à l’esprit des pellicules haute sensibilité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-1.webp"
-            },
-            {
-                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-2.webp"
-            },
-            {
-                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-3.webp"
-            },
-            {
-                src: "/fuji/recipes/fujicolor-natura-1600/fujicolor-natura-1600-4.webp"
+                src: "/fuji/recipes/fujicolor-natura-1600/7-fujicolor-natura-1600.jpg"
             },
         ],
         settings: [
@@ -288,6 +305,50 @@ const recipes = [
                 "Compensation Exp.": "+1/3 à +1",
             },
         ]
+    },
+    {  /* Fujicolor Pro 400H */
+        slug: "fujicolor-pro-400h",
+        title: "Fujicolor Pro 400H",
+        tags: ['blue', 'classic-neg', 'portrait'],
+        description: `<p>La recette Fujicolor Pro 400H capture l’esthétique douce et nuancée des pellicules professionnelles 
+            Fujifilm utilisées en portrait et en mode au début des années 2000. Son rendu se distingue par des tons pastel, 
+            une balance des couleurs légèrement froide et une reproduction des peaux d’une grande finesse. 
+            Les bleus et les verts adoptent une teinte délicatement cyan, tandis que les rouges et les jaunes 
+            restent discrets, créant une harmonie subtile et apaisée.</p>
+            <p>Grâce à sa latitude d’exposition généreuse, le Pro 400H excelle dans les environnements lumineux, 
+            les portraits en lumière naturelle et les scènes extérieures diffuses. Il conserve un excellent équilibre 
+            entre contraste modéré et richesse tonale, donnant aux images une sensation d’air et de douceur. 
+            Le grain, fin et régulier, participe à ce rendu feutré et raffiné.</p>
+            <p>Sur le plan émotionnel, cette recette évoque la sérénité, la nostalgie et la délicatesse. 
+            C’est une palette idéale pour capturer la lumière du matin, les visages baignés de clarté ou 
+            les ambiances calmes et poétiques. Fujicolor Pro 400H traduit le monde avec retenue et élégance, 
+            comme une photographie sur pellicule pastel où chaque ton respire la douceur et la subtilité.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/fujicolor-pro-400h/6-fujicolor-pro-400h.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-pro-400h/7-fujicolor-pro-400h.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative", 
+                "Balance des blancs": "4900K<br/>R: 0 / B: -4", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Off (V)<br/>Faible (IV)", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "-2", 
+                "Ombres": "+4", 
+                "Couleur": "+4", 
+                "Detail": "-2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-4", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "+1 à +1 2/3",
+            },
+        ],
     },
     { /* Fujifilm Supéria X-Tra 400 */
         slug: "fuji-superia-xtra-400",
@@ -310,13 +371,19 @@ const recipes = [
             comme un carnet visuel rempli de fragments colorés et vibrants de la vie.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-1.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/3-fujifilm-superia-xtra-400.jpg"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-2.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/4-fujifilm-superia-xtra-400.jpg"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/fujifilm-superia-xtra-400-3.webp"
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/5-fujifilm-superia-xtra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/6-fujifilm-superia-xtra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/7-fujifilm-superia-xtra-400.jpg"
             },
         ],
         settings: [
@@ -359,19 +426,7 @@ const recipes = [
             idéale pour des récits visuels empreints de délicatesse.</p>`,
         images: [
             {
-                src: "/fuji/recipes/gentle-specimen/gentle-specimen-1.webp"
-            },
-            {
-                src: "/fuji/recipes/gentle-specimen/gentle-specimen-2.webp"
-            },
-            {
-                src: "/fuji/recipes/gentle-specimen/gentle-specimen-3.webp"
-            },
-            {
-                src: "/fuji/recipes/gentle-specimen/gentle-specimen-4.webp"
-            },
-            {
-                src: "/fuji/recipes/gentle-specimen/gentle-specimen-5.webp"
+                src: "/fuji/recipes/gentle-specimen/7-gentle-specimen.jpg"
             },
         ],
         settings: [
@@ -410,22 +465,13 @@ const recipes = [
             et durable, fidèle à l’esprit du film noir et blanc traditionnel.</p>`,
         images: [
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-1.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/3-ilfordfp4plus-125.jpg"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-2.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/6-ilfordfp4plus-125.jpg"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-3.webp"
-            },
-            {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-4.webp"
-            },
-            {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-5.webp"
-            },
-            {
-                src: "/fuji/recipes/ilfordfp4plus-125/ilfordfp4plus125-6.webp"
+                src: "/fuji/recipes/ilfordfp4plus-125/7-ilfordfp4plus-125.jpg"
             },
         ],
         settings: [
@@ -467,22 +513,13 @@ const recipes = [
             et journalistique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-1.webp"
+                src: "/fuji/recipes/kodachrome-64/1-kodachrome64.jpg"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-2.webp"
+                src: "/fuji/recipes/kodachrome-64/5-kodachrome64.jpg"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-3.webp"
-            },
-            {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-4.webp"
-            },
-            {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-5.webp"
-            },
-            {
-                src: "/fuji/recipes/kodachrome-64/kodachrome-6.webp"
+                src: "/fuji/recipes/kodachrome-64/7-kodachrome64.jpg"
             },
         ],
         settings: [
@@ -504,10 +541,108 @@ const recipes = [
             },
         ]
     },
+    { /* Kodak ColorPlus 200 */
+        slug: "kodakcolorplus-200",
+        title: "Kodak ColorPlus 200",
+        tags: ['green', 'pro-neg-hi'],
+        description: `<p>La recette <strong>Kodak ColorPlus 200</strong> retranscrit fidèlement le charme intemporel 
+            de la pellicule couleur emblématique de Kodak. Connue pour ses tons chauds et sa douceur 
+            légèrement nostalgique, elle offre un rendu équilibré où les jaunes et les rouges 
+            dominent avec subtilité, tandis que les verts restent naturels et légèrement adoucis. 
+            Les bleus, un peu atténués, apportent une touche rétro typique du film analogique 
+            des années 90 et 2000.</p>
+            <p>Basée sur la simulation <em>Pro Negative High</em>, cette recette privilégie les contrastes doux 
+            et une belle latitude d’exposition, idéale pour les scènes de lumière naturelle, 
+            les portraits ou les paysages baignés de soleil. Le grain fort mais fin accentue 
+            la texture organique du rendu, tout en conservant une grande lisibilité des détails. 
+            Les images respirent la simplicité et la chaleur du film couleur traditionnel.</p>
+            <p>Sur le plan émotionnel, <em>Kodak ColorPlus 200</em> évoque la nostalgie du quotidien, 
+            les souvenirs de vacances et la douceur des après-midis d’été. 
+            C’est une recette qui transforme la lumière en souvenir, avec un équilibre parfait 
+            entre réalisme et tendresse chromatique. Elle s’adresse à ceux qui recherchent 
+            une esthétique chaleureuse, familière et sincère — un hommage à la photographie argentique populaire.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/kodakcolorplus-200/5-kodakcolorplus-200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakcolorplus-200/6-kodakcolorplus-200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakcolorplus-200/7-kodakcolorplus-200.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Pro Negative High", 
+                "Balance des blancs": "Auto<br/>R: +4 / B: -6", 
+                "Couleur Chrome": "Off", 
+                "Couleur Chrome FX Bleue": "Off", 
+                "Effet de Grain": "Fort<br/>Petit", 
+                "Plage dynamique": "DR400", 
+                "Hautes lumières": "-1", 
+                "Ombres": "-2", 
+                "Couleur": "+4", 
+                "Detail": "-2", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "-2", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "-1 à +1/3",
+            }
+        ]
+    },
+    { /* Kodak Ektar 100 */
+        slug: "kodakektar-100",
+        title: "Kodak Ektar 100",
+        tags: ['blue', 'classic-chrome'],
+        description: `<p>La recette <strong>Kodak Ektar 100</strong> s’inspire de la pellicule couleur la plus 
+            vive et la plus précise de la gamme Kodak. Réputée pour sa saturation éclatante et 
+            sa netteté exceptionnelle, elle restitue les tons avec un réalisme vibrant et une 
+            clarté presque photographique. Les rouges et les bleus ressortent avec intensité, 
+            tandis que les verts et les jaunes conservent une justesse naturelle. 
+            Le rendu global est propre, lumineux et très détaillé, idéal pour les scènes en plein jour.</p>
+            <p>Basée sur la simulation <em>Classic Chrome</em>, cette recette préserve une richesse colorimétrique 
+            tout en apportant une légère douceur dans les ombres, ce qui équilibre la vivacité 
+            typique de l’Ektar. Elle excelle dans les paysages, la photographie de voyage ou 
+            les environnements urbains bien éclairés, où la lumière naturelle révèle toute 
+            la profondeur de sa palette. L’absence de grain renforce la pureté du rendu et 
+            met en valeur les textures fines et les détails.</p>
+            <p>Sur le plan émotionnel, <em>Kodak Ektar 100</em> évoque la précision, la modernité et la 
+            beauté éclatante du monde réel. C’est une recette faite pour ceux qui recherchent 
+            un rendu à la fois coloré et maîtrisé, capable de sublimer les paysages lumineux 
+            et les scènes baignées de soleil. Elle capture la perfection du détail tout en 
+            conservant la signature cinématographique subtile propre aux simulations Fujifilm.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/kodakektar-100/5-kodakektar-100.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakektar-100/7-kodakektar-100.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "classic-chrome", 
+                "Balance des blancs": "6050K<br/>R: +3 / B: 0", 
+                "Couleur Chrome": "Fort", 
+                "Couleur Chrome FX Bleue": "Faible", 
+                "Effet de Grain": "Off", 
+                "Plage dynamique": "DR Auto", 
+                "Hautes lumières": "+1", 
+                "Ombres": "-2", 
+                "Couleur": "+4", 
+                "Detail": "0", 
+                "RB ISO Elevée": "-4", 
+                "Netteté": "+3", 
+                "ISO": "Auto<br/>jusqu'à ISO 6400", 
+                "Compensation Exp.": "0 à +2/3",
+            }
+        ]
+    },
     { /* Kodak Gold 200 */
         slug: "kodakgold-200",
         title: "Kodak Gold 200",
-        tags: ['orange', 'daylight', , 'classic-chrome'],
+        tags: ['orange', 'daylight', 'classic-chrome'],
         description: `<p>La recette <strong>Kodak Gold 200</strong> offre des tons chaleureux et nostalgiques, 
             comme lorsqu’on feuillette de vieux albums photo des années 80 et 90.</p>
             <p>Les couleurs tirent vers une chaleur dorée, avec des jaunes riches, des rouges doux et 
@@ -525,16 +660,25 @@ const recipes = [
             photos une allure conviviale et réconfortante.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-1.jpg"
+                src: "/fuji/recipes/kodak-gold-200/3-kodak-gold200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-2.webp"
+                src: "/fuji/recipes/kodak-gold-200/1-kodak-gold200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-3.webp"
+                src: "/fuji/recipes/kodak-gold-200/3-kodak-gold200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-gold-200/kodak-gold-200-4.webp"
+                src: "/fuji/recipes/kodak-gold-200/4-kodak-gold200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodak-gold-200/5-kodak-gold200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodak-gold-200/6-kodak-gold200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodak-gold-200/7-kodak-gold200.jpg"
             },
         ],
         settings: [
@@ -579,22 +723,13 @@ const recipes = [
             avec une dimension intemporelle et poétique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-1.webp"
+                src: "/fuji/recipes/kodak-portra-400/4-kodak-portra-400.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-2.webp"
+                src: "/fuji/recipes/kodak-portra-400/5-kodak-portra-400.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-3.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-4.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-5.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-portra-400/kodak-portra-400-6.webp"
+                src: "/fuji/recipes/kodak-portra-400/7-kodak-portra-400.jpg"
             },
         ],
         settings: [
@@ -617,7 +752,7 @@ const recipes = [
         ]
     },
     { /* Kodak T-Max P3200 */
-        slug: "kodak-tmax-p3200",
+        slug: "kodaktmax-p3200",
         title: "Kodak T-Max P3200",
         tags: ['bw', 'acros'],
         description: `<p>La recette <strong>Kodak T-Max P3200</strong> reproduit l’esthétique de la mythique pellicule noir et blanc très haute sensibilité, 
@@ -631,22 +766,19 @@ const recipes = [
             Elle permet de capturer l’énergie et l’authenticité des scènes, avec un rendu granuleux et expressif fidèle à l’esprit de l’argentique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-1.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/3-kodak-tmax-p3200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-2.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/4-kodak-tmax-p3200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-3.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/5-kodak-tmax-p3200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-4.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/6-kodak-tmax-p3200.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-5.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-tmax-p3200/kodak-tmax-p3200-6.webp"
+                src: "/fuji/recipes/kodak-tmax-p3200/7-kodak-tmax-p3200.jpg"
             },
         ],
         settings: [
@@ -668,65 +800,65 @@ const recipes = [
             }
         ]
     },
-    { /* Kodak Ultramax 400 */
-        slug: "kodak-ultramax-400",
-        title: "Kodak Ultramax 400",
-        tags: ['orange', 'saturated', 'classic-chrome'],
-        description: `<p>La recette Kodak Ultramax 400 offre un rendu lumineux, chaud et 
-            légèrement saturé, avec des couleurs vives mais douces à la fois. Les rouges 
-            et les jaunes ressortent avec chaleur et convivialité, les verts restent naturels 
-            mais légèrement accentués, et les bleus conservent une profondeur agréable 
-            sans être trop froids. Le contraste est modéré, ce qui permet aux détails 
-            de se détacher tout en gardant une atmosphère douce et accessible.</p>
-            <p>Grâce à sa sensibilité élevée, cette recette est très polyvalente : 
-            elle fonctionne aussi bien en extérieur en plein soleil qu’en lumière plus faible, 
-            tout en conservant une belle texture et un grain subtil qui rappelle 
-            les pellicules classiques de Kodak.</p>
-            <p>Sur le plan émotionnel, l’Ultramax 400 évoque la bonne humeur, 
-            l’énergie et la spontanéité. Elle est parfaite pour capturer des moments de vie, 
-            des voyages, des fêtes ou des instants du quotidien avec un rendu chaleureux et vivant. 
-            Cette pellicule numérique recréée le charme des souvenirs instantanés, 
-            apportant à chaque photo une sensation de joie simple et accessible, 
-            comme un éclat de lumière dans la mémoire.</p>`,
-        images: [
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-1.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-6.webp"
-            },
-        ],
-        settings: [
-            {
-                "Film simulation": "Classic Chrome", 
-                "Balance des blancs": "Auto<br/>R: +1 / B: -5", 
-                "Couleur Chrome": "Faible", 
-                "Couleur Chrome FX Bleue": "Off", 
-                "Effet de Grain": "Fort<br/>Grand", 
-                "Plage dynamique": "DR-Auto", 
-                "Hautes lumières": "+1", 
-                "Ombres": "+1", 
-                "Couleur": "+4", 
-                "Detail": "0", 
-                "RB ISO Elevée": "-4", 
-                "Netteté": "+3", 
-                "ISO": "Auto<br/>jusqu'à ISO 6400", 
-                "Compensation Exp.": "+1/3 à +1",
-            },
-        ],
-    },
+    // { /* Kodak Ultramax 400 */
+    //     slug: "kodak-ultramax-400",
+    //     title: "Kodak Ultramax 400",
+    //     tags: ['orange', 'saturated', 'classic-chrome'],
+    //     description: `<p>La recette Kodak Ultramax 400 offre un rendu lumineux, chaud et 
+    //         légèrement saturé, avec des couleurs vives mais douces à la fois. Les rouges 
+    //         et les jaunes ressortent avec chaleur et convivialité, les verts restent naturels 
+    //         mais légèrement accentués, et les bleus conservent une profondeur agréable 
+    //         sans être trop froids. Le contraste est modéré, ce qui permet aux détails 
+    //         de se détacher tout en gardant une atmosphère douce et accessible.</p>
+    //         <p>Grâce à sa sensibilité élevée, cette recette est très polyvalente : 
+    //         elle fonctionne aussi bien en extérieur en plein soleil qu’en lumière plus faible, 
+    //         tout en conservant une belle texture et un grain subtil qui rappelle 
+    //         les pellicules classiques de Kodak.</p>
+    //         <p>Sur le plan émotionnel, l’Ultramax 400 évoque la bonne humeur, 
+    //         l’énergie et la spontanéité. Elle est parfaite pour capturer des moments de vie, 
+    //         des voyages, des fêtes ou des instants du quotidien avec un rendu chaleureux et vivant. 
+    //         Cette pellicule numérique recréée le charme des souvenirs instantanés, 
+    //         apportant à chaque photo une sensation de joie simple et accessible, 
+    //         comme un éclat de lumière dans la mémoire.</p>`,
+    //     images: [
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-1.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
+    //         },
+    //         {
+    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-6.webp"
+    //         },
+    //     ],
+    //     settings: [
+    //         {
+    //             "Film simulation": "Classic Chrome", 
+    //             "Balance des blancs": "Auto<br/>R: +1 / B: -5", 
+    //             "Couleur Chrome": "Faible", 
+    //             "Couleur Chrome FX Bleue": "Off", 
+    //             "Effet de Grain": "Fort<br/>Grand", 
+    //             "Plage dynamique": "DR-Auto", 
+    //             "Hautes lumières": "+1", 
+    //             "Ombres": "+1", 
+    //             "Couleur": "+4", 
+    //             "Detail": "0", 
+    //             "RB ISO Elevée": "-4", 
+    //             "Netteté": "+3", 
+    //             "ISO": "Auto<br/>jusqu'à ISO 6400", 
+    //             "Compensation Exp.": "+1/3 à +1",
+    //         },
+    //     ],
+    // },
     { /* Kodak Vision3 250D */
         slug: "kodak-vision3-250D",
         title: "Kodak Vision3 250D",
@@ -743,25 +875,10 @@ const recipes = [
             Elle invite à capturer la réalité avec intensité et précision, tout en donnant aux images une touche professionnelle et intemporelle.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-1.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/3-kodak-vision3-250d.jpg"
             },
             {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-2.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-3.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-4.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-5.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-6.webp"
-            },
-            {
-                src: "/fuji/recipes/kodak-vision3-250d/kodak-vision3-250d-7.webp"
+                src: "/fuji/recipes/kodak-vision3-250d/7-kodak-vision3-250d.jpg"
             },
         ],
         settings: [
@@ -797,22 +914,10 @@ const recipes = [
             Elle invite à capturer les contrastes et les émotions avec intensité, en conservant un style élégant et intemporel.</p>`,
         images: [
             {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-1.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/4-monochrome-kodachrome.jpg"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-2.webp"
-            },
-            {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-3.webp"
-            },
-            {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-4.webp"
-            },
-            {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-5.webp"
-            },
-            {
-                src: "/fuji/recipes/monochrome-kodachrome/monochrome-kodachrome-6.webp"
+                src: "/fuji/recipes/monochrome-kodachrome/7-monochrome-kodachrome.jpg"
             },
         ],
         settings: [
@@ -834,6 +939,56 @@ const recipes = [
             }
         ]
     },
+    { /* Moody Metropolis 500T */
+        slug: "moody-metropolis-500t",
+        title: "Moody Metropolis 500T",
+        tags: ['green', 'classic-neg', 'night'],
+        description: `<p>La recette <strong>Moody Metropolis 500T</strong> plonge dans l’esthétique 
+            urbaine et cinématique des nuits éclairées au néon. Inspirée du film tungstène 
+            Kodak Vision3 500T, elle capture la texture et les teintes froides des scènes 
+            nocturnes en lumière artificielle : verts profonds, cyan métalliques et tons 
+            chair légèrement désaturés. Les ombres se teintent d’un bleu-vert subtil, tandis 
+            que les hautes lumières conservent une lueur douce, presque argentée.</p>
+            <p>Basée sur la simulation <em>Classic Negative</em>, cette recette offre un contraste 
+            contenu et une grande richesse tonale dans les basses lumières. Elle excelle sous 
+            les éclairages urbains — néons, lampadaires, vitrines — et dans les environnements 
+            industriels ou pluvieux. Le rendu global, légèrement froid et granuleux, évoque 
+            la pellicule cinéma et donne une profondeur dramatique aux scènes nocturnes.</p>
+            <p>Sur le plan émotionnel, <em>Moody Metropolis 500T</em> traduit la solitude, la 
+            tension et la beauté poétique des villes la nuit. C’est une recette idéale pour 
+            capturer les ambiances sombres, les reflets de pluie, ou les portraits baignés 
+            dans la lumière artificielle. Chaque image semble issue d’un film rétro-futuriste, 
+            empreint de mélancolie et de mystère urbain.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/moody-metropolis-500t/5-moody-metropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moody-metropolis-500t/6-moody-metropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moody-metropolis-500t/7-moody-metropolis-500t.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative",
+                "Balance des blancs": "Fluorescent 2<br/>R: -3 / B: -6",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Faible",
+                "Effet de Grain": "Faible<br/>Petit",
+                "Plage dynamique": "DR400",
+                "Hautes lumières": "-1",
+                "Ombres": "0",
+                "Couleur": "0",
+                "Detail": "0",
+                "RB ISO Elevée": "-4",
+                "Netteté": "0",
+                "ISO": "Auto<br/>jusqu'à 6400",
+                "Compensation Exp.": "0 à +2/3",
+            },
+        ]
+    },
     { /* Timeless Negative */
         slug: "timeless-negative",
         title: "Timeless Negative",
@@ -851,25 +1006,13 @@ const recipes = [
             Elle invite à capturer la réalité avec finesse et élégance, tout en conférant aux images un aspect chaleureux et sophistiqué.</p>`,
         images: [
             {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-1.webp"
+                src: "/fuji/recipes/timeless-negative/5-timeless-negative.jpg"
             },
             {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-2.webp"
+                src: "/fuji/recipes/timeless-negative/6-timeless-negative.jpg"
             },
             {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-3.webp"
-            },
-            {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-4.webp"
-            },
-            {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-5.webp"
-            },
-            {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-6.webp"
-            },
-            {
-                src: "/fuji/recipes/timeless-negative/timeless-negative-7.webp"
+                src: "/fuji/recipes/timeless-negative/7-timeless-negative.jpg"
             },
         ],
         settings: [
@@ -906,25 +1049,7 @@ const recipes = [
             Elle invite à explorer la couleur et le contraste pour capturer des images mémorables et chargées de personnalité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/xpro-64/xpro-64-1.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-2.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-3.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-4.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-5.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-6.webp"
-            },
-            {
-                src: "/fuji/recipes/xpro-64/xpro-64-7.webp"
+                src: "/fuji/recipes/xpro-62/5-xpro62.jpg"
             },
         ],
         settings: [
@@ -944,6 +1069,65 @@ const recipes = [
                 "ISO": "Auto<br/>jusqu'à ISO 6400", 
                 "Compensation Exp.": "0 à +1/3",
             }
+        ]
+    },
+    { /* Yashica Golden 80s */
+        slug: "yashica-golden80s",
+        title: "Yashica Golden 80s",
+        tags: ['orange', 'classic-neg', 'daylight', 'soft'],
+        description: `<p>La recette <strong>Yashica Golden 80s</strong> est une ode lumineuse à la photographie 
+            couleur des années 1980, inspirée des rendus chauds et légèrement vaporeux des appareils 
+            compacts Yashica et des pellicules de cette époque. Elle baigne les images d’une 
+            atmosphère dorée et nostalgique, avec des tons ambrés et des reflets de miel qui rappellent 
+            la douceur du soleil de fin d’été. Les rouges et les oranges dominent subtilement, 
+            tandis que les bleus se fondent dans une teinte laiteuse, presque pastel.</p>
+            <p>Basée sur la simulation <em>Classic Negative</em>, cette recette offre une balance des couleurs 
+            chaude et une saturation équilibrée, parfaite pour les journées lumineuses ou la lumière dorée 
+            du soir. Les contrastes restent doux, favorisant un rendu harmonieux et légèrement rêveur. 
+            Le grain discret et la texture veloutée renforcent cette impression d’image analogique, 
+            comme une photo retrouvée dans un vieil album.</p>
+            <p>Sur le plan émotionnel, <em>Yashica Golden 80s</em> évoque la nostalgie radieuse, 
+            la légèreté et les souvenirs d’une époque insouciante. C’est une recette idéale pour 
+            capturer la chaleur du quotidien, les instants baignés de lumière naturelle ou les 
+            ambiances vintage empreintes de douceur et de poésie. Elle transforme la lumière en or, 
+            et chaque image en fragment de mémoire ensoleillée.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/yashica-golden80s/2-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/3-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/4-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/5-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/6-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/7-yashica-golden80s.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative",
+                "Balance des blancs": "Jour<br/>R: +4 / B: -2",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Faible",
+                "Effet de Grain": "Fort<br/>Petit",
+                "Plage dynamique": "DR400",
+                "Hautes lumières": "-1",
+                "Ombres": "+1.5",
+                "Couleur": "+3",
+                "Detail": "-1",
+                "RB ISO Elevée": "-4",
+                "Netteté": "0",
+                "ISO": "640<br/>jusqu'à 6400",
+                "Compensation Exp.": "0 à +2/3",
+            },
         ]
     },
 ];

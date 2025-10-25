@@ -111,6 +111,7 @@ const Filter = ({
                             <option value="eterna-bb">Eterna Bleach Bypass</option>
                             <option value="monochrome">Monochrome</option>
                             <option value="nostalgic-negative">Nostalgic Negative</option>
+                            <option value="pro-neg-hi">Pro Negative High</option>
                         </select>
                     </div>
                 </div>

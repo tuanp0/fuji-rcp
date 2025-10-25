@@ -26,7 +26,8 @@
     
     &Slide {
         border-radius: 1rem;
-        overflow: hidden;    
+        box-shadow: 0 0 16px 0 var(--black-30);
+        overflow: hidden;
     }
 
     &Img {
@@ -35,6 +36,7 @@
         object-fit: cover;
         object-position: 50% 50%;
         display: block;
+        
     }
 
     &Count {
