@@ -1,12 +1,12 @@
-import "./globals.css";
-import { Metadata, Viewport } from "next";
+import "./globals.css"
+import { Metadata, Viewport } from "next"
 import {Header} from '@components/Header'
 import {Footer} from '@components/Footer'
 
-const APP_NAME = "Fuji Recipes";
-const APP_DEFAULT_TITLE = "Fuji Recipes";
-const APP_TITLE_TEMPLATE = "%s - TP";
-const APP_DESCRIPTION = "Recipes for Fuji cameras";
+const APP_NAME = "Fuji Recipes"
+const APP_DEFAULT_TITLE = "Fuji Recipes"
+const APP_TITLE_TEMPLATE = "%s - TP"
+const APP_DESCRIPTION = "Recipes for Fuji cameras"
 
 
 export const metadata = {
@@ -45,11 +45,11 @@ export const metadata = {
   // category: "website",
   // generator: "Next.js",
   // manifest: "../fuji/manifest.json",
-};
+}
 
 export const viewport = {
   themeColor: "#FFFFFF",
-};
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -60,5 +60,5 @@ export default function RootLayout({ children }) {
         <Footer/>
       </body>
     </html>
-  );
+  )
 }

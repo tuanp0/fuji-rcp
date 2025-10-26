@@ -6,13 +6,13 @@ import styles from './DropdownText.module.scss'
 
 const DropdownText = ({ title, subtitle, description }) => {
   const [open, setOpen] = useState(false)
-  const [height, setHeight] = useState(30);
-  const descriptionRef = useRef(null);
+  const [height, setHeight] = useState(30)
+  const descriptionRef = useRef(null)
 
   const toggleOpen = () => {
-    setHeight(open ? 30 : descriptionRef.current.scrollHeight);
-    setOpen(!open);
-  };
+    setHeight(open ? 30 : descriptionRef.current.scrollHeight)
+    setOpen(!open)
+  }
 
   return (
     <section className={styles.dropdowntext}>

@@ -15,13 +15,13 @@ const Filter = ({
     showReset
 }) => {
     const [open, setOpen] = useState(false)
-    const [height, setHeight] = useState(0);
-    const filterRef = useRef(null);
+    const [height, setHeight] = useState(0)
+    const filterRef = useRef(null)
 
     const toggleOpen = () => {
-        setHeight(open ? 0 : filterRef.current.scrollHeight);
-        setOpen(!open);
-    };
+        setHeight(open ? 0 : filterRef.current.scrollHeight)
+        setOpen(!open)
+    }
 
     const resetFilters = () => {
         setOrderFilter('alpha')

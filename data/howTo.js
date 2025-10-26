@@ -42,6 +42,6 @@ const howTo = {
                 <li>Ton appareil applique automatiquement la simulation de film choisie + tous les réglages.</li>
             </ol>
         `
-    };
+    }
 
-export default howTo;
+export default howTo

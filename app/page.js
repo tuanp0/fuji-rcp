@@ -1,4 +1,4 @@
-export const revalidate = false;
+export const revalidate = false
 import recipes from '@/data/recipes'
 import howTo from '@/data/howTo'
 
@@ -14,5 +14,5 @@ export default async function Home() {
       <DropdownText title={howTo.title} subtitle={howTo.subtitle} description={howTo.description} />
       <ListCard recipes={recipes} />
     </>
-  );
+  )
 }

@@ -1,13 +1,13 @@
 'use client'
 import { useEffect, useState } from 'react'
-import Link from "next/link";
+import Link from "next/link"
 import Image from 'next/image'
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { EffectCards } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import { EffectCards } from 'swiper/modules'
 
 import styles from './Card.module.scss'
 

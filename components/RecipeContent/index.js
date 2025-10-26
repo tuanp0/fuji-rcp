@@ -1,3 +1,3 @@
-import RecipeContent from './RecipeContent';
+import RecipeContent from './RecipeContent'
 
-export { RecipeContent };
+export { RecipeContent }

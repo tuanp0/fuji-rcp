@@ -11,7 +11,7 @@ const RecipeSettings = ({settings}) => {
             prev.includes(indexKey) 
             ? prev.filter(item => item !== indexKey)
             : [...prev, indexKey]
-        );
+        )
     }
 
     return (
@@ -21,8 +21,8 @@ const RecipeSettings = ({settings}) => {
             <div className={styles.settingsList}>
                 {settings.map((settingObj, objIndex) => 
                     Object.entries(settingObj).map(([key, value], index) => {
-                        const indexKey = `${objIndex}-${index}`;
-                        const isDone = done.includes(indexKey);
+                        const indexKey = `${objIndex}-${index}`
+                        const isDone = done.includes(indexKey)
 
                         return (
                             <div

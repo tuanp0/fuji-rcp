@@ -1,3 +1,3 @@
-import ListCard from './ListCard';
+import ListCard from './ListCard'
 
-export { ListCard };
+export { ListCard }

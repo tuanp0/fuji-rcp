@@ -1,3 +1,3 @@
-import RecipeSettings from './RecipeSettings';
+import RecipeSettings from './RecipeSettings'
 
-export { RecipeSettings };
+export { RecipeSettings }
