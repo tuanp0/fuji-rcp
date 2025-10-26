@@ -2,9 +2,9 @@
 import React, { useState, useRef } from 'react'
 import Image from 'next/image'
 
-import styles from './Filter.module.scss'
+import styles from './RecipeFilter.module.scss'
 
-const Filter = ({
+const RecipeFilter = ({
     orderFilter,
     setOrderFilter,
     colorFilter,
@@ -31,19 +31,38 @@ const Filter = ({
 
     return (
         <div className={styles.filter}>
-            <button
-                onClick={() => toggleOpen()}
-                className={styles.filterBtn}
-            >
-                <span className={styles.filterBtnText}>Filtres</span>
-                <Image
-                    src={'filter.svg'}
-                    width={40}
-                    height={40}
-                    alt={'Filtre de recipe'}
-                    className={styles.filterBtnIcon}
-                />
-            </button>
+
+            <div className={styles.filterBtns}>
+                <button
+                    onClick={() => toggleOpen()}
+                    className={styles.filterBtn}
+                >
+                    <span className={styles.filterBtnText}>Filtres</span>
+                    <Image
+                        src={'filter.svg'}
+                        width={40}
+                        height={40}
+                        alt={'Filtre de recipe'}
+                        className={styles.filterBtnIcon}
+                    />
+                </button>
+                {showReset &&
+                    <button
+                        onClick={() => resetFilters()}
+                        className={`${styles.filterBtn} ${styles.reset}`}
+                    >
+                        <span className={styles.filterBtnText}>Réinitialiser les filtres</span>
+                        <Image
+                            src={'cross.svg'}
+                            width={40}
+                            height={40}
+                            alt={'Filtre de recipe'}
+                            className={styles.filterBtnIcon}
+                        />
+                    </button>
+                }
+            </div>
+            
             <div
                 className={`${styles.filterContent} ${open ? styles.opened : ''}`}
                 style={{ height: height+'px' }}
@@ -115,27 +134,9 @@ const Filter = ({
                         </select>
                     </div>
                 </div>
-
-                {showReset &&
-                    <div className={styles.listcardReset}>
-                        <button
-                            onClick={() => resetFilters()}
-                            className={`${styles.filterBtn} ${styles.reset}`}
-                        >
-                            <span className={styles.filterBtnText}>Réinitialiser les filtres</span>
-                            <Image
-                                src={'cross.svg'}
-                                width={40}
-                                height={40}
-                                alt={'Filtre de recipe'}
-                                className={styles.filterBtnIcon}
-                            />
-                        </button>
-                    </div>
-                }
             </div>
         </div>
     )
 }
 
-export default Filter
+export default RecipeFilter

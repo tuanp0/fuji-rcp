@@ -1,11 +1,11 @@
 const imagesSlider = [
     {
-        src: "/fuji/recipes/kodak-gold-200/6-kodak-gold200.jpg",
+        src: "/fuji/recipes/kodakgold-200/6-kodakgold-200.jpg",
         recipe: "Kodak Gold 200",
         link:"/kodakgold-200"
     },
     {
-        src: "/fuji/recipes/kodak-portra-400/5-kodak-portra-400.jpg",
+        src: "/fuji/recipes/kodakportra-400/5-kodakportra-400.jpg",
         recipe: "Kodak Portra 400",
         link:"/kodakportra-400"
     },

@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useRef, useEffect, useMemo } from 'react'
 import {Container} from '@components/Container'
-import {Filter} from '@components/Filter'
+import {RecipeFilter} from '@/components/RecipeFilter'
 import {Card} from '@components/Card'
 
 import styles from './ListCard.module.scss'
@@ -46,7 +46,7 @@ const ListCard = ({recipes}) => {
     <section className={styles.listcard}>
       <Container className={styles.container}>
         <h2 className={styles.listcardTitle}>Liste de Recipes pour Fujifilm X-Trans V</h2>
-        <Filter
+        <RecipeFilter
           orderFilter={orderFilter}
           setOrderFilter={setOrderFilter}
           colorFilter={colorFilter}

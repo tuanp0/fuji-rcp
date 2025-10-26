@@ -6,50 +6,38 @@
 .intro {
     position: relative;
     padding-top: 1.5rem;
-    
-    &Content {
-        color: var(--white);
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 330px;
-        padding: 1rem 2rem;
-        background: linear-gradient(0deg, rgba(253, 29, 29, 0) 10%, var(--black-70) 100%);
-        z-index: 2;
+
+    &Text,
+    &Title {
         @include wysiwyg();
 
+        @media screen and (min-width: 768px) {
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
     
-        @media screen and (min-width:768px) {
-            width: 34%;
-            height: 100%;
-            padding: 3rem 2rem;
-            background: linear-gradient(90deg, var(--black-50) 60%, rgba(253, 29, 29, 0) 100%);
-        }
-    }
+    // &Content {
+    //     color: var(--white);
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     align-items: center;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 330px;
+    //     padding: 1rem 2rem;
+    //     background: linear-gradient(0deg, rgba(253, 29, 29, 0) 10%, var(--black-70) 100%);
+    //     z-index: 2;
+    //     @include wysiwyg();
 
-    &Title {
-        @include mynerve();
-        font-size: 2.25rem;
-        font-weight: bold;
-        margin-bottom: 3rem;
-
-        @media screen and (min-width:768px) {
-            font-size: 3rem;
-        }
-    }
-
-    &Second {
-        font-size: 1.75rem;
-        text-transform: initial;
-        margin-left: 0.75rem;
-        display: inline-block;
-
-        @media screen and (min-width:768px) {
-            font-size: 2.5rem;
-        }
-    }
+    
+    //     @media screen and (min-width:768px) {
+    //         width: 34%;
+    //         height: 100%;
+    //         padding: 3rem 2rem;
+    //         background: linear-gradient(90deg, var(--black-50) 60%, rgba(253, 29, 29, 0) 100%);
+    //     }
+    // }
 }
