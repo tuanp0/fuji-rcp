@@ -53,9 +53,8 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0.5rem 1rem;
+        gap: 1rem;
+        padding: 0.5rem 0.75rem;
         background: var(--white-50);
         border-radius: 0.75rem;
         box-shadow: 0 4px 30px var(--black-20);
@@ -86,6 +85,7 @@
         }
 
         @media screen and (min-width:768px) {
+            padding: 0.5rem 1rem;
             box-shadow: 0 4px 30px var(--black-20);
 
             &:hover {
@@ -94,15 +94,26 @@
         }
     }
 
+    &Simulation {
+        width: 48px;
+        height: auto;
+        display: inline-block;
+    }
+
+    &Text {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        width: calc(100% - 32px);
+    }
+
     &Value {
         @include montserrat();
         display: block;
         font-weight: 900;
         font-size: 0.875rem;
         line-height: 1.25;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
         margin-bottom: 0.5rem;
         
         @media screen and (min-width:768px) {
@@ -113,6 +124,7 @@
     &Name {
         font-size: 0.75rem;
         line-height: 1.25;
+        width: 100%;
         display: block;
 
         @media screen and (min-width:768px) {

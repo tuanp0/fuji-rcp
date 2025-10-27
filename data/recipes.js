@@ -2,7 +2,7 @@ const recipes = [
     // { /* 1960 Chrome */
     //     slug: "1960-chrome",
     //     title: "1960 Chrome",
-    //     tags: ['orange', 'eterna-bb'],
+    //     tags: ['orange', 'eterna-bleach-bypass'],
     //     shortDesc: ``,
     //     description: `<p>La recette <strong>1960 Chrome</strong> s’inspire des esthétiques argentiques des années 60, 
     //         marquées par des contrastes doux, des couleurs légèrement désaturées et une texture granuleuse 
@@ -63,7 +63,7 @@ const recipes = [
     { /* Cinematic Gold */
         slug: "cinematic-gold",
         title: "Cinematic Gold",
-        tags: ['orange', 'classic-neg', 'daylight'],
+        tags: ['orange', 'classic-negative', 'daylight'],
         shortDesc: `Urbain, feutrée et nostalgique, adoucis et désaturés.`,
         description: `<p>La recette <strong>Classic Negative Cinématique</strong> capture l’essence des rues et des paysages urbains 
             avec une esthétique inspirée du cinéma. Elle apporte une atmosphère feutrée et nostalgique, 
@@ -189,7 +189,7 @@ const recipes = [
     { /* Cinematic Gold */
         slug: "coffee",
         title: "Coffee",
-        tags: ['blue', 'classic-neg', 'soft'],
+        tags: ['blue', 'classic-negative', 'soft'],
         shortDesc: `Intérieur, doux et feutré. Idéal avec une lumière de fin d’après-midi. Ombres adoucies, désaturé`,
         description: `<p>La recette <strong>Coffee</strong> évoque la chaleur douce et feutrée d’une lumière de fin d’après-midi, 
             comme un moment suspendu autour d’une tasse de café. Inspirée du rendu <em>Classic Negative</em>, 
@@ -231,7 +231,7 @@ const recipes = [
     { /* Fujicolor C200 */
         slug: "fujicolor-c200",
         title: "Fujicolor C200",
-        tags: ['blue', 'classic-neg'],
+        tags: ['blue', 'classic-negative'],
         shortDesc: `Extérieur et intérieur. Equilibré et naturel, couleurs légèrement froides et profondes, couleurs chaudes douces`,
         description: `<p>La recette Fujicolor se distingue par un rendu équilibré et naturel, 
             avec des couleurs légèrement froides mais lumineuses, qui donnent une impression de clarté 
@@ -292,7 +292,7 @@ const recipes = [
     { /* Fujicolor Natura 1600 */
         slug: "fuji-natura-1600",
         title: "Fujicolor Natura 1600",
-        tags: ['blue', 'classic-neg', 'soft'],
+        tags: ['blue', 'classic-negative', 'soft'],
         shortDesc: `Extérieur et intérieur. rendu naturel, Ombres révélées et lumières tempérées. Désaturés et doux.`,
         description: `<p>La recette <strong>Fujicolor Natura 1600</strong> s’inspire de la célèbre pellicule haute sensibilité, 
             conçue pour capturer les scènes en faible luminosité tout en conservant un rendu naturel et détaillé.</p>
@@ -333,7 +333,7 @@ const recipes = [
     {  /* Fujicolor Pro 400H */
         slug: "fujicolor-pro-400h",
         title: "Fujicolor Pro 400H",
-        tags: ['blue', 'classic-neg', 'portrait'],
+        tags: ['blue', 'classic-negative', 'portrait'],
         shortDesc: `Portraits naturels. Extérieur et intérieur. Esthétique douce. Tons pastels. Tendance froide. Couleurs chaudes discrètes.`,
         description: `<p>La recette Fujicolor Pro 400H capture l’esthétique douce et nuancée des pellicules professionnelles 
             Fujifilm utilisées en portrait et en mode au début des années 2000. Son rendu se distingue par des tons pastel, 
@@ -387,7 +387,7 @@ const recipes = [
     { /* Fujifilm Supéria X-Tra 400 */
         slug: "fuji-superia-xtra-400",
         title: "Fujifilm Superia X-Tra 400",
-        tags: ['blue', 'classic-neg'],
+        tags: ['blue', 'classic-negative'],
         shortDesc: `Couleurs franches. Peau naturelle. Bleu profond. Rouge et vert intenses`,
         description: `<p>La recette Fujifilm Superia X-TRA 400 restitue l’esprit des pellicules couleurs 
             des années 2000, avec des tons vifs, contrastés et un rendu globalement dynamique. 
@@ -449,7 +449,7 @@ const recipes = [
     { /* Gentle Specimen */
         slug: "gentle-specimen",
         title: "Gentle Specimen",
-        tags: ['blue', 'soft', 'classic-neg'],
+        tags: ['blue', 'soft', 'classic-negative'],
         shortDesc: `Doux et apaisant. Atmosphère délicate et vaporeuse. Tons anturels et feutrés.`,
         description: `<p>La recette <strong>Gentle Specimen</strong> se distingue par un rendu doux et apaisant, 
             pensé pour restituer une atmosphère délicate et équilibrée. Inspirée de l’esthétique argentique, 
@@ -493,7 +493,7 @@ const recipes = [
     { /* Ilford FP4 Plus 125 */
         slug: "ilford-fp4-plus-125",
         title: "Ilford FP4 Plus 125",
-        tags: ['bw', 'monochrome'],
+        tags: ['bw', 'monostd'],
         shortDesc: `Contrast doux et élégant. Hautes lumières tempérées. Noir profond. Composition et texture mises en valeur. Grain subtil.`,
         description: `<p>La recette <strong>Ilford FP4 Plus 125</strong> simule le rendu classique du film noir et blanc argentique, 
             reconnu pour son grain subtil et sa large gamme de tons moyens, offrant un contraste doux et élégant.</p>
@@ -695,7 +695,7 @@ const recipes = [
         ],
         settings: [
             {
-                "Film simulation": "classic-chrome", 
+                "Film simulation": "Classic Chrome", 
                 "Balance des blancs": "6050K<br/>R: +3 / B: 0", 
                 "Couleur Chrome": "Fort", 
                 "Couleur Chrome FX Bleue": "Faible", 
@@ -1054,7 +1054,7 @@ const recipes = [
     { /* Moody Metropolis 500T */
         slug: "moodymetropolis-500t",
         title: "Moody Metropolis 500T",
-        tags: ['green', 'classic-neg', 'night'],
+        tags: ['green', 'classic-negative', 'night'],
         shortDesc: `Esthétique urbaine nocturne. Dominante froide. Vert profond. Couleurs chaudes désaturées. Idéal pour la photo avec de l'éclairage nocturne.`,
         description: `<p>La recette <strong>Moody Metropolis 500T</strong> plonge dans l’esthétique 
             urbaine et cinématique des nuits éclairées au néon. Inspirée du film tungstène 
@@ -1160,7 +1160,7 @@ const recipes = [
     { /* Xpro '62 */
         slug: "xpro-62",
         title: "Xpro '62",
-        tags: ['green', 'classic-neg'],
+        tags: ['green', 'classic-negative'],
         shortDesc: `Expressif. Couleurs intenses. Rouge et bleu prononcés. Contraste marqué. Rendu riche.`,
         description: `<p>La recette <strong>XPro "62"</strong> s’inspire des films négatifs expérimentaux pour un rendu riche, vibrant et cinématographique, 
             offrant des couleurs intenses et un contraste marqué tout en conservant une texture organique.</p>
@@ -1198,7 +1198,7 @@ const recipes = [
     { /* Yashica Golden 80s */
         slug: "yashica-golden80s",
         title: "Yashica Golden 80s",
-        tags: ['orange', 'classic-neg', 'daylight', 'soft'],
+        tags: ['orange', 'classic-negative', 'daylight', 'soft'],
         shortDesc: `Jour et fin de journée. Lumineux. Rendu chaud et vaporeux. Atmosphère dorée et nostalgique. Couleurs froides pastels.`,
         description: `<p>La recette <strong>Yashica Golden 80s</strong> est une ode lumineuse à la photographie 
             couleur des années 1980, inspirée des rendus chauds et légèrement vaporeux des appareils 

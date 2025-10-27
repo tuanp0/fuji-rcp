@@ -1,5 +1,7 @@
 "use client"
+import simulations from '@data/simulation'
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 import styles from './RecipeSettings.module.scss'
 
@@ -40,7 +42,10 @@ const RecipeSettings = ({settings}) => {
                                 `}
                                 key={indexKey}
                             >
-                                <div>
+                                {key === 'Film simulation' &&
+                                    <Image src={simulations[value]} alt={value} width={640} height={640} className={styles.settingsSimulation}/>
+                                }
+                                <div className={styles.settingsText}>
                                     <p className={styles.settingsValue} dangerouslySetInnerHTML={{__html: value}} />
                                     <p className={styles.settingsName} dangerouslySetInnerHTML={{__html: key}} />
                                 </div>

@@ -125,10 +125,10 @@ const RecipeFilter = ({
                             <option value="">Tous</option>
                             <option value="acros">Acros</option>
                             <option value="classic-chrome">Classic Chrome</option>
-                            <option value="classic-neg">Classic Negative</option>
+                            <option value="classic-negative">Classic Negative</option>
                             <option value="eterna">Eterna</option>
-                            <option value="eterna-bb">Eterna Bleach Bypass</option>
-                            <option value="monochrome">Monochrome</option>
+                            <option value="eterna-bleach-bypass">Eterna Bleach Bypass</option>
+                            <option value="monostd">Monochrome</option>
                             <option value="nostalgic-negative">Nostalgic Negative</option>
                             <option value="pro-neg-hi">Pro Negative High</option>
                         </select>

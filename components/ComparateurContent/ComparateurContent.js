@@ -1,6 +1,7 @@
 'use client'
 import recipes from '@data/recipes'
 import photoName from '@data/photoName'
+import simulation from '@data/simulation'
 
 import React, { useState, useMemo } from 'react'
 import Image from 'next/image'
@@ -42,6 +43,7 @@ const ComparateurContent = () => {
           results.push({
             recipe: recipe.title,
             link: recipe.slug,
+            simulation: recipe.settings[0]["Film simulation"],
             desc: recipe.shortDesc,
             src: image.src
           })
@@ -51,7 +53,6 @@ const ComparateurContent = () => {
     return results
   }, [selectedPrefix])
   
-
   return (
     <section className={styles.comparateur}>
       <Container className={styles.comparateurContainer}>
@@ -73,8 +74,11 @@ const ComparateurContent = () => {
               <div className={styles.comparateurGlobal}>
                 {filteredImages.map((item, idx) => (
                   <Link href={item.link} key={idx} className={styles.comparateurSolo}>
-                    <Image src={item.src} alt={''} width={1100} height={733} className={styles.comparateurSoloImg} />
-                    <h3 className={styles.comparateurSoloTitle}>{item.recipe}</h3>
+                    <Image src={item.src} alt={``} width={1100} height={733} className={styles.comparateurSoloImg} />
+                    <div className={styles.comparateurSoloInfo}>
+                      <h3 className={styles.comparateurSoloTitle}>{item.recipe}</h3>
+                      <Image src={simulation[item.simulation]} alt={item.simulation} width={640} height={640} className={styles.comparateurSoloSimulation}/>
+                    </div>
                     <div className={styles.comparateurSoloDesc} dangerouslySetInnerHTML={{__html: item.desc}} />
                   </Link>
                 ))}
