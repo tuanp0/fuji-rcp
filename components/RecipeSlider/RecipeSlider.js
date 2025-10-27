@@ -1,17 +1,18 @@
 'use client'
 import React, { useRef } from 'react'
 import Image from 'next/image'
-import { Autoplay, Navigation, Pagination, A11y } from "swiper/modules"
+import { EffectFade, Autoplay, Navigation, Pagination, A11y } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Title } from '@components/Title'
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
+import 'swiper/css/effect-fade'
 
 import styles from './RecipeSlider.module.scss'
 
 const RecipeSlider = ({title, images}) => {
-  const sliderTime = 3500
+  const sliderTime = 5000
   const progressBar = useRef(null)
   const progressContent = useRef(null)
   
@@ -24,11 +25,12 @@ const RecipeSlider = ({title, images}) => {
     <div className={`${styles.slider} ${styles.half}`}>
         <Title title={title} sticky />
         <Swiper
+          effect="fade"
           autoplay={{
             delay: sliderTime,
             disableOnInteraction: false,
           }}
-          speed={600}
+          speed={800}
           loop={true}
           spaceBetween={24}
           navigation={{
@@ -36,7 +38,7 @@ const RecipeSlider = ({title, images}) => {
             nextEl: '.swiper-button-next',
           }}
           pagination={{ clickable: true, el: '.swiper-pagination' }}
-          modules={[Autoplay, Navigation, Pagination, A11y]}
+          modules={[EffectFade, Autoplay, Navigation, Pagination, A11y]}
           onAutoplayTimeLeft={onAutoplayTimeLeft}
           className={`imgSwiper ${styles.imgSwiper}`}
         >

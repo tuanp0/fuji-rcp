@@ -21,7 +21,7 @@
             padding: 1rem 1.5rem 0;
 
             @media screen and (min-width:768px) {
-                padding: 1.5rem 1rem 1.75rem 1rem;
+                padding: 1.5rem 1rem 1.5rem 1rem;
             }
         }
     }
@@ -39,6 +39,11 @@
         font-size: 2rem;
         font-weight: 700;
         text-transform: uppercase;
+        text-shadow: 0 0 10px var(--black-70);
+
+        @media screen and (min-width:768px) {
+            text-shadow: none;
+        }
     }
 }
 
