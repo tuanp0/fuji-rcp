@@ -1,4 +1,4 @@
-import recipes from '@/data/recipes'
+import recipes from '@data/recipes'
 
 import { RecipeContent } from '@components/RecipeContent'
 import { Text } from '@components/Text'

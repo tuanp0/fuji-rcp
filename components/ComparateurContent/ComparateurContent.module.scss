@@ -1,0 +1,111 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.comparateur {
+
+    &Container {
+        padding-top: 2rem;
+    }
+
+    &Title {
+        @include mynerve();
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+        text-align: center;
+
+        @media screen and (min-width:768px) {
+            font-size: 2rem;
+        }
+    }
+
+    &Select {
+        font-size: 1rem;
+        width: 80%;
+        padding: 0.5rem;
+        margin: 0 auto;
+        display: block;
+        background: var(--white);
+        border: 1px solid var(--black);
+        border-radius: 10px;
+
+        @media screen and (min-width: 768px) {
+            width: 35%;
+        }
+    }
+
+    &Results {
+        margin-top: 2rem;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 4rem;
+        }
+    }
+
+    &Global {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    &Solo {
+        width: 100%;
+        padding: 1.25rem;
+        border-top: 0px solid transparent;
+        border-right: 1px solid var(--black);
+        border-bottom: 1px solid var(--black);
+
+        &:nth-child(1) {
+            border-top: 1px solid var(--black);
+        }
+
+        &:nth-child(1n+1) {
+            border-left: 1px solid var(--black);
+        }
+
+        @media screen and (min-width:640px) {
+            width: 50%;
+
+            &:nth-child(2) {
+                border-top: 1px solid var(--black);
+            }
+
+            &:nth-child(1n+1) {
+                border-left: none;
+            }
+
+            &:nth-child(2n+1) {
+                border-left: 1px solid var(--black);
+            }
+        }
+
+        @media screen and (min-width:768px) {
+            width: 33.33%;
+
+            &:nth-child(3) {
+                border-top: 1px solid var(--black);
+            }
+
+            &:nth-child(2n+1) {
+                border-left: none;
+            }
+
+            &:nth-child(3n+1) {
+                border-left: 1px solid var(--black);
+            }
+        }
+
+        &Title {
+            @include mynerve();
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        &Img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

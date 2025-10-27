@@ -1,5 +1,5 @@
 'use client'
-import imagesSlider from '@/data/imagesSlider'
+import imagesSlider from '@data/imagesSlider'
 
 import React from 'react'
 import Image from 'next/image'
@@ -24,17 +24,9 @@ const HomeSlider = () => {
   return (
     <div className={styles.homeslider}>
         <Swiper
-            // effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
-            // coverflowEffect={{
-            //     rotate: 50,
-            //     stretch: 0,
-            //     depth: 300,
-            //     modifier: 1,
-            //     slideShadows: true,
-            // }}
             pagination={{ clickable: true }}
             modules={[EffectCoverflow, Pagination]}
             className={`homeslider ${styles.homeswiper}`}

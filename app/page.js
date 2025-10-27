@@ -1,7 +1,7 @@
 export const revalidate = false
-import intro from '@/data/intro'
-import recipes from '@/data/recipes'
-import howTo from '@/data/howTo'
+import intro from '@data/intro'
+import recipes from '@data/recipes'
+import howTo from '@data/howTo'
 
 import {HomeSlider} from '@components/HomeSlider'
 import {Intro} from '@components/Intro'

@@ -16,12 +16,12 @@ module.exports = async (phase) => {
   } else {
 
     nextConfig = {
-      // output: 'export',
-      // basePath: "/fuji",
-      // assetPrefix: "/fuji/",
-      // images: {
-      //   unoptimized: true,
-      // },
+      output: 'export',
+      basePath: "/fuji",
+      assetPrefix: "/fuji/",
+      images: {
+        unoptimized: true,
+      },
     }
   }
 
