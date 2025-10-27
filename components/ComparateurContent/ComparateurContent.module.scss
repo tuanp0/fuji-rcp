@@ -52,60 +52,71 @@
     &Solo {
         width: 100%;
         padding: 1.25rem;
-        border-top: 0px solid transparent;
-        border-right: 1px solid var(--black);
-        border-bottom: 1px solid var(--black);
+        // border-top: 0px solid transparent;
+        // border-right: 1px solid var(--black);
+        // border-bottom: 1px solid var(--black);
+        transition: all 0.2s ease-in-out;
 
-        &:nth-child(1) {
-            border-top: 1px solid var(--black);
+        &:hover {
+            background: var(--black-10);
         }
 
-        &:nth-child(1n+1) {
-            border-left: 1px solid var(--black);
-        }
+        // &:nth-child(1) {
+        //     border-top: 1px solid var(--black);
+        // }
+
+        // &:nth-child(1n+1) {
+        //     border-left: 1px solid var(--black);
+        // }
 
         @media screen and (min-width:640px) {
             width: 50%;
 
-            &:nth-child(2) {
-                border-top: 1px solid var(--black);
-            }
+            // &:nth-child(2) {
+            //     border-top: 1px solid var(--black);
+            // }
 
-            &:nth-child(1n+1) {
-                border-left: none;
-            }
+            // &:nth-child(1n+1) {
+            //     border-left: none;
+            // }
 
-            &:nth-child(2n+1) {
-                border-left: 1px solid var(--black);
-            }
+            // &:nth-child(2n+1) {
+            //     border-left: 1px solid var(--black);
+            // }
         }
 
         @media screen and (min-width:768px) {
             width: 33.33%;
 
-            &:nth-child(3) {
-                border-top: 1px solid var(--black);
-            }
+            // &:nth-child(3) {
+            //     border-top: 1px solid var(--black);
+            // }
 
-            &:nth-child(2n+1) {
-                border-left: none;
-            }
+            // &:nth-child(2n+1) {
+            //     border-left: none;
+            // }
 
-            &:nth-child(3n+1) {
-                border-left: 1px solid var(--black);
-            }
-        }
-
-        &Title {
-            @include mynerve();
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
+            // &:nth-child(3n+1) {
+            //     border-left: 1px solid var(--black);
+            // }
         }
 
         &Img {
             width: 100%;
             height: auto;
             display: block;
+        }
+
+        &Title {
+            @include mynerve();
+            font-size: 1.25rem;
+            color: var(--black);
+            margin: 0.5rem 0;
+        }
+
+        &Desc {
+            font-size: 1rem;
+            font-style: italic;
         }
     }
 }

@@ -4,6 +4,7 @@ import photoName from '@data/photoName'
 
 import React, { useState, useMemo } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Container } from '@components/Container'
 
 import styles from './ComparateurContent.module.scss'
@@ -40,6 +41,8 @@ const ComparateurContent = () => {
         if (filename.startsWith(`${selectedPrefix}-`)) {
           results.push({
             recipe: recipe.title,
+            link: recipe.slug,
+            desc: recipe.shortDesc,
             src: image.src
           })
         }
@@ -69,13 +72,11 @@ const ComparateurContent = () => {
               <h2 className={styles.comparateurTitle}>Liste de Recipes</h2>
               <div className={styles.comparateurGlobal}>
                 {filteredImages.map((item, idx) => (
-                  <div 
-                    key={idx}
-                    className={styles.comparateurSolo}
-                  >
-                    <h3 className={styles.comparateurSoloTitle}>{item.recipe}</h3>
+                  <Link href={item.link} key={idx} className={styles.comparateurSolo}>
                     <Image src={item.src} alt={''} width={1100} height={733} className={styles.comparateurSoloImg} />
-                  </div>
+                    <h3 className={styles.comparateurSoloTitle}>{item.recipe}</h3>
+                    <div className={styles.comparateurSoloDesc} dangerouslySetInnerHTML={{__html: item.desc}} />
+                  </Link>
                 ))}
               </div>
             </div>
