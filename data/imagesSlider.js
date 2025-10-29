@@ -27,7 +27,7 @@ const imagesSlider = [
     {
         src: "/fuji/recipes/yashica-golden80s/4-yashica-golden80s.jpg",
         recipe: "Yashica Golden 80s",
-        link:"/yashica-golden80s-gold"
+        link:"/yashica-golden80s"
     },
     {
         src: "/fuji/recipes/cinematic-gold/6-cinematic-gold.jpg",

@@ -71,3 +71,25 @@
         }
     }
 }
+
+@mixin button ($text: var(--white), $background: var(--white-20), $backgroundHover: var(--black-20)) {
+    @include mynerve();
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: $text;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background: $background;
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px $backgroundHover;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid $text;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        @media screen and (min-width:992px) {
+            background: $backgroundHover;
+        }
+    }
+}

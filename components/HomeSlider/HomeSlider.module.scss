@@ -3,26 +3,17 @@
 @use "../../styles/fonts" as *;
 
 .homeslider {
-    position: relative;
-    border-radius: 1rem;
     width: calc(100% - 3rem);
     max-width: 1440px;
-    margin: 1.5rem auto 0 auto;
-    overflow: hidden;
-
-    &::before {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 2;
-        background: linear-gradient(0deg, rgba(253, 29, 29, 0) 80%, var(--black-50) 100%);
-    }
+    margin: 0 auto;
 }
 
 .homeswiper {
     height: 500px;
+    top: 1.5rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    overflow: hidden;
 
     @media screen and (min-width:768px) {
         height: 700px;
@@ -31,6 +22,18 @@
     &Slide {
         position: relative;
         width: 100%;
+        border-radius: 1rem;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2;
+            background: linear-gradient(0deg, rgba(253, 29, 29, 0) 80%, var(--black-50) 100%);
+        }
     }
 
     &Img {
@@ -61,7 +64,7 @@
     &Content {
         @include mynerve();
         color: var(--white);
-        text-align: right;
+        text-align: center;
         padding: 0.5rem 1rem;
         background: var(--white-20);
         border-radius: 1rem;

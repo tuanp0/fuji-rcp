@@ -60,6 +60,45 @@ const recipes = [
     //         },
     //     ]
     // },
+    { /* Barcelona */
+        slug: "barcelona",
+        title: "Barcelona",
+        tags: ['orange', 'soft', 'nostalgic-negatve'],
+        shortDesc: `Chaleur méditerranéenne. Couleurs dorées, ambiance nostalgique et lumière douce inspirée du film.`,
+        description: `<p>La recette <strong>Barcelona</strong> capture la chaleur et la douceur des après-midis méditerranéens. 
+            Inspirée par la lumière dorée des ruelles espagnoles et la texture cinématographique du <em>Nostalgic Negative</em>, 
+            elle offre un rendu à la fois vibrant et apaisé.</p>
+            <p>Les tons sont <strong>chauds et légèrement désaturés</strong>, évoquant la pellicule ancienne et la photographie argentique. 
+            Les ombres restent douces, les hautes lumières équilibrées, tandis que les teintes orangées et dorées dominent avec élégance. 
+            Le résultat est un look naturel, chaleureux et profondément évocateur.</p>
+            <p><strong>Barcelona</strong> excelle en lumière naturelle : portraits en extérieur, ruelles baignées de soleil, 
+            scènes urbaines ou moments de voyage. Elle sublime la peau, adoucit les contrastes et apporte une atmosphère intime, presque rétro.</p>
+            <p>Sur le plan émotionnel, <em>Barcelona</em> évoque la nostalgie, la légèreté et le charme des instants suspendus. 
+            Elle invite à photographier avec sensibilité et à célébrer la beauté de la lumière quotidienne, simple et dorée.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/barcelona/12-barcelona.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Nostalgic Negative",
+                "Balance des blancs": "Auto Priorité ambiance<br/>R: 0 / B: -3",
+                "Couleur Chrome": "Off",
+                "Couleur Chrome FX Bleue": "Off",
+                "Effet de Grain": "Faible<br/>Petit",
+                "Plage dynamique": "DR400",
+                "Hautes lumières": "-0",
+                "Ombres": "-1",
+                "Couleur": "+1",
+                "Detail": "-2",
+                "RB ISO Elevée": "-4",
+                "Netteté": "0",
+                "ISO": "Auto<br/>jusqu'à ISO 3200",
+                "Compensation Exp.": "0",
+            },
+        ]
+    },
     { /* Cinematic Gold */
         slug: "cinematic-gold",
         title: "Cinematic Gold",
@@ -104,6 +143,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/cinematic-gold/10-cinematic-gold.jpg"
+            },
+            {
+                src: "/fuji/recipes/cinematic-gold/11-cinematic-gold.jpg"
+            },
+            {
+                src: "/fuji/recipes/cinematic-gold/12-cinematic-gold.jpg"
             },
         ],
         settings: [
@@ -269,6 +314,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/fujicolor-c200/10-fujicolor-c200.jpg"
             },
+            {
+                src: "/fuji/recipes/fujicolor-c200/11-fujicolor-c200.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-c200/12-fujicolor-c200.jpg"
+            },
         ],
         settings: [
             {
@@ -309,6 +360,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/fujicolor-natura-1600/8-fujicolor-natura-1600.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-natura-1600/11-fujicolor-natura-1600.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-natura-1600/12-fujicolor-natura-1600.jpg"
             },
         ],
         settings: [
@@ -364,6 +421,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/fujicolor-pro-400h/10-fujicolor-pro-400h.jpg"
             },
+            {
+                src: "/fuji/recipes/fujicolor-pro-400h/11-fujicolor-pro-400h.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-pro-400h/12-fujicolor-pro-400h.jpg"
+            },
         ],
         settings: [
             {
@@ -384,7 +447,7 @@ const recipes = [
             },
         ],
     },
-    { /* Fujifilm Supéria X-Tra 400 */
+    { /* Fujifilm Superia X-Tra 400 */
         slug: "fuji-superia-xtra-400",
         title: "Fujifilm Superia X-Tra 400",
         tags: ['blue', 'classic-negative'],
@@ -425,6 +488,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/fujifilm-superia-xtra-400/10-fujifilm-superia-xtra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/11-fujifilm-superia-xtra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/12-fujifilm-superia-xtra-400.jpg"
             },
         ],
         settings: [
@@ -468,7 +537,16 @@ const recipes = [
             idéale pour des récits visuels empreints de délicatesse.</p>`,
         images: [
             {
+                src: "/fuji/recipes/gentle-specimen/2-gentle-specimen.jpg"
+            },
+            {
                 src: "/fuji/recipes/gentle-specimen/7-gentle-specimen.jpg"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/11-gentle-specimen.jpg"
+            },
+            {
+                src: "/fuji/recipes/gentle-specimen/12-gentle-specimen.jpg"
             },
         ],
         settings: [
@@ -521,6 +599,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/ilfordfp4plus-125/10-ilfordfp4plus-125.jpg"
+            },
+            {
+                src: "/fuji/recipes/ilfordfp4plus-125/11-ilfordfp4plus-125.jpg"
+            },
+            {
+                src: "/fuji/recipes/ilfordfp4plus-125/12-ilfordfp4plus-125.jpg"
             },
         ],
         settings: [
@@ -580,6 +664,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodachrome-64/10-kodachrome64.jpg"
             },
+            {
+                src: "/fuji/recipes/kodachrome-64/11-kodachrome64.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodachrome-64/12-kodachrome64.jpg"
+            },
         ],
         settings: [
             {
@@ -637,6 +727,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodakcolorplus-200/9-kodakcolorplus-200.jpg"
             },
+            {
+                src: "/fuji/recipes/kodakcolorplus-200/11-kodakcolorplus-200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakcolorplus-200/12-kodakcolorplus-200.jpg"
+            },
         ],
         settings: [
             {
@@ -692,6 +788,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodakektar-100/9-kodakektar-100.jpg"
             },
+            {
+                src: "/fuji/recipes/kodakektar-100/11-kodakektar-100.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakektar-100/12-kodakektar-100.jpg"
+            },
         ],
         settings: [
             {
@@ -737,6 +839,9 @@ const recipes = [
                 src: "/fuji/recipes/kodakgold-200/1-kodakgold-200.jpg"
             },
             {
+                src: "/fuji/recipes/kodakgold-200/2-kodakgold-200.jpg"
+            },
+            {
                 src: "/fuji/recipes/kodakgold-200/3-kodakgold-200.jpg"
             },
             {
@@ -759,6 +864,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/kodakgold-200/10-kodakgold-200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakgold-200/11-kodakgold-200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakgold-200/12-kodakgold-200.jpg"
             },
         ],
         settings: [
@@ -821,6 +932,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodakportra-400/10-kodakportra-400.jpg"
             },
+            {
+                src: "/fuji/recipes/kodakportra-400/11-kodakportra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakportra-400/12-kodakportra-400.jpg"
+            },
         ],
         settings: [
             {
@@ -857,6 +974,9 @@ const recipes = [
             Elle permet de capturer l’énergie et l’authenticité des scènes, avec un rendu granuleux et expressif fidèle à l’esprit de l’argentique.</p>`,
         images: [
             {
+                src: "/fuji/recipes/kodaktmax-p3200/2-kodaktmax-p3200.jpg"
+            },
+            {
                 src: "/fuji/recipes/kodaktmax-p3200/3-kodaktmax-p3200.jpg"
             },
             {
@@ -879,6 +999,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/kodaktmax-p3200/10-kodaktmax-p3200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodaktmax-p3200/11-kodaktmax-p3200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodaktmax-p3200/12-kodaktmax-p3200.jpg"
             },
         ],
         settings: [
@@ -985,6 +1111,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodakvision3-250d/9-kodakvision3-250d.jpg"
             },
+            {
+                src: "/fuji/recipes/kodakvision3-250d/11-kodakvision3-250d.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakvision3-250d/12-kodakvision3-250d.jpg"
+            },
         ],
         settings: [
             {
@@ -1004,6 +1136,46 @@ const recipes = [
                 "Compensation Exp.": "0 à +2/3",
             },
         ],
+    },
+    { /* Loki */
+        slug: "loki",
+        title: "Loki",
+        tags: ['orange', 'soft', 'night', 'classic-negative'],
+        shortDesc: `Très fort contraste. Éclats lumineux et ombres profondes. Atmosphère dramatique et urbaine.`,
+        description: `<p>La recette <strong>Loki</strong> est conçue pour ceux qui recherchent un rendu audacieux, contrasté et percutant. 
+            Inspirée par les ambiances nocturnes intenses et les éclairages artificiels marqués, elle joue sur les extrêmes entre lumière et obscurité.</p>
+            <p>Les hautes lumières sont <strong>fortement accentuées</strong>, tandis que les ombres deviennent denses et profondes, 
+            créant un contraste dramatique et un rendu quasi cinématographique. 
+            La couleur reste neutre, laissant la dynamique des tons et la dureté des lumières définir le caractère de l’image.</p>
+            <p><strong>Loki</strong> excelle dans les environnements urbains, les scènes de nuit ou les situations à éclairage contrasté. 
+            Elle révèle la structure des lumières, les reflets métalliques et les textures avec une précision tranchante, 
+            donnant un aspect brut et contemporain aux clichés.</p>
+            <p>Sur le plan émotionnel, <em>Loki</em> évoque la tension, le mystère et une certaine dualité. 
+            Elle capture la beauté dans le chaos lumineux des villes, entre éclat et obscurité, 
+            pour des images à la fois puissantes, nerveuses et captivantes.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/loki/12-loki.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative",
+                "Balance des blancs": "Auto<br/>R: +3 / B: -5",
+                "Couleur Chrome": "Off",
+                "Couleur Chrome FX Bleue": "Faible (X-Trans V)<br/>Off (X-Trans IV)",
+                "Effet de Grain": "Off",
+                "Plage dynamique": "DR100",
+                "Hautes lumières": "+4",
+                "Ombres": "+4",
+                "Couleur": "0",
+                "Detail": "+3",
+                "RB ISO Elevée": "-4",
+                "Netteté": "+3",
+                "ISO": "Auto<br/>jusqu'à ISO 3200",
+                "Compensation Exp.": "+-2/3",
+            },
+        ]
     },
     { /* Monochrome Kodachrome */
         slug: "monochrome-kodachrome",
@@ -1030,6 +1202,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/monochrome-kodachrome/9-monochrome-kodachrome.jpg"
+            },
+            {
+                src: "/fuji/recipes/monochrome-kodachrome/11-monochrome-kodachrome.jpg"
+            },
+            {
+                src: "/fuji/recipes/monochrome-kodachrome/12-monochrome-kodachrome.jpg"
             },
         ],
         settings: [
@@ -1085,6 +1263,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/moodymetropolis-500t/8-moodymetropolis-500t.jpg"
             },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/11-moodymetropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/12-moodymetropolis-500t.jpg"
+            },
         ],
         settings: [
             {
@@ -1102,6 +1286,56 @@ const recipes = [
                 "Netteté": "0",
                 "ISO": "Auto<br/>jusqu'à 6400",
                 "Compensation Exp.": "0 à +2/3",
+            },
+        ]
+    },
+    { /* Neon Obscura */
+        slug: "neon-obscura",
+        title: "Neon Obscura",
+        tags: ['orange', 'soft', 'night', 'classic-negative'],
+        shortDesc: `Atmosphère nocturne et poétique. Lumières néon adoucies. Contrastes subtils. Teintes froides et mystérieuses.`,
+        description: `<p>La recette <strong>Neon Obscura</strong> capture la magie des nuits urbaines baignées de néons, 
+            offrant une esthétique à la fois douce et cinématographique. 
+            Inspirée par les ambiances feutrées des ruelles éclairées de reflets colorés, 
+            elle sublime les tons froids et les jeux de lumière artificielle avec élégance.</p>
+            <p>Les <strong>hautes lumières sont adoucies</strong> pour préserver la texture des sources lumineuses, 
+            tandis que les ombres conservent une certaine profondeur sans se perdre dans le noir. 
+            La <strong>palette chromatique désaturée</strong> atténue les couleurs vives, 
+            créant une harmonie visuelle empreinte de mystère. 
+            Les bleus et violets dominent, contrastant avec des touches chaudes issues des enseignes lumineuses.</p>
+            <p>Idéale pour la <strong>photographie nocturne, les scènes de rue ou les portraits sous lumière artificielle</strong>, 
+            <em>Neon Obscura</em> révèle la beauté cachée des villes endormies. 
+            Elle permet de jouer avec les reflets, les halos et les contrastes pour des rendus à la fois réalistes et poétiques.</p>
+            <p>Sur le plan émotionnel, cette recette évoque la <em>solitude moderne, la rêverie et l’introspection</em>. 
+            Elle invite à capturer la lumière dans l’obscurité, à révéler la douceur derrière le béton, 
+            et à explorer la dimension onirique des nuits urbaines.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/neon-obscura/2-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/11-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/12-neon-obscura.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Classic Negative",
+                "Balance des blancs": "5400K<br/>R: -2 / B: -1",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Fort",
+                "Effet de Grain": "Faible<br/>Petit",
+                "Plage dynamique": "DR400",
+                "Hautes lumières": "-1.5",
+                "Ombres": "-0.5",
+                "Couleur": "-2",
+                "Detail": "-2",
+                "RB ISO Elevée": "0",
+                "Netteté": "0",
+                "ISO": "Auto<br/>jusqu'à ISO 3200",
+                "Compensation Exp.": "+2/3",
             },
         ]
     },
@@ -1136,6 +1370,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/timeless-negative/10-timeless-negative.jpg"
+            },
+            {
+                src: "/fuji/recipes/timeless-negative/11-timeless-negative.jpg"
+            },
+            {
+                src: "/fuji/recipes/timeless-negative/12-timeless-negative.jpg"
             },
         ],
         settings: [
@@ -1243,6 +1483,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/yashica-golden80s/10-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/11-yashica-golden80s.jpg"
+            },
+            {
+                src: "/fuji/recipes/yashica-golden80s/12-yashica-golden80s.jpg"
             },
         ],
         settings: [

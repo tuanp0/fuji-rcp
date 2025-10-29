@@ -7,6 +7,10 @@
     position: relative;
     padding-top: 1.5rem;
 
+    .container {
+        padding-bottom: 0;
+    }
+
     &Text,
     &Title {
         @include wysiwyg();

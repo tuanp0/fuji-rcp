@@ -27,6 +27,7 @@ const HomeSlider = () => {
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
+            spaceBetween={32}
             pagination={{ clickable: true }}
             modules={[EffectCoverflow, Pagination]}
             className={`homeslider ${styles.homeswiper}`}
