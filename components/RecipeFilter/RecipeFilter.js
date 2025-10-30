@@ -11,7 +11,8 @@ const RecipeFilter = ({
     setColorFilter,
     styleFilter,
     setStyleFilter,
-    filteredRecipes,
+    simulationFilter,
+    setSimulationFilter,
     showReset
 }) => {
     const [open, setOpen] = useState(false)
@@ -27,6 +28,7 @@ const RecipeFilter = ({
         setOrderFilter('alpha')
         setColorFilter('')
         setStyleFilter('')
+        setSimulationFilter('')
     }
 
     return (
@@ -116,10 +118,10 @@ const RecipeFilter = ({
                     <div className={styles.filterItem}>
                         <label className={styles.filterLabel} htmlFor="simulation-select">Simulation</label>
                         <select
-                            name="style"
+                            name="simulation"
                             id="simulation-select"
-                            value={styleFilter}
-                            onChange={(e) => setStyleFilter(e.target.value)}
+                            value={simulationFilter}
+                            onChange={(e) => setSimulationFilter(e.target.value)}
                             className={styles.filterSelect}
                         >
                             <option value="">Tous</option>

@@ -10,6 +10,7 @@ const ListCard = ({recipes}) => {
   const [orderFilter, setOrderFilter] = useState('')
   const [colorFilter, setColorFilter] = useState('')
   const [styleFilter, setStyleFilter] = useState('')
+  const [simulationFilter, setSimulationFilter] = useState('')
   const [showReset, setShowReset] = useState(false)
 
   const filteredRecipes = useMemo(() => {
@@ -33,6 +34,12 @@ const ListCard = ({recipes}) => {
       })
     }
 
+    if (simulationFilter) {
+      result = result.filter(recipe => {
+        return recipe.tags && recipe.tags.includes(simulationFilter)
+      })
+    }
+
     if (orderFilter === 'alpha') {
       result.sort((a, b) => a.title.localeCompare(b.title, 'fr'))
     } else if (orderFilter === 'nalpha') {
@@ -40,7 +47,7 @@ const ListCard = ({recipes}) => {
     }
 
     return result
-  }, [recipes, orderFilter, colorFilter, styleFilter])
+  }, [recipes, orderFilter, colorFilter, styleFilter, simulationFilter])
 
   return (
     <section className={styles.listcard}>
@@ -53,7 +60,8 @@ const ListCard = ({recipes}) => {
           setColorFilter={setColorFilter}
           styleFilter={styleFilter}
           setStyleFilter={setStyleFilter}
-          filteredRecipes={filteredRecipes}
+          simulationFilter={simulationFilter}
+          setSimulationFilter={setSimulationFilter}
           showReset={showReset}
         />
         
