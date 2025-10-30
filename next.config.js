@@ -17,8 +17,8 @@ module.exports = async (phase) => {
 
     nextConfig = {
       output: 'export',
-      basePath: "/fuji",
-      assetPrefix: "/fuji/",
+      basePath: "",
+      assetPrefix: "",
       images: {
         unoptimized: true,
       },

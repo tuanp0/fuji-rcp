@@ -1,6 +1,6 @@
 const imagesSlider = [
     {
-        src: "/fuji/recipes/kodakgold-200/6-kodakgold-200.jpg",
+        src: "/fuji/recipes/kodakgold-200/12-kodakgold-200.jpg",
         recipe: "Kodak Gold 200",
         link:"/kodakgold-200"
     },
@@ -15,24 +15,24 @@ const imagesSlider = [
         link:"/fuji-superia-xtra-400"
     },
     {
-        src: "/fuji/recipes/fujicolor-pro-400h/7-fujicolor-pro-400h.jpg",
-        recipe: "Fujicolor Pro 400H",
-        link:"/fujicolor-pro-400h"
+        src: "/fuji/recipes/timeless-negative/14-timeless-negative.jpg",
+        recipe: "Timeless negative",
+        link:"/timeless-negative"
     },
     {
-        src: "/fuji/recipes/fujicolor-c200/2-fujicolor-c200.jpg",
-        recipe: "Fujicolor C200",
-        link:"/fujicolor-c200"
+        src: "/fuji/recipes/moodymetropolis-500t/15-moodymetropolis-500t.jpg",
+        recipe: "Moody metropolis 500T",
+        link:"/moodymetropolis-500t"
     },
     {
-        src: "/fuji/recipes/yashica-golden80s/4-yashica-golden80s.jpg",
+        src: "/fuji/recipes/yashica-golden80s/10-yashica-golden80s.jpg",
         recipe: "Yashica Golden 80s",
         link:"/yashica-golden80s"
     },
     {
-        src: "/fuji/recipes/cinematic-gold/6-cinematic-gold.jpg",
-        recipe: "Cinematic Gold",
-        link:"/cinematic-gold"
+        src: "/fuji/recipes/kodaktmax-p3200/4-kodaktmax-p3200.jpg",
+        recipe: "Kodak T-max P3200",
+        link:"/kodaktmax-p3200"
     },
 ]
     

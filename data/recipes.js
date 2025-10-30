@@ -79,6 +79,9 @@ const recipes = [
             {
                 src: "/fuji/recipes/barcelona/12-barcelona.jpg"
             },
+            {
+                src: "/fuji/recipes/barcelona/14-barcelona.jpg"
+            },
         ],
         settings: [
             {
@@ -150,6 +153,9 @@ const recipes = [
             {
                 src: "/fuji/recipes/cinematic-gold/12-cinematic-gold.jpg"
             },
+            {
+                src: "/fuji/recipes/cinematic-gold/14-cinematic-gold.jpg"
+            },
         ],
         settings: [
             {
@@ -170,67 +176,61 @@ const recipes = [
             },
         ]
     },
-    // { /* CineStill 800T */
-    //     slug: "cinestill-800t",
-    //     title: "CineStill 800T",
-    //     tags: ['blue', 'night', 'tungsten', 'eterna'],
-    //     shortDesc: ``,
-    //     description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
-    //         utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
-    //         par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 
-    //         et cinématographique.</p>
-    //         <p>Les couleurs prennent une <strong>dominante froide et contrastée</strong> : 
-    //         les bleus et cyans sont renforcés, les rouges et oranges deviennent intenses, 
-    //         tandis que les verts adoptent des nuances électriques. Cette palette crée un effet 
-    //         typiquement nocturne, parfait pour sublimer les scènes de ville après le coucher du soleil.<br/>
-    //         Les ombres sont profondes et denses, accentuées par des hautes lumières 
-    //         contrôlées qui évitent les surexpositions.</p>
-    //         <p>Cette recette excelle dans la photographie de rue nocturne, les paysages urbains 
-    //         éclairés artificiellement et les atmosphères cinématographiques inspirées des films des années 80 et 90. 
-    //         Elle reproduit fidèlement l’esthétique <em>néon-noir</em>, avec un contraste fort entre la lumière artificielle 
-    //         et l’obscurité environnante.</p>
-    //         <p>Sur le plan émotionnel, le <em>CineStill 800T</em> évoque le mystère, la solitude et la poésie 
-    //         des nuits en ville. C’est un rendu qui transforme l’ordinaire en décor de film, 
-    //         donnant à chaque photo un caractère dramatique et intemporel.</p>`,
-    //     images: [
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-1.webp"
-    //         },
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-2.webp"
-    //         },
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-3.webp"
-    //         },
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-4.webp"
-    //         },
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-5.webp"
-    //         },
-    //         {
-    //             src: "/fuji/recipes/cinestill-800t/cinestill800t-6.webp"
-    //         },
-    //     ],
-    //     settings: [
-    //         {
-    //             "Film simulation": "Eterna",
-    //             "Balance des blancs": "Fluorescent 3<br/>R: -6 / B: -4",
-    //             "Couleur Chrome": "Fort",
-    //             "Couleur Chrome FX Bleue": "Faible",
-    //             "Effet de Grain": "Fort<br/>Gros",
-    //             "Plage dynamique": "DR400",
-    //             "Hautes lumières": "0",
-    //             "Ombres": "+2",
-    //             "Couleur": "+4",
-    //             "Detail": "-5",
-    //             "RB ISO Elevée": "-4",
-    //             "Netteté": "-3",
-    //             "ISO": "Auto<br/>jusqu'à ISO 6400",
-    //             "Compensation Exp.": "-1/3 à +2/3",
-    //         },
-    //     ]
-    // },
+    { /* CineStill 800T */
+        slug: "cinestill-800t",
+        title: "CineStill 800T",
+        tags: ['blue', 'night', 'tungsten', 'eterna'],
+        shortDesc: `Ambiance nocturne cinématographique. Tons froids, néons éclatants et contrastes marqués. Idéal pour la ville après la tombée de la nuit.`,
+        description: `<p>La recette <strong>CineStill 800T</strong> s’inspire de la célèbre pellicule tungstène 
+            utilisée en photographie de nuit. Elle restitue l’ambiance des scènes urbaines illuminées 
+            par les néons, les lampadaires et les enseignes colorées, avec un rendu à la fois vibrant 
+            et cinématographique.</p>
+            <p>Les couleurs prennent une <strong>dominante froide et contrastée</strong> : 
+            les bleus et cyans sont renforcés, les rouges et oranges deviennent intenses, 
+            tandis que les verts adoptent des nuances électriques. Cette palette crée un effet 
+            typiquement nocturne, parfait pour sublimer les scènes de ville après le coucher du soleil.<br/>
+            Les ombres sont profondes et denses, accentuées par des hautes lumières 
+            contrôlées qui évitent les surexpositions.</p>
+            <p>Cette recette excelle dans la photographie de rue nocturne, les paysages urbains 
+            éclairés artificiellement et les atmosphères cinématographiques inspirées des films des années 80 et 90. 
+            Elle reproduit fidèlement l’esthétique <em>néon-noir</em>, avec un contraste fort entre la lumière artificielle 
+            et l’obscurité environnante.</p>
+            <p>Sur le plan émotionnel, le <em>CineStill 800T</em> évoque le mystère, la solitude et la poésie 
+            des nuits en ville. C’est un rendu qui transforme l’ordinaire en décor de film, 
+            donnant à chaque photo un caractère dramatique et intemporel.</p>`,
+        images: [
+            {
+                src: "/fuji/recipes/cinestill-800t/13-cinestill-800t.jpg"
+            },
+            {
+                src: "/fuji/recipes/cinestill-800t/14-cinestill-800t.jpg"
+            },
+            {
+                src: "/fuji/recipes/cinestill-800t/15-cinestill-800t.jpg"
+            },
+            {
+                src: "/fuji/recipes/cinestill-800t/16-cinestill-800t.jpg"
+            },
+        ],
+        settings: [
+            {
+                "Film simulation": "Eterna",
+                "Balance des blancs": "Fluorescent 3<br/>R: -6 / B: -4",
+                "Couleur Chrome": "Fort",
+                "Couleur Chrome FX Bleue": "Faible",
+                "Effet de Grain": "Fort<br/>Gros",
+                "Plage dynamique": "DR400",
+                "Hautes lumières": "0",
+                "Ombres": "+2",
+                "Couleur": "+4",
+                "Detail": "-5",
+                "RB ISO Elevée": "-4",
+                "Netteté": "-3",
+                "ISO": "Auto<br/>jusqu'à ISO 6400",
+                "Compensation Exp.": "-1/3 à +2/3",
+            },
+        ]
+    },
     { /* Cinematic Gold */
         slug: "coffee",
         title: "Coffee",
@@ -320,6 +320,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/fujicolor-c200/12-fujicolor-c200.jpg"
             },
+            {
+                src: "/fuji/recipes/fujicolor-c200/14-fujicolor-c200.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-c200/15-fujicolor-c200.jpg"
+            },
         ],
         settings: [
             {
@@ -366,6 +372,9 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/fujicolor-natura-1600/12-fujicolor-natura-1600.jpg"
+            },
+            {
+                src: "/fuji/recipes/fujicolor-natura-1600/15-fujicolor-natura-1600.jpg"
             },
         ],
         settings: [
@@ -495,6 +504,9 @@ const recipes = [
             {
                 src: "/fuji/recipes/fujifilm-superia-xtra-400/12-fujifilm-superia-xtra-400.jpg"
             },
+            {
+                src: "/fuji/recipes/fujifilm-superia-xtra-400/16-fujifilm-superia-xtra-400.jpg"
+            },
         ],
         settings: [
             {
@@ -605,6 +617,12 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/ilfordfp4plus-125/12-ilfordfp4plus-125.jpg"
+            },
+            {
+                src: "/fuji/recipes/ilfordfp4plus-125/13-ilfordfp4plus-125.jpg"
+            },
+            {
+                src: "/fuji/recipes/ilfordfp4plus-125/15-ilfordfp4plus-125.jpg"
             },
         ],
         settings: [
@@ -871,6 +889,9 @@ const recipes = [
             {
                 src: "/fuji/recipes/kodakgold-200/12-kodakgold-200.jpg"
             },
+            {
+                src: "/fuji/recipes/kodakgold-200/16-kodakgold-200.jpg"
+            },
         ],
         settings: [
             {
@@ -937,6 +958,9 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/kodakportra-400/12-kodakportra-400.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodakportra-400/14-kodakportra-400.jpg"
             },
         ],
         settings: [
@@ -1005,6 +1029,15 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/kodaktmax-p3200/12-kodaktmax-p3200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodaktmax-p3200/14-kodaktmax-p3200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodaktmax-p3200/15-kodaktmax-p3200.jpg"
+            },
+            {
+                src: "/fuji/recipes/kodaktmax-p3200/16-kodaktmax-p3200.jpg"
             },
         ],
         settings: [
@@ -1157,6 +1190,9 @@ const recipes = [
             {
                 src: "/fuji/recipes/loki/12-loki.jpg"
             },
+            {
+                src: "/fuji/recipes/loki/16-loki.jpg"
+            },
         ],
         settings: [
             {
@@ -1261,13 +1297,22 @@ const recipes = [
                 src: "/fuji/recipes/moodymetropolis-500t/7-moodymetropolis-500t.jpg"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/8-moodymetropolis-500t.jpg"
-            },
-            {
                 src: "/fuji/recipes/moodymetropolis-500t/11-moodymetropolis-500t.jpg"
             },
             {
                 src: "/fuji/recipes/moodymetropolis-500t/12-moodymetropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/13-moodymetropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/14-moodymetropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/15-moodymetropolis-500t.jpg"
+            },
+            {
+                src: "/fuji/recipes/moodymetropolis-500t/16-moodymetropolis-500t.jpg"
             },
         ],
         settings: [
@@ -1318,6 +1363,18 @@ const recipes = [
             },
             {
                 src: "/fuji/recipes/neon-obscura/12-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/13-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/14-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/15-neon-obscura.jpg"
+            },
+            {
+                src: "/fuji/recipes/neon-obscura/16-neon-obscura.jpg"
             },
         ],
         settings: [
@@ -1377,6 +1434,12 @@ const recipes = [
             {
                 src: "/fuji/recipes/timeless-negative/12-timeless-negative.jpg"
             },
+            {
+                src: "/fuji/recipes/timeless-negative/13-timeless-negative.jpg"
+            },
+            {
+                src: "/fuji/recipes/timeless-negative/14-timeless-negative.jpg"
+            },
         ],
         settings: [
             {
@@ -1413,7 +1476,13 @@ const recipes = [
             Elle invite à explorer la couleur et le contraste pour capturer des images mémorables et chargées de personnalité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/xpro-62/5-xpro62.jpg"
+                src: "/fuji/recipes/xpro-62/5-xpro-62.jpg"
+            },
+            {
+                src: "/fuji/recipes/xpro-62/15-xpro-62.jpg"
+            },
+            {
+                src: "/fuji/recipes/xpro-62/16-xpro-62.jpg"
             },
         ],
         settings: [
