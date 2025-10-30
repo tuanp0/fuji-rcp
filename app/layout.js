@@ -53,7 +53,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" fir="ltr">
+    <html lang="fr" dir="ltr">
       <body>
         <Header/>
         {children}

@@ -13,21 +13,19 @@ const Header = () => {
   return (
     <header className={`${styles.header} ${isHome ? styles.homepage : ''}`}>
       <Container className={styles.container}>
-        {isHome ? (
+        <Link href={`/`}>
+          {isHome ? (
             <h1 className={styles.headerTitle}>
-              <Link href={`/`}>
-                fuji 
-                <span className={styles.headerSecond}>Recipes</span>
-              </Link>
+              fuji 
+              <span className={styles.headerSecond}>Recipes</span>
             </h1>
-        ) : (
+          ) : (
             <p className={styles.headerTitle}>
-              <Link href={`/`}>
-                fuji 
-                <span className={styles.headerSecond}>Recipes</span>
-              </Link>
+              fuji 
+              <span className={styles.headerSecond}>Recipes</span>
             </p>
-        )}
+          )}
+        </Link>
 
         <a href={'https://tuanphung.com/'} target={'_blank'} className={styles.headerSite} rel="noopener noreferrer">
           <Image
