@@ -5,21 +5,45 @@
 
 .pagelink {
     @include wysiwyg();
-
-    &Content {
-        background: var(--brown);
-        padding: 2rem 1.5rem;
+    
+    &{
+        width: 100%;
         border-radius: 1rem;
         border: 1px solid var(--black);
         box-shadow: 0 0 30px 0 var(--black-30);
+    }
 
-        @media screen and (min-width:768px) {
-            padding: 2.5rem 2rem 3rem;
+    &.brown {
+        background: var(--brown);
+    }
+
+    &.darkblue {
+        background: var(--darkblue);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: calc(50% - 1rem);
+    }
+
+    &Link {
+        padding: 1.25rem 1.5rem 2rem 1.5rem;
+        text-decoration: none !important;
+        display: block;
+
+        &:hover {
+            .pagelinkBtn {
+                background: var(--white-20);
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            padding: 2rem 2rem 3rem;
         }
     }
 
     &Title {
         color: var(--white);
+        margin-bottom: 0.75rem !important;
     }
 
     &Text {
@@ -27,11 +51,10 @@
         margin-bottom: 2.5rem;
     }
 
-    &Link {
+    &Btn {
         @include button(var(--white), var(--black-20), var(--white-20));
         
         & {
-            text-decoration: none !important;
             box-shadow: none;
         }
     }

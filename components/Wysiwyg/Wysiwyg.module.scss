@@ -1,0 +1,13 @@
+@use '../../styles/global.scss' as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.wysiwyg {
+    @include wysiwyg();
+    
+    @media screen and (min-width:768px) {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

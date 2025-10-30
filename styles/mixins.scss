@@ -2,6 +2,18 @@
 
 @mixin wysiwyg() {
 
+    h1 {
+        @include mynerve();
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+
+        @media screen and (min-width:768px) {
+            text-shadow: none;
+        }
+    }
+
     h2 {
         @include mynerve();
         font-size: 1.5rem;

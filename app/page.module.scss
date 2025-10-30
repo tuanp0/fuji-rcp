@@ -1,0 +1,17 @@
+@use '../styles/global.scss' as *;
+@use "../styles/variables" as *;
+@use "../styles/fonts" as *;
+
+.blocs {
+    &Container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 1.5rem;
+
+        @media screen and (min-width: 768px) {
+            gap: 2rem;
+        }
+    }
+}
