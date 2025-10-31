@@ -5,6 +5,10 @@
 
     &Container {
         padding-top: 0;
+
+        @media screen and (min-width:768px) {
+            padding-top: 2rem;
+        }
     }
 
     &Title {

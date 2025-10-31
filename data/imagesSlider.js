@@ -1,6 +1,6 @@
 const imagesSlider = [
     {
-        src: "/fuji/recipes/kodakgold-200/12-kodakgold-200.jpg",
+        src: "/fuji/recipes/kodakgold-200/4-kodakgold-200.jpg",
         recipe: "Kodak Gold 200",
         link:"/kodakgold-200"
     },
@@ -16,7 +16,7 @@ const imagesSlider = [
     },
     {
         src: "/fuji/recipes/timeless-negative/14-timeless-negative.jpg",
-        recipe: "Timeless negative",
+        recipe: "Timeless Negative",
         link:"/timeless-negative"
     },
     {
@@ -30,7 +30,7 @@ const imagesSlider = [
         link:"/yashica-golden80s"
     },
     {
-        src: "/fuji/recipes/kodaktmax-p3200/4-kodaktmax-p3200.jpg",
+        src: "/fuji/recipes/kodaktmax-p3200/6-kodaktmax-p3200.jpg",
         recipe: "Kodak T-max P3200",
         link:"/kodaktmax-p3200"
     },
