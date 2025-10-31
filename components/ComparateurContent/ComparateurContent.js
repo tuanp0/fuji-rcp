@@ -58,7 +58,8 @@ const ComparateurContent = () => {
     <section className={styles.comparateur}>
       <Container className={styles.comparateurContainer}>
         <Back link={`/`} noContainer />
-        <h2 className={styles.comparateurTitle}>Choix de la photo</h2>
+        <h1 className={styles.comparateurTitle}>Comparateur de recipe</h1>
+        <h2 className={styles.comparateurSubtitle}>Choix de la photo</h2>
         <select
           value={selectedPrefix}
           onChange={(e) => setSelectedPrefix(e.target.value)}
@@ -72,7 +73,7 @@ const ComparateurContent = () => {
 
         {filteredImages.length > 0 && (
             <div className={styles.comparateurResults}>
-              <h2 className={styles.comparateurTitle}>Liste de Recipes</h2>
+              <h2 className={styles.comparateurSubtitle}>Liste de Recipes</h2>
               <div className={styles.comparateurGlobal}>
                 {filteredImages.map((item, idx) => (
                   <Link href={item.link} key={idx} className={styles.comparateurSolo}>

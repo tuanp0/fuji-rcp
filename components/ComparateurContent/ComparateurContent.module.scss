@@ -4,10 +4,22 @@
 .comparateur {
 
     &Container {
-        padding-top: 2rem;
+        padding-top: 0;
     }
 
     &Title {
+        @include mynerve();
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+
+        @media screen and (min-width:768px) {
+            text-shadow: none;
+        }
+    }
+
+    &Subtitle {
         @include mynerve();
         font-size: 1.5rem;
         margin-bottom: 1.25rem;
