@@ -3,6 +3,12 @@
 @use "../../styles/fonts" as *;
 
 .listcard {
+    margin-bottom: 2rem;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 3rem;
+    }
+    
     &Global {
         display: flex;
         flex-wrap: wrap;

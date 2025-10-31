@@ -4,16 +4,23 @@
 @use "../../styles/mixins" as *;
 
 .recipe {
+
     .container {
+        padding: 0 0 2rem 0;
+
+        @media screen and (min-width: 768px) {
+            padding: 0rem 2rem 2rem 2rem;
+        }
+    }
+
+    &Content {
         position: relative;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 1.5rem;
-        padding: 0 0 2rem 0;
         
         @media screen and (min-width: 768px) {
-            padding: 0rem 2rem 2rem 2rem;
             gap: 2rem;
         }
     }

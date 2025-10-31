@@ -7,6 +7,7 @@ import React, { useState, useMemo } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@components/Container'
+import { Back } from '@components/Back'
 
 import styles from './ComparateurContent.module.scss'
 
@@ -56,6 +57,7 @@ const ComparateurContent = () => {
   return (
     <section className={styles.comparateur}>
       <Container className={styles.comparateurContainer}>
+        <Back link={`/`} noContainer />
         <h2 className={styles.comparateurTitle}>Choix de la photo</h2>
         <select
           value={selectedPrefix}

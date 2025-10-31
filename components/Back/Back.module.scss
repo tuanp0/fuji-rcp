@@ -1,0 +1,50 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.back {
+    width: 100%;
+
+    &:hover {
+        .backImg {
+            margin-left: -4px;
+            margin-right: 4px;
+        }
+    }
+    
+    .container {
+        padding: 0 var(--padding);
+
+        @media screen and (min-width: 768px) {
+            padding: 1rem var(--padding) 0 var(--padding);
+        }
+    }
+
+    &Content {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+
+    &Img {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        transition: all 0.2s ease-in-out;
+
+        @media screen and (min-width: 768px) {
+            width: 24px;
+        }
+    }
+
+    &Text {
+        @include mynerve();
+        font-size: 1.25rem;
+        color: var(--black);
+
+        @media screen and (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -102,7 +102,7 @@ const RecipeFilter = ({
                         </select>
                     </div>
                     <div className={styles.filterItem}>
-                        <label className={styles.filterLabel} htmlFor="color-select">Style</label>
+                        <label className={styles.filterLabel} htmlFor="style-select">Style</label>
                         <select
                             name="style"
                             id="style-select"

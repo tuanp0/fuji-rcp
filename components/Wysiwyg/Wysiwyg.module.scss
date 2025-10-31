@@ -3,6 +3,10 @@
 @use "../../styles/fonts" as *;
 @use "../../styles/mixins" as *;
 
+.container {
+    padding-top: 0 !important;
+}
+
 .wysiwyg {
     @include wysiwyg();
     

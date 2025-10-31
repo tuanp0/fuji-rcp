@@ -14,7 +14,11 @@ const RecipePage = async ({ params }) => {
   const recipe = recipes.find((element) => element.slug === slug)
 
   if (!recipe) {
-    return <main><h1>Recipe not found</h1></main>
+    return (
+      <main>
+        <h1>Recipe not found</h1>
+      </main>
+    )
   }
 
   return (
