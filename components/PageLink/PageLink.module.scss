@@ -27,6 +27,7 @@
         padding: 1.25rem 1.5rem 2rem 1.5rem;
         text-decoration: none !important;
         display: block;
+        overflow: hidden;
 
         &:hover {
             .pagelinkBtn {
@@ -41,7 +42,7 @@
 
     &Title {
         color: var(--white);
-        margin-bottom: 0.75rem !important;
+        margin-bottom: .75rem !important;
     }
 
     &Text {

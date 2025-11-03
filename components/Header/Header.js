@@ -35,6 +35,7 @@ const Header = () => {
             alt={'Tuan Phung Logo'}
             className={styles.headerSiteImg}
           />
+          <span className={styles.headerSiteText}>Site&nbsp;personnel</span>
         </a>
       </Container>
     </header>

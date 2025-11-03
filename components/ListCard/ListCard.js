@@ -7,46 +7,46 @@ import {Card} from '@components/Card'
 import styles from './ListCard.module.scss'
 
 const ListCard = ({recipes}) => {
-  const [orderFilter, setOrderFilter] = useState('')
+  const [orderFilter, setOrderFilter] = useState('alpha')
   const [colorFilter, setColorFilter] = useState('')
   const [styleFilter, setStyleFilter] = useState('')
   const [simulationFilter, setSimulationFilter] = useState('')
   const [showReset, setShowReset] = useState(false)
 
   const filteredRecipes = useMemo(() => {
-    let result = [...recipes]
+    let results = [...recipes]
 
-    if(orderFilter === 'nalpha' || colorFilter !== '' || styleFilter !== '') {
+    if(orderFilter !== 'alpha' || colorFilter !== '' || styleFilter !== '' || simulationFilter !== '') {
       setShowReset(true)
     } else {
       setShowReset(false)
     }
 
     if (colorFilter) {
-      result = result.filter(recipe => {
+      results = results.filter(recipe => {
         return recipe.tags && recipe.tags.includes(colorFilter)
       })
     }
 
     if (styleFilter) {
-      result = result.filter(recipe => {
+      results = results.filter(recipe => {
         return recipe.tags && recipe.tags.includes(styleFilter)
       })
     }
 
     if (simulationFilter) {
-      result = result.filter(recipe => {
+      results = results.filter(recipe => {
         return recipe.tags && recipe.tags.includes(simulationFilter)
       })
     }
 
     if (orderFilter === 'alpha') {
-      result.sort((a, b) => a.title.localeCompare(b.title, 'fr'))
+      results.sort((a, b) => a.title.localeCompare(b.title, 'fr'))
     } else if (orderFilter === 'nalpha') {
-      result.sort((a, b) => b.title.localeCompare(a.title, 'fr'))
+      results.sort((a, b) => b.title.localeCompare(a.title, 'fr'))
     }
 
-    return result
+    return results
   }, [recipes, orderFilter, colorFilter, styleFilter, simulationFilter])
 
   return (

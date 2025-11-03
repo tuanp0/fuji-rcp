@@ -64,7 +64,7 @@
         
         li {
             @include montserrat();
-            margin: 0.25rem 0;
+            margin: .25rem 0;
         }
     }
 
@@ -90,14 +90,14 @@
     font-weight: bold;
     color: $text;
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     background: $background;
     border-radius: 1rem;
     box-shadow: 0 4px 30px $backgroundHover;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 1px solid $text;
-    transition: all 0.2s ease-in-out;
+    transition: all .2s ease-in-out;
 
     &:hover {
         @media screen and (min-width:992px) {

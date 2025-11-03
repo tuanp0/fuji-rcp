@@ -1,16 +1,16 @@
 @use "../../styles/fonts" as *;
 
 .homeslider {
-    width: calc(100% - 3rem);
+    width: calc(100% - 1.5rem);
     max-width: 1440px;
+    padding-top: .75rem;
     margin: 0 auto;
 }
 
 .homeswiper {
     height: 500px;
-    top: 1.5rem;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
     overflow: hidden;
 
     @media screen and (min-width:768px) {
@@ -68,14 +68,14 @@
         @include mynerve();
         color: var(--white);
         text-align: center;
-        padding: 0.5rem 1rem;
+        padding: .5rem 1rem;
         background: var(--white-20);
         border-radius: 1rem;
         box-shadow: 0 4px 30px var(--black-20);
         backdrop-filter: blur(2px);
         -webkit-backdrop-filter: blur(2px);
         border: 1px solid var(--white);
-        transition: all 0.2s ease-in-out;
+        transition: all .2s ease-in-out;
 
         &:hover {
             @media screen and (min-width:992px) {

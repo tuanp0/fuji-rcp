@@ -25,10 +25,10 @@ const RecipeFilter = ({
     }
 
     const resetFilters = () => {
-        setOrderFilter('alpha')
-        setColorFilter('')
-        setStyleFilter('')
-        setSimulationFilter('')
+        if(typeof orderFilter !== 'undefined') { setOrderFilter('alpha') }
+        if(typeof colorFilter !== 'undefined') { setColorFilter('') }
+        if(typeof styleFilter !== 'undefined') { setStyleFilter('') }
+        if(typeof simulationFilter !== 'undefined') { setSimulationFilter('') }
     }
 
     return (
@@ -71,70 +71,78 @@ const RecipeFilter = ({
                 ref={filterRef}
             >
                 <div className={styles.filterGlobal}>
-                    <div className={styles.filterItem}>
-                        <label className={styles.filterLabel} htmlFor="order-select">Ordre</label>
-                        <select
-                            name="order"
-                            id="order-select"
-                            value={orderFilter}
-                            onChange={(e) => setOrderFilter(e.target.value)}
-                            className={styles.filterSelect}
-                        >
-                            <option value="alpha">De A à Z</option>
-                            <option value="nalpha">De Z à A</option>
-                        </select>
-                    </div>
-                    <div className={styles.filterItem}>
-                        <label className={styles.filterLabel} htmlFor="color-select">Couleur</label>
-                        <select
-                            name="color"
-                            id="color-select"
-                            value={colorFilter}
-                            onChange={(e) => setColorFilter(e.target.value)}
-                            className={styles.filterSelect}
-                        >
-                            <option value="">Tous</option>
-                            <option value="orange">Orange</option>
-                            <option value="blue">Bleu</option>
-                            <option value="green">Vert</option>
-                            <option value="night">Nuit</option>
-                            <option value="bw">Noir & Blanc</option>
-                        </select>
-                    </div>
-                    <div className={styles.filterItem}>
-                        <label className={styles.filterLabel} htmlFor="style-select">Style</label>
-                        <select
-                            name="style"
-                            id="style-select"
-                            value={styleFilter}
-                            onChange={(e) => setStyleFilter(e.target.value)}
-                            className={styles.filterSelect}
-                        >
-                            <option value="">Tous</option>
-                            <option value="soft">Doux</option>
-                            <option value="saturated">Saturé</option>
-                        </select>
-                    </div>
-                    <div className={styles.filterItem}>
-                        <label className={styles.filterLabel} htmlFor="simulation-select">Simulation</label>
-                        <select
-                            name="simulation"
-                            id="simulation-select"
-                            value={simulationFilter}
-                            onChange={(e) => setSimulationFilter(e.target.value)}
-                            className={styles.filterSelect}
-                        >
-                            <option value="">Tous</option>
-                            <option value="acros">Acros</option>
-                            <option value="classic-chrome">Classic Chrome</option>
-                            <option value="classic-negative">Classic Negative</option>
-                            <option value="eterna">Eterna</option>
-                            <option value="eterna-bleach-bypass">Eterna Bleach Bypass</option>
-                            <option value="monostd">Monochrome</option>
-                            <option value="nostalgic-negative">Nostalgic Negative</option>
-                            <option value="pro-neg-hi">Pro Negative High</option>
-                        </select>
-                    </div>
+                    {typeof orderFilter !== 'undefined' && 
+                        <div className={styles.filterItem}>
+                            <label className={styles.filterLabel} htmlFor="order-select">Ordre</label>
+                            <select
+                                name="order"
+                                id="order-select"
+                                value={orderFilter}
+                                onChange={(e) => setOrderFilter(e.target.value)}
+                                className={styles.filterSelect}
+                            >
+                                <option value="alpha">De A à Z</option>
+                                <option value="nalpha">De Z à A</option>
+                            </select>
+                        </div>
+                    }
+                    {typeof colorFilter !== 'undefined' &&
+                        <div className={styles.filterItem}>
+                            <label className={styles.filterLabel} htmlFor="color-select">Couleur</label>
+                            <select
+                                name="color"
+                                id="color-select"
+                                value={colorFilter}
+                                onChange={(e) => setColorFilter(e.target.value)}
+                                className={styles.filterSelect}
+                            >
+                                <option value="">Tous</option>
+                                <option value="orange">Orange</option>
+                                <option value="blue">Bleu</option>
+                                <option value="green">Vert</option>
+                                <option value="night">Nuit</option>
+                                <option value="bw">Noir & Blanc</option>
+                            </select>
+                        </div>
+                    }
+                    {typeof styleFilter !== 'undefined' &&
+                        <div className={styles.filterItem}>
+                            <label className={styles.filterLabel} htmlFor="style-select">Style</label>
+                            <select
+                                name="style"
+                                id="style-select"
+                                value={styleFilter}
+                                onChange={(e) => setStyleFilter(e.target.value)}
+                                className={styles.filterSelect}
+                            >
+                                <option value="">Tous</option>
+                                <option value="soft">Doux</option>
+                                <option value="saturated">Saturé</option>
+                            </select>
+                        </div>
+                    }
+                    {typeof simulationFilter !== 'undefined' &&
+                        <div className={styles.filterItem}>
+                            <label className={styles.filterLabel} htmlFor="simulation-select">Simulation</label>
+                            <select
+                                name="simulation"
+                                id="simulation-select"
+                                value={simulationFilter}
+                                onChange={(e) => setSimulationFilter(e.target.value)}
+                                className={styles.filterSelect}
+                            >
+                                <option value="">Tous</option>
+                                <option value="acros">Acros</option>
+                                <option value="classic-chrome">Classic Chrome</option>
+                                <option value="classic-negative">Classic Negative</option>
+                                <option value="eterna">Eterna</option>
+                                <option value="eterna-bleach-bypass">Eterna Bleach Bypass</option>
+                                <option value="monostd">Monochrome</option>
+                                <option value="nostalgic-negative">Nostalgic Negative</option>
+                                <option value="pro-neg-hi">Pro Negative High</option>
+                            </select>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

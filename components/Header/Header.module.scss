@@ -5,15 +5,15 @@
         position: absolute;
         width: 100%;
         z-index: 10;
-        padding-top: 1.5rem;
+        padding-top: .75rem;
 
         .container {
-            padding: 1rem 2.5rem;
+            padding: 1rem 1.75rem;
         }
     }
 
     .container {
-        padding: 2.5rem 2.5rem 1.5rem;
+        padding: 1.75rem 1.75rem 1.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -37,7 +37,7 @@
     &Second {
         font-size: 1.75rem;
         text-transform: initial;
-        margin-left: 0.75rem;
+        margin-left: .75rem;
 
         @media screen and (min-width:768px) {
             font-size: 2rem;
@@ -47,23 +47,42 @@
     &Site {
         width: 50px;
         height: 50px;
-        padding: 0.5rem;
-        display: inline-block;
-        border-radius: 100%;
-        transition: all 0.2s ease-in-out;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 24px;
+        overflow: hidden;
+        transition: all .4s ease-in-out;
 
         &:hover {
-            background: var(--white-20);
-            border-radius: 100%;
+            background: var(--white-50);
             box-shadow: 0 3px 10px var(--black-20);
             backdrop-filter: blur(2px);
             -webkit-backdrop-filter: blur(2px);
+
+            @media screen and (min-width:768px) {
+                width: 185px;
+
+                .headerSiteText {
+                    width: 100%;
+                    margin-left: .75rem;
+                }
+            }
         }
 
         &Img {
-            width: 100%;
+            width: 34px;
             height: auto;
             display: block;
+        }
+
+        &Text {
+            @include montserrat();
+            color: var(--black);
+            width: 0;
+            margin-left: 0;
+            overflow: hidden;
+            transition: all .4s ease-in-out;
         }
     }
 }
