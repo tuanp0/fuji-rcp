@@ -3,6 +3,7 @@
   --white: rgba(255, 255, 255, 1);
   --black: rgba(0, 0, 0, 1);
   --almost-black: rgba(32, 32, 32, 1);
+  --black-05: rgba(0, 0, 0, 0.05);
   --black-10: rgba(0, 0, 0, 0.1);
   --black-20: rgba(0, 0, 0, 0.2);
   --black-30: rgba(0, 0, 0, 0.3);

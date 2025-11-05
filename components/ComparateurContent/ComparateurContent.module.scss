@@ -43,6 +43,12 @@
         background: var(--white);
         border: 1px solid var(--black);
         border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background: var(--black-10);
+        }
 
         @media screen and (min-width: 768px) {
             width: 35%;
@@ -65,7 +71,7 @@
     &Solo {
         width: 100%;
         padding: 1rem 0;
-        transition: all 2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         @media screen and (min-width:640px) {
             width: 50%;

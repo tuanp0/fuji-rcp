@@ -17,15 +17,66 @@
     }
 
     &First {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
         margin-bottom: 2.5rem;
+
+        @media screen and (min-width:768px) {
+            gap: 4rem;
+        }
+    }
+
+    &Desc {
+        width: 100%;
+            
+        @media screen and (min-width:768px) {
+            width: 25%;
+        }
+
+        &Title {
+            @include mynerve();
+            font-size: 1.875rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        &Subtitle {
+            @include mynerve();
+            font-size: 1.375rem;
+            color: var(--white);
+        }
+
+        &Text {
+            @include wysiwyg();
+
+            p {
+                font-size: 0.875rem;
+                color: var(--white-80);
+            }
+        }
     }
 
     &Nav {
-        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 100%;
+
+        @media screen and (min-width:768px) {
+            gap: 2.5rem;
+            width: calc(75% - 4rem);
+            margin-top: 3.25rem;
+        }
     }
 
     &Ul {
+        width: calc(50% - 0.75rem);
         list-style-type: none;
+
+        @media screen and (min-width:768px) {
+            width: auto;
+        }
     }
 
     &Li {
