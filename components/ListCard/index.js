@@ -1,3 +1,3 @@
 import ListCard from './ListCard'
 
-export { ListCard }
+export default ListCard

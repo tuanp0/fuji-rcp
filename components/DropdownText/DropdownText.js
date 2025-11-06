@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useRef } from 'react'
-import { Container } from '@components/Container'
+import Container from '@components/Container'
 
 import styles from './DropdownText.module.scss'
 

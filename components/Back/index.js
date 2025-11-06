@@ -1,3 +1,3 @@
 import Back from './Back'
 
-export { Back }
+export default Back

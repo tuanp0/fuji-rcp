@@ -23,22 +23,22 @@ const recipes = [
     //         à mi-chemin entre mémoire visuelle et esthétique ciné-classique.</p>`,
     //     images: [
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-1.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-1.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-2.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-2.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-3.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-3.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-4.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-4.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-5.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-5.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/1960-chrome/1960-chrome-6.webp"
+    //             src: "/webp/fuji/recipes/1960-chrome/1960-chrome-6.webp"
     //         },
     //     ],
     //     settings: [
@@ -77,10 +77,10 @@ const recipes = [
             Elle invite à photographier avec sensibilité et à célébrer la beauté de la lumière quotidienne, simple et dorée.</p>`,
         images: [
             {
-                src: "/fuji/recipes/barcelona/12-barcelona.jpg"
+                src: "/webp/fuji/recipes/barcelona/12-barcelona.webp"
             },
             {
-                src: "/fuji/recipes/barcelona/14-barcelona.jpg"
+                src: "/webp/fuji/recipes/barcelona/14-barcelona.webp"
             },
         ],
         settings: [
@@ -124,37 +124,37 @@ const recipes = [
             comme figé dans un souvenir cinématographique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/cinematic-gold/3-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/3-cinematic-gold.webp"
             },
             { 
-                src: "/fuji/recipes/cinematic-gold/4-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/4-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/5-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/5-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/6-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/6-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/7-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/7-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/8-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/8-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/9-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/9-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/10-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/10-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/11-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/11-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/12-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/12-cinematic-gold.webp"
             },
             {
-                src: "/fuji/recipes/cinematic-gold/14-cinematic-gold.jpg"
+                src: "/webp/fuji/recipes/cinematic-gold/14-cinematic-gold.webp"
             },
         ],
         settings: [
@@ -200,16 +200,16 @@ const recipes = [
             donnant à chaque photo un caractère dramatique et intemporel.</p>`,
         images: [
             {
-                src: "/fuji/recipes/cinestill-800t/13-cinestill-800t.jpg"
+                src: "/webp/fuji/recipes/cinestill-800t/13-cinestill-800t.webp"
             },
             {
-                src: "/fuji/recipes/cinestill-800t/14-cinestill-800t.jpg"
+                src: "/webp/fuji/recipes/cinestill-800t/14-cinestill-800t.webp"
             },
             {
-                src: "/fuji/recipes/cinestill-800t/15-cinestill-800t.jpg"
+                src: "/webp/fuji/recipes/cinestill-800t/15-cinestill-800t.webp"
             },
             {
-                src: "/fuji/recipes/cinestill-800t/16-cinestill-800t.jpg"
+                src: "/webp/fuji/recipes/cinestill-800t/16-cinestill-800t.webp"
             },
         ],
         settings: [
@@ -251,7 +251,7 @@ const recipes = [
             et une touche de mélancolie lumineuse.</p>`,
         images: [
             {
-                src: "/fuji/recipes/coffee/7-coffee.jpg"
+                src: "/webp/fuji/recipes/coffee/7-coffee.webp"
             },
         ],
         settings: [
@@ -294,37 +294,37 @@ const recipes = [
             comme si chaque photo était une représentation fidèle mais chaleureuse du moment.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujicolor-c200/1-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/1-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/2-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/2-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/4-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/4-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/5-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/5-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/7-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/7-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/9-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/9-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/10-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/10-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/11-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/11-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/12-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/12-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/14-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/14-fujicolor-c200.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-c200/15-fujicolor-c200.jpg"
+                src: "/webp/fuji/recipes/fujicolor-c200/15-fujicolor-c200.webp"
             },
         ],
         settings: [
@@ -362,19 +362,19 @@ const recipes = [
             Elle permet de capturer la scène telle qu’on la perçoit, avec un rendu chaud et vivant, fidèle à l’esprit des pellicules haute sensibilité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/7-fujicolor-natura-1600.jpg"
+                src: "/webp/fuji/recipes/fujicolor-natura-1600/7-fujicolor-natura-1600.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/8-fujicolor-natura-1600.jpg"
+                src: "/webp/fuji/recipes/fujicolor-natura-1600/8-fujicolor-natura-1600.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/11-fujicolor-natura-1600.jpg"
+                src: "/webp/fuji/recipes/fujicolor-natura-1600/11-fujicolor-natura-1600.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/12-fujicolor-natura-1600.jpg"
+                src: "/webp/fuji/recipes/fujicolor-natura-1600/12-fujicolor-natura-1600.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-natura-1600/15-fujicolor-natura-1600.jpg"
+                src: "/webp/fuji/recipes/fujicolor-natura-1600/15-fujicolor-natura-1600.webp"
             },
         ],
         settings: [
@@ -416,25 +416,25 @@ const recipes = [
             comme une photographie sur pellicule pastel où chaque ton respire la douceur et la subtilité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/6-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/6-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/7-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/7-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/8-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/8-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/9-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/9-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/10-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/10-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/11-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/11-fujicolor-pro-400h.webp"
             },
             {
-                src: "/fuji/recipes/fujicolor-pro-400h/12-fujicolor-pro-400h.jpg"
+                src: "/webp/fuji/recipes/fujicolor-pro-400h/12-fujicolor-pro-400h.webp"
             },
         ],
         settings: [
@@ -478,34 +478,34 @@ const recipes = [
             comme un carnet visuel rempli de fragments colorés et vibrants de la vie.</p>`,
         images: [
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/3-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/3-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/4-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/4-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/5-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/5-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/6-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/6-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/7-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/7-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/8-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/8-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/10-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/10-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/11-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/11-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/12-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/12-fujifilm-superia-xtra-400.webp"
             },
             {
-                src: "/fuji/recipes/fujifilm-superia-xtra-400/16-fujifilm-superia-xtra-400.jpg"
+                src: "/webp/fuji/recipes/fujifilm-superia-xtra-400/16-fujifilm-superia-xtra-400.webp"
             },
         ],
         settings: [
@@ -549,16 +549,16 @@ const recipes = [
             idéale pour des récits visuels empreints de délicatesse.</p>`,
         images: [
             {
-                src: "/fuji/recipes/gentle-specimen/2-gentle-specimen.jpg"
+                src: "/webp/fuji/recipes/gentle-specimen/2-gentle-specimen.webp"
             },
             {
-                src: "/fuji/recipes/gentle-specimen/7-gentle-specimen.jpg"
+                src: "/webp/fuji/recipes/gentle-specimen/7-gentle-specimen.webp"
             },
             {
-                src: "/fuji/recipes/gentle-specimen/11-gentle-specimen.jpg"
+                src: "/webp/fuji/recipes/gentle-specimen/11-gentle-specimen.webp"
             },
             {
-                src: "/fuji/recipes/gentle-specimen/12-gentle-specimen.jpg"
+                src: "/webp/fuji/recipes/gentle-specimen/12-gentle-specimen.webp"
             },
         ],
         settings: [
@@ -598,31 +598,31 @@ const recipes = [
             et durable, fidèle à l’esprit du film noir et blanc traditionnel.</p>`,
         images: [
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/3-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/3-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/6-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/6-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/7-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/7-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/9-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/9-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/10-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/10-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/11-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/11-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/12-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/12-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/13-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/13-ilfordfp4plus-125.webp"
             },
             {
-                src: "/fuji/recipes/ilfordfp4plus-125/15-ilfordfp4plus-125.jpg"
+                src: "/webp/fuji/recipes/ilfordfp4plus-125/15-ilfordfp4plus-125.webp"
             },
         ],
         settings: [
@@ -665,28 +665,28 @@ const recipes = [
             et journalistique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodachrome-64/1-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/1-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/5-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/5-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/7-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/7-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/8-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/8-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/9-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/9-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/10-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/10-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/11-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/11-kodachrome64.webp"
             },
             {
-                src: "/fuji/recipes/kodachrome-64/12-kodachrome64.jpg"
+                src: "/webp/fuji/recipes/kodachrome-64/12-kodachrome64.webp"
             },
         ],
         settings: [
@@ -731,25 +731,25 @@ const recipes = [
             une esthétique chaleureuse, familière et sincère — un hommage à la photographie argentique populaire.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodakcolorplus-200/5-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/5-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/6-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/6-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/7-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/7-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/8-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/8-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/9-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/9-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/11-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/11-kodakcolorplus-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakcolorplus-200/12-kodakcolorplus-200.jpg"
+                src: "/webp/fuji/recipes/kodakcolorplus-200/12-kodakcolorplus-200.webp"
             },
         ],
         settings: [
@@ -795,22 +795,22 @@ const recipes = [
             conservant la signature cinématographique subtile propre aux simulations Fujifilm.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodakektar-100/5-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/5-kodakektar-100.webp"
             },
             {
-                src: "/fuji/recipes/kodakektar-100/7-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/7-kodakektar-100.webp"
             },
             {
-                src: "/fuji/recipes/kodakektar-100/8-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/8-kodakektar-100.webp"
             },
             {
-                src: "/fuji/recipes/kodakektar-100/9-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/9-kodakektar-100.webp"
             },
             {
-                src: "/fuji/recipes/kodakektar-100/11-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/11-kodakektar-100.webp"
             },
             {
-                src: "/fuji/recipes/kodakektar-100/12-kodakektar-100.jpg"
+                src: "/webp/fuji/recipes/kodakektar-100/12-kodakektar-100.webp"
             },
         ],
         settings: [
@@ -854,43 +854,43 @@ const recipes = [
             photos une allure conviviale et réconfortante.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodakgold-200/1-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/1-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/2-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/2-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/3-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/3-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/4-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/4-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/5-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/5-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/6-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/6-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/7-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/7-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/8-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/8-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/9-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/9-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/10-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/10-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/11-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/11-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/12-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/12-kodakgold-200.webp"
             },
             {
-                src: "/fuji/recipes/kodakgold-200/16-kodakgold-200.jpg"
+                src: "/webp/fuji/recipes/kodakgold-200/16-kodakgold-200.webp"
             },
         ],
         settings: [
@@ -936,31 +936,31 @@ const recipes = [
             avec une dimension intemporelle et poétique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodakportra-400/4-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/4-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/5-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/5-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/7-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/7-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/8-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/8-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/9-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/9-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/10-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/10-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/11-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/11-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/12-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/12-kodakportra-400.webp"
             },
             {
-                src: "/fuji/recipes/kodakportra-400/14-kodakportra-400.jpg"
+                src: "/webp/fuji/recipes/kodakportra-400/14-kodakportra-400.webp"
             },
         ],
         settings: [
@@ -998,46 +998,46 @@ const recipes = [
             Elle permet de capturer l’énergie et l’authenticité des scènes, avec un rendu granuleux et expressif fidèle à l’esprit de l’argentique.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodaktmax-p3200/2-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/2-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/3-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/3-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/4-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/4-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/5-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/5-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/6-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/6-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/7-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/7-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/8-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/8-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/9-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/9-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/10-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/10-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/11-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/11-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/12-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/12-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/14-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/14-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/15-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/15-kodaktmax-p3200.webp"
             },
             {
-                src: "/fuji/recipes/kodaktmax-p3200/16-kodaktmax-p3200.jpg"
+                src: "/webp/fuji/recipes/kodaktmax-p3200/16-kodaktmax-p3200.webp"
             },
         ],
         settings: [
@@ -1082,22 +1082,22 @@ const recipes = [
     //         comme un éclat de lumière dans la mémoire.</p>`,
     //     images: [
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-1.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-1.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-2.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-3.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-4.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-5.webp"
     //         },
     //         {
-    //             src: "/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-6.webp"
+    //             src: "/webp/fuji/recipes/kodak-ultramax-400/kodak-ultramax-400-6.webp"
     //         },
     //     ],
     //     settings: [
@@ -1136,19 +1136,19 @@ const recipes = [
             Elle invite à capturer la réalité avec intensité et précision, tout en donnant aux images une touche professionnelle et intemporelle.</p>`,
         images: [
             {
-                src: "/fuji/recipes/kodakvision3-250d/3-kodakvision3-250d.jpg"
+                src: "/webp/fuji/recipes/kodakvision3-250d/3-kodakvision3-250d.webp"
             },
             {
-                src: "/fuji/recipes/kodakvision3-250d/7-kodakvision3-250d.jpg"
+                src: "/webp/fuji/recipes/kodakvision3-250d/7-kodakvision3-250d.webp"
             },
             {
-                src: "/fuji/recipes/kodakvision3-250d/9-kodakvision3-250d.jpg"
+                src: "/webp/fuji/recipes/kodakvision3-250d/9-kodakvision3-250d.webp"
             },
             {
-                src: "/fuji/recipes/kodakvision3-250d/11-kodakvision3-250d.jpg"
+                src: "/webp/fuji/recipes/kodakvision3-250d/11-kodakvision3-250d.webp"
             },
             {
-                src: "/fuji/recipes/kodakvision3-250d/12-kodakvision3-250d.jpg"
+                src: "/webp/fuji/recipes/kodakvision3-250d/12-kodakvision3-250d.webp"
             },
         ],
         settings: [
@@ -1188,10 +1188,10 @@ const recipes = [
             pour des images à la fois puissantes, nerveuses et captivantes.</p>`,
         images: [
             {
-                src: "/fuji/recipes/loki/12-loki.jpg"
+                src: "/webp/fuji/recipes/loki/12-loki.webp"
             },
             {
-                src: "/fuji/recipes/loki/16-loki.jpg"
+                src: "/webp/fuji/recipes/loki/16-loki.webp"
             },
         ],
         settings: [
@@ -1228,22 +1228,22 @@ const recipes = [
             Elle invite à capturer les contrastes et les émotions avec intensité, en conservant un style élégant et intemporel.</p>`,
         images: [
             {
-                src: "/fuji/recipes/monochrome-kodachrome/4-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/4-monochrome-kodachrome.webp"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/7-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/7-monochrome-kodachrome.webp"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/8-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/8-monochrome-kodachrome.webp"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/9-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/9-monochrome-kodachrome.webp"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/11-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/11-monochrome-kodachrome.webp"
             },
             {
-                src: "/fuji/recipes/monochrome-kodachrome/12-monochrome-kodachrome.jpg"
+                src: "/webp/fuji/recipes/monochrome-kodachrome/12-monochrome-kodachrome.webp"
             },
         ],
         settings: [
@@ -1288,31 +1288,31 @@ const recipes = [
             empreint de mélancolie et de mystère urbain.</p>`,
         images: [
             {
-                src: "/fuji/recipes/moodymetropolis-500t/5-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/5-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/6-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/6-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/7-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/7-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/11-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/11-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/12-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/12-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/13-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/13-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/14-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/14-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/15-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/15-moodymetropolis-500t.webp"
             },
             {
-                src: "/fuji/recipes/moodymetropolis-500t/16-moodymetropolis-500t.jpg"
+                src: "/webp/fuji/recipes/moodymetropolis-500t/16-moodymetropolis-500t.webp"
             },
         ],
         settings: [
@@ -1356,25 +1356,25 @@ const recipes = [
             et à explorer la dimension onirique des nuits urbaines.</p>`,
         images: [
             {
-                src: "/fuji/recipes/neon-obscura/2-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/2-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/11-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/11-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/12-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/12-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/13-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/13-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/14-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/14-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/15-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/15-neon-obscura.webp"
             },
             {
-                src: "/fuji/recipes/neon-obscura/16-neon-obscura.jpg"
+                src: "/webp/fuji/recipes/neon-obscura/16-neon-obscura.webp"
             },
         ],
         settings: [
@@ -1414,31 +1414,31 @@ const recipes = [
             Elle invite à capturer la réalité avec finesse et élégance, tout en conférant aux images un aspect chaleureux et sophistiqué.</p>`,
         images: [
             {
-                src: "/fuji/recipes/timeless-negative/5-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/5-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/6-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/6-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/7-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/7-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/9-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/9-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/10-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/10-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/11-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/11-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/12-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/12-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/13-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/13-timeless-negative.webp"
             },
             {
-                src: "/fuji/recipes/timeless-negative/14-timeless-negative.jpg"
+                src: "/webp/fuji/recipes/timeless-negative/14-timeless-negative.webp"
             },
         ],
         settings: [
@@ -1476,13 +1476,13 @@ const recipes = [
             Elle invite à explorer la couleur et le contraste pour capturer des images mémorables et chargées de personnalité.</p>`,
         images: [
             {
-                src: "/fuji/recipes/xpro-62/5-xpro-62.jpg"
+                src: "/webp/fuji/recipes/xpro-62/5-xpro-62.webp"
             },
             {
-                src: "/fuji/recipes/xpro-62/15-xpro-62.jpg"
+                src: "/webp/fuji/recipes/xpro-62/15-xpro-62.webp"
             },
             {
-                src: "/fuji/recipes/xpro-62/16-xpro-62.jpg"
+                src: "/webp/fuji/recipes/xpro-62/16-xpro-62.webp"
             },
         ],
         settings: [
@@ -1527,37 +1527,37 @@ const recipes = [
             et chaque image en fragment de mémoire ensoleillée.</p>`,
         images: [
             {
-                src: "/fuji/recipes/yashica-golden80s/2-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/2-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/3-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/3-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/4-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/4-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/5-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/5-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/6-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/6-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/7-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/7-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/8-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/8-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/9-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/9-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/10-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/10-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/11-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/11-yashica-golden80s.webp"
             },
             {
-                src: "/fuji/recipes/yashica-golden80s/12-yashica-golden80s.jpg"
+                src: "/webp/fuji/recipes/yashica-golden80s/12-yashica-golden80s.webp"
             },
         ],
         settings: [

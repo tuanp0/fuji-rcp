@@ -1,9 +1,11 @@
 'use client'
 import React, { useRef } from 'react'
 import Image from 'next/image'
+import Title from '@components/Title'
+
 import { EffectFade, Autoplay, Navigation, Pagination, A11y } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Title } from '@components/Title'
+
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"

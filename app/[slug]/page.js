@@ -1,7 +1,7 @@
 import recipes from '@data/recipes'
 
-import { RecipeContent } from '@components/RecipeContent'
-import { Text } from '@components/Text'
+import RecipeContent from '@components/RecipeContent'
+import Text from '@components/Text'
 
 export async function generateStaticParams() {
   return recipes.map((recipe) => ({

@@ -1,8 +1,8 @@
 'use client'
-import React, { useState, useRef, useEffect, useMemo } from 'react'
-import {Container} from '@components/Container'
-import {RecipeFilter} from '@/components/RecipeFilter'
-import {Card} from '@components/Card'
+import React, { useState, useMemo } from 'react'
+import Container from '@components/Container'
+import RecipeFilter from '@/components/RecipeFilter'
+import Card from '@components/Card'
 
 import styles from './ListCard.module.scss'
 

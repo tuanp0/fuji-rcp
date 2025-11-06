@@ -6,9 +6,9 @@ import simulation from '@data/simulation'
 import React, { useState, useEffect, useMemo } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { RecipeFilter } from '@components/RecipeFilter'
-import { Container } from '@components/Container'
-import { Back } from '@components/Back'
+import RecipeFilter from '@components/RecipeFilter'
+import Container from '@components/Container'
+import Back from '@components/Back'
 
 import styles from './ComparateurContent.module.scss'
 

@@ -1,8 +1,8 @@
 import howTo from '@data/howTo'
 
 import React from 'react'
-import { Back } from '@components/Back'
-import { Wysiwyg } from '@components/Wysiwyg'
+import Back from '@components/Back'
+import Wysiwyg from '@components/Wysiwyg'
 
 const InstallationPage = () => {
   return (

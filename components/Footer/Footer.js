@@ -3,7 +3,7 @@ import footer from '@data/footer'
 
 import Link from 'next/link'
 import Image from 'next/image'
-import {Container} from '@components/Container'
+import Container from '@components/Container'
 
 import styles from './Footer.module.scss'
 

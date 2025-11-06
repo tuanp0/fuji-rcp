@@ -1,3 +1,3 @@
 import RecipeSlider from './RecipeSlider'
 
-export { RecipeSlider }
+export default RecipeSlider

@@ -1,3 +1,3 @@
 import Wysiwyg from './Wysiwyg'
 
-export { Wysiwyg }
+export default Wysiwyg

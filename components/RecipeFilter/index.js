@@ -1,3 +1,3 @@
 import RecipeFilter from './RecipeFilter'
 
-export { RecipeFilter }
+export default RecipeFilter

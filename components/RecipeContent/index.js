@@ -1,3 +1,3 @@
 import RecipeContent from './RecipeContent'
 
-export { RecipeContent }
+export default RecipeContent

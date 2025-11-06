@@ -10,9 +10,6 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 
-import {Container} from '@components/Container'
-
-
 import styles from './HomeSlider.module.scss'
 
 const HomeSlider = () => { 
@@ -22,7 +19,7 @@ const HomeSlider = () => {
   }
 
   return (
-    <div className={styles.homeslider}>
+    <section className={styles.homeslider}>
         <Swiper
             grabCursor={true}
             centeredSlides={true}
@@ -46,6 +43,7 @@ const HomeSlider = () => {
                             className={styles.homeswiperImg}
                             style={{ width: "100%", height: "100%" }}
                             priority={true}
+                            fetchPriority={"high"}
                         />
                         <Link href={item.link} className={styles.homeswiperLink}>
                             <div className={styles.homeswiperContent}>
@@ -56,7 +54,7 @@ const HomeSlider = () => {
                 )
             })}
         </Swiper>
-    </div>
+    </section>
   )
 }
 

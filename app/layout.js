@@ -1,7 +1,7 @@
 import "./globals.css"
 import { Metadata, Viewport } from "next"
-import {Header} from '@components/Header'
-import {Footer} from '@components/Footer'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 const APP_NAME = "Fuji Recipes"
 const APP_DEFAULT_TITLE = "Fuji Recipes"
@@ -52,7 +52,9 @@ export default function RootLayout({ children }) {
     <html lang="fr" dir="ltr">
       <body>
         <Header/>
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer/>
       </body>
     </html>

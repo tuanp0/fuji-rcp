@@ -1,5 +1,5 @@
 import React from 'react'
-import { ComparateurContent } from '@components/ComparateurContent'
+import ComparateurContent from '@components/ComparateurContent'
 
 const ComparateurPage = () => {
   return (

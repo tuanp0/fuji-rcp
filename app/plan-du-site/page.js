@@ -1,7 +1,7 @@
 import recipes from '@data/recipes'
 import Link from 'next/link'
-import { Back } from '@components/Back'
-import { Container } from '@components/Container'
+import Back from '@components/Back'
+import Container from '@components/Container'
 
 import styles from './page.module.scss'
 

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "convert-images": "node scripts/webp-convert.js",
+    "prebuild": "yarn convert-images",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,6 +25,7 @@
     "eslint-config-next": "15.3.4",
     "sass": "^1.89.2",
     "serwist": "^9.2.1",
+    "sharp": "^0.34.5",
     "typescript": "5.9.2"
   }
 }

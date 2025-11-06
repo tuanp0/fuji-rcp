@@ -1,4 +1,4 @@
-const intro = {
+const introText = {
     title:`<h2>Introduction</h2>`,
     text: `<p>Ce site permet de découvrir des photos prises avec différents recipes créées par la communauté et les utilisateur d'appareils Fujifilm. 
         Chaque recette est accompagnée de ses <strong>paramètres détaillés</strong> (simulation de film, balance des blancs, 
@@ -8,4 +8,4 @@ const intro = {
     `
 }
 
-export default intro
+export default introText

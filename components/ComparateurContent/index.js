@@ -1,3 +1,3 @@
 import ComparateurContent from './ComparateurContent'
 
-export { ComparateurContent }
+export default ComparateurContent

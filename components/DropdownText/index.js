@@ -1,3 +1,3 @@
 import DropdownText from './DropdownText'
 
-export { DropdownText }
+export default DropdownText

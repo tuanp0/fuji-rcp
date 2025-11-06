@@ -1,3 +1,3 @@
 import PageLink from './PageLink'
 
-export { PageLink }
+export default PageLink

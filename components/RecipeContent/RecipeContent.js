@@ -1,7 +1,7 @@
-import { Container } from '@components/Container'
-import { Back } from '@components/Back'
-import { RecipeSlider } from '@components/RecipeSlider'
-import { RecipeSettings } from '@components/RecipeSettings'
+import Container from '@components/Container'
+import Back from '@components/Back'
+import RecipeSlider from '@components/RecipeSlider'
+import RecipeSettings from '@components/RecipeSettings'
 
 import styles from './RecipeContent.module.scss'
 

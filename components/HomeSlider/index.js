@@ -1,3 +1,3 @@
 import HomeSlider from './HomeSlider'
 
-export { HomeSlider }
+export default HomeSlider
