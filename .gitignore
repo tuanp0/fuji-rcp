@@ -3,6 +3,6 @@
 .next/
 .*.env
 /out
-public/sw*
+public/sw.js
 public/webp
 public/swe-worker*
