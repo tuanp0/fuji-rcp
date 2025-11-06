@@ -41,10 +41,6 @@ export const metadata = {
     },
     description: APP_DESCRIPTION,
   },
-  // metadataBase: new URL("https://tuanphung.com/fuji/"),
-  // category: "website",
-  // generator: "Next.js",
-  // manifest: "../fuji/manifest.json",
 }
 
 export const viewport = {

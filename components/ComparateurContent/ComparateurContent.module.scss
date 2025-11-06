@@ -36,18 +36,23 @@
 
     &Select {
         font-size: 1rem;
+        color: var(--black);
         width: 80%;
         padding: .5rem;
         margin: 0 auto;
         display: block;
-        background: var(--white);
+        background-color: var(--white);
         border: 1px solid var(--black);
         border-radius: 10px;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
+        appearance: none;
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMUw2IDdMMTEgMSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 0.5rem) 50%;
 
         &:hover {
-            background: var(--black-10);
+            background-color: var(--lightgrey);
         }
 
         @media screen and (min-width: 768px) {

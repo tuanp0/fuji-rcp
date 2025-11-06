@@ -26,8 +26,11 @@
     &Link {
         padding: 1.25rem 1.5rem 2rem 1.5rem;
         text-decoration: none !important;
-        display: block;
-        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
 
         &:hover {
             .pagelinkBtn {
@@ -36,8 +39,12 @@
         }
 
         @media screen and (min-width: 768px) {
-            padding: 2rem 2rem 3rem;
+            padding: 2rem 2rem 2.5rem;
         }
+    }
+
+    &Content {
+        width: 100%;
     }
 
     &Title {
@@ -54,6 +61,7 @@
         @include button(var(--white), var(--black-20), var(--white-20));
         
         & {
+            align-self: flex-start;
             box-shadow: none;
         }
     }

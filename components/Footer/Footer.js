@@ -16,8 +16,7 @@ const Footer = () => {
             <p className={styles.footerDescTitle}>
               fuji <span className={styles.footerDescSubtitle}>Recipes</span>
             </p>
-            <div className={styles.footerDescText} dangerouslySetInnerHTML={{__html: footer.desc}}>
-            </div>
+            <div className={styles.footerDescText} dangerouslySetInnerHTML={{__html: footer.desc}} />
           </div>
           <nav className={styles.footerNav}>
             <ul className={styles.footerUl}>
@@ -33,15 +32,19 @@ const Footer = () => {
           </nav>
         </div>
         <div className={styles.footerSecond}>
-          <p className={styles.footerParagraph}>Contenus repris depuis les sites suivants :</p>
-          <p className={styles.footerParagraph}>
-              <a href="https://fujixweekly.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Fuji X Weekly</a> -&nbsp;
-              <a href="https://www.shuttergroove.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">ShutterGroove</a> -&nbsp;
-              <a href="https://film.recipes/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Film Recipes</a> -&nbsp;
-              <a href="https://fujifilmsimulations.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Fujifilm Simulations</a>
-            </p>
+          <div className={styles.footerCredit} dangerouslySetInnerHTML={{__html: footer.credit}} />
+          <p className={styles.footerCreditContent}>
+            <a href="https://fujixweekly.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Fuji X Weekly</a> -&nbsp;
+            <a href="https://www.shuttergroove.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">ShutterGroove</a> -&nbsp;
+            <a href="https://film.recipes/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Film Recipes</a> -&nbsp;
+            <a href="https://fujifilmsimulations.com/" target={'_blank'} className={styles.footerExternal} rel="noopener noreferrer">Fujifilm Simulations</a>
+          </p>
+          
         </div>
-        <div className={styles.footerCopyright}>© 2025 - TP</div>
+        <div className={styles.footerThird}>
+          <div className={styles.footerCopyright}>© 2025 - TP</div>
+          <div className={styles.footerDisclaimer} dangerouslySetInnerHTML={{__html: footer.disclaimer}} />
+        </div>
       </Container>
     </footer>
   )

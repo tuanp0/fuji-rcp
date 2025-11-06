@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-// import { Container } from '@components/Container'
-
 import styles from './PageLink.module.scss'
 
 
@@ -14,9 +12,11 @@ const PageLink = ({ title, text, link, color }) => {
         ${color === 'brown' && styles.brown}
         ${color === 'darkblue' && styles.darkblue}
       `}>
-        <Link href={link} className={styles.pagelinkLink}>
-          <h2 className={styles.pagelinkTitle} dangerouslySetInnerHTML={{ __html: title }} />
-          <div className={styles.pagelinkText} dangerouslySetInnerHTML={{ __html: text }} />
+        <Link href={link} title={title} className={styles.pagelinkLink}>
+          <div className={styles.pagelinkContent}>
+            <h2 className={styles.pagelinkTitle} dangerouslySetInnerHTML={{ __html: title }} />
+            <div className={styles.pagelinkText} dangerouslySetInnerHTML={{ __html: text }} />
+          </div>
           <span className={styles.pagelinkBtn} >En savoir plus</span>
         </Link>
     </section>
